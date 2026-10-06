@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/App.vue:13
+msgid "Manage Fonts"
+msgstr "إدارة الخطوط"
+
+#: src/App.vue:16
+msgid "Fonts available in the office documents editor."
+msgstr "الخطوط المتاحة في محرر المستندات المكتبية."
+
+#: src/App.vue:24
+msgid "Select font"
+msgstr "اختيار الخط"
+
+#: src/App.vue:25
+msgid "Allowed file types: .ttf, .otf"
+msgstr "أنواع الملفات المسموح بها: .ttf، .otf"
+
+#: src/App.vue:30
+msgid "Search"
+msgstr "بحث"
+
+#: src/App.vue:31
+msgid "Search for fonts"
+msgstr "البحث عن خطوط"
+
+#: src/App.vue:44
+#: src/components/FontsList.vue:9
+msgid "No fonts found"
+msgstr "لم يُعثر على خطوط"
+
+#: src/App.vue:47
+msgid "Upload a font and it will show up here"
+msgstr "ارفع خطًّا وسيظهر هنا"
+
+#: src/App.vue:85
+#: src/index.ts:22
+msgid "Office"
+msgstr "المستندات المكتبية"
+
+#: src/App.vue:105
+msgid "Failed to load fonts"
+msgstr "تعذّر تحميل الخطوط"
+
+#: src/App.vue:168
+msgid "Failed to update fonts"
+msgstr "تعذّر تحديث الخطوط"
+
+#: src/App.vue:186
+msgid "Failed to delete font"
+msgstr "تعذّر حذف الخط"
+
+#: src/components/FontsList.vue:12
+msgid "Try refining the search term to get results"
+msgstr "جرّب تعديل عبارة البحث للحصول على نتائج"
+
+#: src/components/FontsList.vue:41
+#: src/components/FontsList.vue:42
+msgid "Delete"
+msgstr "حذف"
+
+#: src/components/FontsList.vue:98
+msgid "Name"
+msgstr "الاسم"
+
+#: src/components/FontsList.vue:106
+msgid "Preview"
+msgstr "معاينة"
+
+#: src/components/FontsList.vue:112
+msgid "Version"
+msgstr "الإصدار"
+
+#: src/components/FontsList.vue:121
+msgid "Designer"
+msgstr "مصمم"
+
+#: src/components/FontsList.vue:130
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: src/index.ts:12
+#: src/index.ts:36
+msgid "Office Settings"
+msgstr "إعدادات المستندات المكتبية"

@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/index.ts:15
+msgid "Search"
+msgstr "بحث"
+
+#: src/portals/SearchBar.vue:13
+#: src/portals/SearchBar.vue:15
+msgid "Enter search term"
+msgstr "أدخل عبارة البحث"
+
+#: src/portals/SearchBar.vue:45
+msgid "Display search bar"
+msgstr "عرض شريط البحث"
+
+#: src/portals/SearchBar.vue:46
+msgid "Click to display and focus the search bar"
+msgstr "انقر لإظهار شريط البحث والتركيز عليه"
+
+#: src/portals/SearchBar.vue:74
+msgid "Searching ..."
+msgstr "جارٍ البحث ..."
+
+#: src/portals/SearchBar.vue:77
+msgid "No results"
+msgstr "لا توجد نتائج"
+
+#: src/portals/SearchBar.vue:505
+msgid "Show all results"
+msgstr "عرض كل النتائج"
+
+#: src/portals/SearchBar.vue:508
+msgid "Show %{totalResults} result"
+msgid_plural "Show %{totalResults} results"
+msgstr[0] "عرض %{totalResults} نتيجة"
+msgstr[1] "عرض نتيجة واحدة"
+msgstr[2] "عرض نتيجتين"
+msgstr[3] "عرض %{totalResults} نتائج"
+msgstr[4] "عرض %{totalResults} نتيجة"
+msgstr[5] "عرض %{totalResults} نتيجة"

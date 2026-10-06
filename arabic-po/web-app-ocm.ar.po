@@ -1,0 +1,379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/composables/useInvitationAcceptance.ts:16
+#: src/views/ConnectionsPanel.vue:150
+#: src/views/OutgoingInvitations.vue:330
+msgid "Error"
+msgstr "خطأ"
+
+#: src/composables/useInvitationAcceptance.ts:17
+msgid "An error occurred"
+msgstr "حدث خطأ"
+
+#: src/composables/useInvitationAcceptance.ts:45
+msgid "Missing required parameters: token and providerDomain"
+msgstr "معاملات مطلوبة مفقودة: token و providerDomain"
+
+#: src/composables/useWayf.ts:46
+msgid "Discovery Failed"
+msgstr "فشل الاكتشاف"
+
+#: src/composables/useWayf.ts:47
+msgid "Could not discover provider at %{domain}"
+msgstr "تعذّر اكتشاف المزوّد على %{domain}"
+
+#: src/composables/useWayf.ts:70
+#: src/composables/useWayf.ts:115
+msgid "Invalid Provider Selection"
+msgstr "اختيار المزوّد غير صالح"
+
+#: src/composables/useWayf.ts:71
+msgid "You cannot select your own instance as a provider. Please select a different provider to establish a federated connection."
+msgstr "لا يمكنك اختيار خادمك نفسه كمزوّد. يُرجى اختيار مزوّد آخر لإنشاء اتصال اتحادي."
+
+#: src/composables/useWayf.ts:116
+msgid "You cannot use your own instance as a provider. Please select a different provider to establish a federated connection."
+msgstr "لا يمكنك استخدام خادمك نفسه كمزوّد. يُرجى اختيار مزوّد آخر لإنشاء اتصال اتحادي."
+
+#: src/composables/useWayf.ts:166
+msgid "Failed to Load Providers"
+msgstr "تعذّر تحميل المزوّدين"
+
+#: src/composables/useWayf.ts:167
+msgid "Could not load the list of available providers"
+msgstr "تعذّر تحميل قائمة المزوّدين المتاحين"
+
+#: src/index.ts:60
+msgid "ScienceMesh"
+msgstr "ScienceMesh"
+
+#: src/index.ts:75
+msgid "Invitations"
+msgstr "الدعوات"
+
+#: src/views/App.vue:127
+msgid "New federated connection"
+msgstr "اتصال اتحادي جديد"
+
+#: src/views/App.vue:129
+msgid "You can share with and receive shares from %{user} now"
+msgstr "يمكنك الآن المشاركة مع %{user} واستلام المشاركات منه"
+
+#: src/views/App.vue:139
+msgid "New federated connections"
+msgstr "اتصالات اتحادية جديدة"
+
+#: src/views/App.vue:141
+msgid "You can share with and receive shares from %{ connections } now"
+msgstr "يمكنك الآن المشاركة مع %{ connections } واستلام المشاركات منهم"
+
+#: src/views/ConnectionsPanel.vue:7
+#: src/views/ConnectionsPanel.vue:124
+msgid "Federated connections"
+msgstr "الاتصالات الاتحادية"
+
+#: src/views/ConnectionsPanel.vue:11
+msgid "Federated shares:"
+msgstr "المشاركات الاتحادية:"
+
+#: src/views/ConnectionsPanel.vue:13
+#: src/views/ConnectionsPanel.vue:22
+msgid "Federated shares with me"
+msgstr "المشاركات الاتحادية معي"
+
+#: src/views/ConnectionsPanel.vue:19
+msgid "with me"
+msgstr "معي"
+
+#: src/views/ConnectionsPanel.vue:28
+msgid "with others"
+msgstr "مع الآخرين"
+
+#: src/views/ConnectionsPanel.vue:41
+msgid "You have no sharing connections"
+msgstr "ليست لديك اتصالات مشاركة"
+
+#: src/views/ConnectionsPanel.vue:48
+msgid "Delete"
+msgstr "حذف"
+
+#: src/views/ConnectionsPanel.vue:95
+msgid "User"
+msgstr "مستخدم"
+
+#: src/views/ConnectionsPanel.vue:100
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: src/views/ConnectionsPanel.vue:105
+msgid "Institution"
+msgstr "المؤسسة"
+
+#: src/views/ConnectionsPanel.vue:110
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: src/views/ConnectionsPanel.vue:121
+msgid "Federated connections for mutual sharing. To share, go to \"Files\" app, select the resource, click \"Share\" in the context menu and select account type \"federated\"."
+msgstr "الاتصالات الاتحادية للمشاركة المتبادلة. للمشاركة، انتقل إلى تطبيق \"الملفات\"، وحدد العنصر، ثم انقر على \"مشاركة\" في قائمة السياق واختر نوع الحساب \"اتحادي\"."
+
+#: src/views/ConnectionsPanel.vue:151
+msgid "Failed to delete connection"
+msgstr "تعذّر حذف الاتصال"
+
+#: src/views/IncomingInvitations.vue:6
+msgid "Accept invitations"
+msgstr "قبول الدعوات"
+
+#: src/views/IncomingInvitations.vue:13
+msgid "Enter invite token"
+msgstr "أدخل رمز الدعوة"
+
+#: src/views/IncomingInvitations.vue:24
+msgid "Institution:"
+msgstr "المؤسسة:"
+
+#: src/views/IncomingInvitations.vue:27
+msgid "invalid invite token"
+msgstr "رمز الدعوة غير صالح"
+
+#: src/views/IncomingInvitations.vue:37
+msgid "Accept invitation"
+msgstr "قبول الدعوة"
+
+#: src/views/IncomingInvitations.vue:67
+msgid "Once you accept the invitation, the inviter will be added to your connections."
+msgstr "بعد قبولك الدعوة، سيُضاف صاحب الدعوة إلى اتصالاتك."
+
+#: src/views/IncomingInvitations.vue:70
+msgid "Accepting invitations"
+msgstr "قبول الدعوات"
+
+#: src/views/InvitationAcceptanceModal.vue:4
+msgid "Accept Invitation"
+msgstr "قبول الدعوة"
+
+#: src/views/InvitationAcceptanceModal.vue:5
+msgid "Decline"
+msgstr "رفض"
+
+#: src/views/InvitationAcceptanceModal.vue:6
+msgid "Accept"
+msgstr "قبول"
+
+#: src/views/InvitationAcceptanceModal.vue:15
+msgid "Processing invitation..."
+msgstr "جارٍ معالجة الدعوة..."
+
+#: src/views/InvitationAcceptanceModal.vue:22
+msgid "You have received an invitation"
+msgstr "لقد تلقيت دعوة"
+
+#: src/views/InvitationAcceptanceModal.vue:25
+msgid "Accept this invitation to establish a federated connection."
+msgstr "اقبل هذه الدعوة لإنشاء اتصال اتحادي."
+
+#: src/views/InvitationAcceptanceModal.vue:32
+msgid "From Institution:"
+msgstr "من المؤسسة:"
+
+#: src/views/InvitationAcceptanceModal.vue:36
+msgid "Token:"
+msgstr "الرمز:"
+
+#: src/views/OutgoingInvitations.vue:6
+msgid "Invite users"
+msgstr "دعوة مستخدمين"
+
+#: src/views/OutgoingInvitations.vue:12
+msgid "Generate invitation link that can be shared with one or more invitees"
+msgstr "إنشاء رابط دعوة يمكن مشاركته مع مدعو واحد أو أكثر"
+
+#: src/views/OutgoingInvitations.vue:17
+msgid "Generate invitation"
+msgstr "إنشاء دعوة"
+
+#: src/views/OutgoingInvitations.vue:22
+msgid "Generate new invitation"
+msgstr "إنشاء دعوة جديدة"
+
+#: src/views/OutgoingInvitations.vue:23
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/views/OutgoingInvitations.vue:24
+msgid "Generate"
+msgstr "إنشاء"
+
+#: src/views/OutgoingInvitations.vue:37
+msgid "Add a description (optional)"
+msgstr "إضافة وصف (اختياري)"
+
+#: src/views/OutgoingInvitations.vue:56
+msgid "You have no invitation links"
+msgstr "ليست لديك روابط دعوة"
+
+#: src/views/OutgoingInvitations.vue:72
+#: src/views/OutgoingInvitations.vue:73
+msgid "Copy plain token"
+msgstr "نسخ الرمز كنص عادي"
+
+#: src/views/OutgoingInvitations.vue:82
+#: src/views/OutgoingInvitations.vue:83
+msgid "Copy base64 token"
+msgstr "نسخ الرمز بصيغة base64"
+
+#: src/views/OutgoingInvitations.vue:92
+#: src/views/OutgoingInvitations.vue:93
+msgid "Copy Invite link"
+msgstr "نسخ رابط الدعوة"
+
+#: src/views/OutgoingInvitations.vue:103
+msgid "Link"
+msgstr "رابط"
+
+#: src/views/OutgoingInvitations.vue:106
+#: src/views/OutgoingInvitations.vue:107
+msgid "Copy invitation link"
+msgstr "نسخ رابط الدعوة"
+
+#: src/views/OutgoingInvitations.vue:170
+#: src/views/OutgoingInvitations.vue:199
+msgid "Invitation link"
+msgstr "رابط الدعوة"
+
+#: src/views/OutgoingInvitations.vue:176
+msgid "Invite token"
+msgstr "رمز الدعوة"
+
+#: src/views/OutgoingInvitations.vue:182
+msgid "Description"
+msgstr "الوصف"
+
+#: src/views/OutgoingInvitations.vue:187
+msgid "Expires"
+msgstr "تنتهي الصلاحية"
+
+#: src/views/OutgoingInvitations.vue:198
+msgid "Create an invitation link and send it to the person you want to share with."
+msgstr "أنشئ رابط دعوة وأرسله إلى الشخص الذي تريد المشاركة معه."
+
+#: src/views/OutgoingInvitations.vue:248
+msgid "Success"
+msgstr "نجاح"
+
+#: src/views/OutgoingInvitations.vue:250
+msgid "New token has been created and copied to your clipboard. Send it to the invitee(s)."
+msgstr "تم إنشاء رمز جديد ونسخه إلى الحافظة. أرسله إلى المدعوين."
+
+#: src/views/OutgoingInvitations.vue:296
+msgid "Invitation link copied"
+msgstr "تم نسخ رابط الدعوة"
+
+#: src/views/OutgoingInvitations.vue:297
+msgid "Invitation link has been copied to your clipboard."
+msgstr "تم نسخ رابط الدعوة إلى الحافظة."
+
+#: src/views/OutgoingInvitations.vue:305
+msgid "Plain token copied"
+msgstr "تم نسخ الرمز غير المشفّر"
+
+#: src/views/OutgoingInvitations.vue:306
+msgid "Plain token has been copied to your clipboard."
+msgstr "تم نسخ الرمز غير المشفّر إلى الحافظة."
+
+#: src/views/OutgoingInvitations.vue:313
+msgid "Base64 token copied"
+msgstr "تم نسخ رمز Base64"
+
+#: src/views/OutgoingInvitations.vue:314
+msgid "Base64 token has been copied to your clipboard."
+msgstr "تم نسخ رمز Base64 إلى الحافظة."
+
+#: src/views/OutgoingInvitations.vue:322
+msgid "Invite link copied"
+msgstr "تم نسخ رابط الدعوة"
+
+#: src/views/OutgoingInvitations.vue:323
+msgid "Invite link has been copied to your clipboard."
+msgstr "تم نسخ رابط الدعوة إلى الحافظة."
+
+#: src/views/OutgoingInvitations.vue:331
+msgid "An error occurred when generating the token"
+msgstr "حدث خطأ أثناء إنشاء الرمز"
+
+#: src/views/Wayf.vue:8
+#: src/views/Wayf.vue:213
+msgid "Where Are You From?"
+msgstr "من أين أنت؟"
+
+#: src/views/Wayf.vue:20
+msgid "Token Required"
+msgstr "الرمز مطلوب"
+
+#: src/views/Wayf.vue:25
+msgid "You need a token for this feature to work."
+msgstr "تحتاج إلى رمز لتعمل هذه الميزة."
+
+#: src/views/Wayf.vue:33
+msgid "Loading providers..."
+msgstr "جارٍ تحميل المزوّدين..."
+
+#: src/views/Wayf.vue:39
+msgid "Failed to load providers"
+msgstr "تعذّر تحميل المزوّدين"
+
+#: src/views/Wayf.vue:48
+msgid "Retry"
+msgstr "إعادة المحاولة"
+
+#: src/views/Wayf.vue:59
+#: src/views/Wayf.vue:60
+msgid "Search providers"
+msgstr "البحث عن مزوّدين"
+
+#: src/views/Wayf.vue:74
+msgid "No providers match your search"
+msgstr "لا يوجد مزوّدون يطابقون بحثك"
+
+#: src/views/Wayf.vue:79
+msgid "Try a different search or enter a domain manually below."
+msgstr "جرّب بحثًا مختلفًا أو أدخل نطاقًا يدويًا أدناه."
+
+#: src/views/Wayf.vue:111
+msgid "provider"
+msgstr "مزوّد"
+
+#: src/views/Wayf.vue:111
+msgid "providers"
+msgstr "مزوّدون"
+
+#: src/views/Wayf.vue:121
+msgid "Select provider %{name}"
+msgstr "اختيار المزوّد %{name}"
+
+#: src/views/Wayf.vue:145
+msgid "Manual Provider Entry"
+msgstr "إدخال المزوّد يدويًا"
+
+#: src/views/Wayf.vue:150
+msgid "Enter provider domain manually"
+msgstr "أدخل نطاق المزوّد يدويًا"
+
+#: src/views/Wayf.vue:167
+msgid "Continue"
+msgstr "متابعة"
+
+#: src/views/Wayf.vue:210
+msgid "Select your cloud provider to continue with the invitation process. You can search for providers or enter a domain manually."
+msgstr "اختر مزوّد الخدمة السحابية لمتابعة عملية الدعوة. يمكنك البحث عن مزوّدين أو إدخال نطاق يدويًا."

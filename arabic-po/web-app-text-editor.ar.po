@@ -1,0 +1,489 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/App.vue:44
+msgid "Write or type / for formatting options..."
+msgstr "اكتب أو أدخل / لخيارات التنسيق..."
+
+#: src/index.ts:42
+msgid "Note"
+msgstr "ملاحظة"
+
+#: src/index.ts:43
+#: src/index.ts:142
+msgid "Plain text file"
+msgstr "ملف نص عادي"
+
+#: src/index.ts:44
+#: src/index.ts:45
+msgid "Markdown file"
+msgstr "ملف Markdown"
+
+#: src/index.ts:46
+msgid "JavaScript file"
+msgstr "ملف JavaScript"
+
+#: src/index.ts:47
+msgid "JSX file"
+msgstr "ملف JSX"
+
+#: src/index.ts:48
+msgid "TypeScript file"
+msgstr "ملف TypeScript"
+
+#: src/index.ts:49
+msgid "TSX (TypeScript + JSX) file"
+msgstr "ملف TSX (TypeScript + JSX)"
+
+#: src/index.ts:50
+msgid "Vue component file"
+msgstr "ملف مكوّن Vue"
+
+#: src/index.ts:51
+msgid "JSON file"
+msgstr "ملف JSON"
+
+#: src/index.ts:52
+msgid "XML file"
+msgstr "ملف XML"
+
+#: src/index.ts:53
+#: src/index.ts:54
+msgid "YAML file"
+msgstr "ملف YAML"
+
+#: src/index.ts:55
+msgid "TOML config file"
+msgstr "ملف إعدادات TOML"
+
+#: src/index.ts:56
+msgid "INI config file"
+msgstr "ملف إعدادات INI"
+
+#: src/index.ts:57
+#: src/index.ts:108
+#: src/index.ts:164
+#: src/index.ts:165
+msgid "Configuration file"
+msgstr "ملف إعدادات"
+
+#: src/index.ts:58
+msgid "Environment variables file"
+msgstr "ملف متغيرات البيئة"
+
+#: src/index.ts:59
+msgid "Python file"
+msgstr "ملف Python"
+
+#: src/index.ts:60
+msgid "PHP file"
+msgstr "ملف PHP"
+
+#: src/index.ts:61
+#: src/index.ts:144
+msgid "HTML file"
+msgstr "ملف HTML"
+
+#: src/index.ts:62
+msgid "CSS file"
+msgstr "ملف CSS"
+
+#: src/index.ts:63
+msgid "SCSS file"
+msgstr "ملف SCSS"
+
+#: src/index.ts:64
+msgid "Sass file"
+msgstr "ملف Sass"
+
+#: src/index.ts:65
+msgid "LESS CSS file"
+msgstr "ملف LESS CSS"
+
+#: src/index.ts:66
+msgid "CSV file"
+msgstr "ملف CSV"
+
+#: src/index.ts:67
+msgid "Tab-separated values file"
+msgstr "ملف قيم مفصولة بعلامات جدولة"
+
+#: src/index.ts:68
+msgid "C source file"
+msgstr "ملف مصدري بلغة C"
+
+#: src/index.ts:69
+#: src/index.ts:150
+#: src/index.ts:151
+msgid "C++ source file"
+msgstr "ملف مصدري بلغة C++"
+
+#: src/index.ts:70
+msgid "Java source file"
+msgstr "ملف مصدري Java"
+
+#: src/index.ts:71
+msgid "Shell script"
+msgstr "سكربت Shell"
+
+#: src/index.ts:72
+msgid "Batch script"
+msgstr "برنامج نصي Batch"
+
+#: src/index.ts:73
+#: src/index.ts:155
+msgid "Assembler source file"
+msgstr "ملف مصدري بلغة Assembler"
+
+#: src/index.ts:74
+msgid "Log file"
+msgstr "ملف سجل"
+
+#: src/index.ts:75
+msgid "Calendar file"
+msgstr "ملف تقويم"
+
+#: src/index.ts:76
+msgid "Internet shortcut file"
+msgstr "ملف اختصار إنترنت"
+
+#: src/index.ts:77
+msgid "Rich Text Format file"
+msgstr "ملف Rich Text Format"
+
+#: src/index.ts:78
+msgid "Dockerfile"
+msgstr "Dockerfile"
+
+#: src/index.ts:79
+msgid "Makefile"
+msgstr "ملف Makefile"
+
+#: src/index.ts:80
+msgid "SQL script file"
+msgstr "ملف سكربت SQL"
+
+#: src/index.ts:81
+msgid "Rust source file"
+msgstr "ملف مصدري Rust"
+
+#: src/index.ts:82
+msgid "Go source file"
+msgstr "ملف مصدري Go"
+
+#: src/index.ts:83
+msgid "Kotlin source file"
+msgstr "ملف مصدري Kotlin"
+
+#: src/index.ts:84
+msgid "Swift source file"
+msgstr "ملف مصدري Swift"
+
+#: src/index.ts:85
+msgid "Ruby source file"
+msgstr "ملف مصدري Ruby"
+
+#: src/index.ts:86
+msgid "Perl script"
+msgstr "سكربت Perl"
+
+#: src/index.ts:87
+msgid "Lua script"
+msgstr "سكربت Lua"
+
+#: src/index.ts:88
+msgid "R script"
+msgstr "سكربت R"
+
+#: src/index.ts:89
+msgid "Objective-C or MATLAB file"
+msgstr "ملف Objective-C أو MATLAB"
+
+#: src/index.ts:90
+msgid "Scala source file"
+msgstr "ملف مصدري Scala"
+
+#: src/index.ts:91
+msgid "C# source file"
+msgstr "ملف مصدري بلغة C#"
+
+#: src/index.ts:92
+msgid "F# source file"
+msgstr "ملف مصدري بلغة F#"
+
+#: src/index.ts:93
+msgid "Clojure source file"
+msgstr "ملف مصدري بلغة Clojure"
+
+#: src/index.ts:94
+msgid "Haskell source file"
+msgstr "ملف مصدري Haskell"
+
+#: src/index.ts:95
+msgid "Erlang source file"
+msgstr "ملف مصدري بلغة Erlang"
+
+#: src/index.ts:96
+msgid "Elixir source file"
+msgstr "ملف مصدري بلغة Elixir"
+
+#: src/index.ts:97
+msgid "Zig source file"
+msgstr "ملف مصدري Zig"
+
+#: src/index.ts:98
+msgid "Nim source file"
+msgstr "ملف مصدري Nim"
+
+#: src/index.ts:99
+msgid "Odin source file"
+msgstr "ملف مصدري Odin"
+
+#: src/index.ts:100
+msgid "OCaml source file"
+msgstr "ملف مصدري OCaml"
+
+#: src/index.ts:101
+msgid "V language source file"
+msgstr "ملف مصدري بلغة V"
+
+#: src/index.ts:102
+msgid "Dart source file"
+msgstr "ملف مصدري بلغة Dart"
+
+#: src/index.ts:104
+msgid "Git ignore file"
+msgstr "ملف Git ignore"
+
+#: src/index.ts:105
+msgid "Git attributes file"
+msgstr "ملف Git attributes"
+
+#: src/index.ts:106
+msgid "EditorConfig file"
+msgstr "ملف EditorConfig"
+
+#: src/index.ts:107
+msgid "Java properties file"
+msgstr "ملف خصائص Java"
+
+#: src/index.ts:109
+msgid "systemd service file"
+msgstr "ملف خدمة systemd"
+
+#: src/index.ts:110
+msgid "Desktop entry file"
+msgstr "ملف مدخلة سطح المكتب"
+
+#: src/index.ts:111
+msgid "npm configuration file"
+msgstr "ملف إعدادات npm"
+
+#: src/index.ts:112
+msgid "Lock file"
+msgstr "ملف قفل"
+
+#: src/index.ts:113
+msgid "Gradle build script"
+msgstr "سكربت بناء Gradle"
+
+#: src/index.ts:115
+msgid "LaTeX file"
+msgstr "ملف LaTeX"
+
+#: src/index.ts:116
+msgid "AsciiDoc file"
+msgstr "ملف AsciiDoc"
+
+#: src/index.ts:117
+msgid "reStructuredText file"
+msgstr "ملف reStructuredText"
+
+#: src/index.ts:118
+msgid "Org mode file"
+msgstr "ملف Org mode"
+
+#: src/index.ts:119
+msgid "Wiki markup file"
+msgstr "ملف ترميز Wiki"
+
+#: src/index.ts:121
+msgid "Newline-delimited JSON file"
+msgstr "ملف JSON مفصول بأسطر جديدة"
+
+#: src/index.ts:122
+msgid "JSON Lines file"
+msgstr "ملف JSON Lines"
+
+#: src/index.ts:123
+msgid "GeoJSON file"
+msgstr "ملف GeoJSON"
+
+#: src/index.ts:124
+msgid "GraphQL schema or query file"
+msgstr "ملف مخطط أو استعلام GraphQL"
+
+#: src/index.ts:125
+msgid "Protocol Buffers schema file"
+msgstr "ملف مخطط Protocol Buffers"
+
+#: src/index.ts:127
+msgid "Terraform file"
+msgstr "ملف Terraform"
+
+#: src/index.ts:128
+msgid "HashiCorp configuration file"
+msgstr "ملف إعدادات HashiCorp"
+
+#: src/index.ts:129
+msgid "Nomad job file"
+msgstr "ملف مهمة Nomad"
+
+#: src/index.ts:131
+msgid "CMake script"
+msgstr "برنامج نصي CMake"
+
+#: src/index.ts:132
+msgid "Make include file"
+msgstr "ملف تضمين Make"
+
+#: src/index.ts:133
+msgid "Kotlin Gradle build script"
+msgstr "سكربت بناء Kotlin Gradle"
+
+#: src/index.ts:134
+#: src/index.ts:180
+msgid "Bazel build file"
+msgstr "ملف بناء Bazel"
+
+#: src/index.ts:136
+msgid "Z shell script"
+msgstr "سكربت Z shell"
+
+#: src/index.ts:137
+msgid "Fish shell script"
+msgstr "سكربت Fish shell"
+
+#: src/index.ts:138
+msgid "PowerShell script"
+msgstr "سكربت PowerShell"
+
+#: src/index.ts:140
+msgid "GNU info documentation file"
+msgstr "ملف توثيق GNU info"
+
+#: src/index.ts:141
+msgid "Manual page file"
+msgstr "ملف صفحة دليل"
+
+#: src/index.ts:145
+msgid "JavaScript module file"
+msgstr "ملف وحدة JavaScript"
+
+#: src/index.ts:146
+msgid "CommonJS module file"
+msgstr "ملف وحدة CommonJS"
+
+#: src/index.ts:148
+msgid "C/C++ header file"
+msgstr "ملف ترويسة C/C++"
+
+#: src/index.ts:149
+#: src/index.ts:152
+#: src/index.ts:153
+msgid "C++ header file"
+msgstr "ملف ترويسة C++"
+
+#: src/index.ts:156
+msgid "Preprocessed assembler source file"
+msgstr "ملف مصدري Assembler معالَج مسبقًا"
+
+#: src/index.ts:158
+msgid "D source file"
+msgstr "ملف مصدري بلغة D"
+
+#: src/index.ts:159
+msgid "Julia source file"
+msgstr "ملف مصدري Julia"
+
+#: src/index.ts:160
+msgid "Groovy source file"
+msgstr "ملف مصدري Groovy"
+
+#: src/index.ts:161
+msgid "Tcl script"
+msgstr "سكربت Tcl"
+
+#: src/index.ts:162
+msgid "Visual Basic source file"
+msgstr "ملف مصدري Visual Basic"
+
+#: src/index.ts:167
+msgid "PEM certificate or key file"
+msgstr "ملف شهادة أو مفتاح PEM"
+
+#: src/index.ts:168
+msgid "Certificate file"
+msgstr "ملف شهادة"
+
+#: src/index.ts:169
+msgid "Private key file"
+msgstr "ملف مفتاح خاص"
+
+#: src/index.ts:170
+msgid "Certificate signing request file"
+msgstr "ملف طلب توقيع شهادة"
+
+#: src/index.ts:171
+msgid "Public key file"
+msgstr "ملف مفتاح عام"
+
+#: src/index.ts:173
+msgid "LDAP data interchange file"
+msgstr "ملف تبادل بيانات LDAP"
+
+#: src/index.ts:175
+msgid "Information file"
+msgstr "ملف معلومات"
+
+#: src/index.ts:176
+msgid "Perl POD documentation file"
+msgstr "ملف توثيق Perl POD"
+
+#: src/index.ts:178
+msgid "Kotlin script file"
+msgstr "ملف سكربت Kotlin"
+
+#: src/index.ts:179
+msgid "Bazel Starlark file"
+msgstr "ملف Bazel Starlark"
+
+#: src/index.ts:181
+msgid "Bazel workspace file"
+msgstr "ملف مساحة عمل Bazel"
+
+#: src/index.ts:183
+msgid "Terraform variables file"
+msgstr "ملف متغيرات Terraform"
+
+#: src/index.ts:185
+msgid "Bash script"
+msgstr "برنامج نصي Bash"
+
+#: src/index.ts:186
+msgid "Korn shell script"
+msgstr "سكربت Korn shell"
+
+#: src/index.ts:226
+#: src/index.ts:233
+msgid "Text Editor"
+msgstr "محرر النصوص"

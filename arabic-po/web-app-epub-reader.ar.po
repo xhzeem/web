@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/ChapterList.vue:9
+#: src/components/ChapterList.vue:10
+msgid "Search chapters"
+msgstr "البحث في الفصول"
+
+#: src/components/ChapterList.vue:41
+msgid "No chapters found"
+msgstr "لم يُعثر على فصول"
+
+#: src/components/MobileChapterSelect.vue:14
+#: src/components/MobileChapterSelect.vue:19
+msgid "Chapter"
+msgstr "الفصل"
+
+#: src/components/ReaderProgressBar.vue:7
+msgid "Reading progress"
+msgstr "تقدّم القراءة"
+
+#: src/components/ReaderProgressBar.vue:65
+msgid "Reading progress %{progress}"
+msgstr "تقدّم القراءة %{progress}"
+
+#: src/components/ReaderTextSearch.vue:5
+#: src/components/ReaderTextSearch.vue:17
+#: src/components/ReaderTextSearch.vue:18
+#: src/components/ReaderToolbar.vue:71
+#: src/components/ReaderToolbar.vue:72
+msgid "Search in book"
+msgstr "البحث في الكتاب"
+
+#: src/components/ReaderTextSearch.vue:31
+#: src/components/ReaderTextSearch.vue:32
+msgid "Navigate to previous search result"
+msgstr "الانتقال إلى نتيجة البحث السابقة"
+
+#: src/components/ReaderTextSearch.vue:43
+#: src/components/ReaderTextSearch.vue:44
+msgid "Navigate to next search result"
+msgstr "الانتقال إلى نتيجة البحث التالية"
+
+#: src/components/ReaderTextSearch.vue:55
+#: src/components/ReaderTextSearch.vue:56
+msgid "Close search"
+msgstr "إغلاق البحث"
+
+#: src/components/ReaderTextSearch.vue:120
+msgid "Searching..."
+msgstr "جارٍ البحث..."
+
+#: src/components/ReaderToolbar.vue:10
+#: src/components/ReaderToolbar.vue:11
+#: src/components/ReaderView.vue:7
+#: src/components/ReaderView.vue:9
+msgid "Navigate to previous page"
+msgstr "الانتقال إلى الصفحة السابقة"
+
+#: src/components/ReaderToolbar.vue:22
+#: src/components/ReaderToolbar.vue:23
+#: src/components/ReaderView.vue:17
+#: src/components/ReaderView.vue:19
+msgid "Navigate to next page"
+msgstr "الانتقال إلى الصفحة التالية"
+
+#: src/components/ReaderToolbar.vue:36
+msgid "Decrease font size"
+msgstr "تصغير حجم الخط"
+
+#: src/components/ReaderToolbar.vue:47
+msgid "Reset font size"
+msgstr "إعادة تعيين حجم الخط"
+
+#: src/components/ReaderToolbar.vue:58
+msgid "Increase font size"
+msgstr "تكبير حجم الخط"
+
+#: src/components/ReaderToolbar.vue:168
+msgid "Exit fullscreen"
+msgstr "الخروج من ملء الشاشة"
+
+#: src/components/ReaderToolbar.vue:168
+msgid "Enter fullscreen"
+msgstr "ملء الشاشة"
+
+#: src/index.ts:27
+#: src/index.ts:35
+msgid "Epub Reader"
+msgstr "قارئ EPUB"

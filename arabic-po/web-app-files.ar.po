@@ -1,0 +1,2378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/AppBar/SharesNavigation.vue:5
+msgid "Shares pages navigation"
+msgstr "التنقل بين صفحات المشاركات"
+
+#: src/components/AppBar/SharesNavigation.vue:28
+msgid "Navigation"
+msgstr "التنقل"
+
+#: src/components/AppBar/SharesNavigation.vue:93
+#: src/views/spaces/GenericSpace.vue:245
+msgid "Shared with me"
+msgstr "تمت مشاركته معي"
+
+#: src/components/AppBar/SharesNavigation.vue:99
+msgid "Shared with others"
+msgstr "تمت مشاركته مع الآخرين"
+
+#: src/components/AppBar/SharesNavigation.vue:105
+msgid "Shared via link"
+msgstr "تمت مشاركته عبر رابط"
+
+#: src/components/AppBar/Upload/ResourceUpload.vue:4
+msgid "Please wait until all imports have finished"
+msgstr "يرجى الانتظار حتى تنتهي جميع عمليات الاستيراد"
+
+#: src/components/AppBar/Upload/ResourceUpload.vue:140
+#: src/components/CreateOrUploadMenu.vue:28
+msgid "Folder"
+msgstr "مجلد"
+
+#: src/components/AppBar/Upload/ResourceUpload.vue:142
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:47
+#: src/index.ts:127
+#: src/search/sdk/index.ts:26
+msgid "Files"
+msgstr "الملفات"
+
+#: src/components/CreateOrUploadMenu.vue:3
+#: src/extensions.ts:73
+msgid "New"
+msgstr "جديد"
+
+#: src/components/CreateOrUploadMenu.vue:17
+#: src/components/Trash/TrashContextActions.vue:3
+msgid "Loading actions"
+msgstr "جارٍ تحميل الإجراءات"
+
+#: src/components/CreateOrUploadMenu.vue:34
+msgid "Files Upload"
+msgstr "رفع ملفات"
+
+#: src/components/CreateOrUploadMenu.vue:39
+msgid "Folder Upload"
+msgstr "رفع مجلد"
+
+#: src/components/CreateOrUploadMenu.vue:109
+msgid "Shortcut"
+msgstr "اختصار"
+
+#: src/components/EmbedActions/EmbedActions.vue:11
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:80
+#: src/composables/actions/files/useFileActionsRename.ts:167
+msgid "File name"
+msgstr "اسم الملف"
+
+#: src/components/EmbedActions/EmbedActions.vue:18
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/components/EmbedActions/EmbedActions.vue:29
+msgid "Share link(s)"
+msgstr "مشاركة الرابط/الروابط"
+
+#: src/components/EmbedActions/EmbedActions.vue:48
+msgid "Attach as copy"
+msgstr "إرفاق كنسخة"
+
+#: src/components/EmbedActions/EmbedActions.vue:191
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:172
+msgid "Save"
+msgstr "حفظ"
+
+#: src/components/EmbedActions/EmbedActions.vue:191
+msgid "Choose"
+msgstr "اختيار"
+
+#: src/components/FilesList/ListHeader.vue:7
+msgid "Loading README content"
+msgstr "جارٍ تحميل محتوى README"
+
+#: src/components/FilesList/ListHeader.vue:51
+#: src/components/Shares/SharedWithMeSection.vue:146
+#: src/components/SideBar/Shares/FileLinks.vue:240
+#: src/components/Spaces/SpaceHeader.vue:162
+msgid "Show more"
+msgstr "عرض المزيد"
+
+#: src/components/FilesList/ListHeader.vue:51
+#: src/components/Shares/SharedWithMeSection.vue:146
+#: src/components/SideBar/Shares/FileLinks.vue:240
+#: src/components/Spaces/SpaceHeader.vue:162
+msgid "Show less"
+msgstr "عرض أقل"
+
+#: src/components/FilesList/NotFoundMessage.vue:4
+msgid "Resource not found"
+msgstr "العنصر غير موجود"
+
+#: src/components/FilesList/NotFoundMessage.vue:10
+msgid "We went looking everywhere, but were unable to find the selected resource."
+msgstr "بحثنا في كل مكان، لكننا لم نتمكن من العثور على العنصر المحدد."
+
+#: src/components/FilesList/NotFoundMessage.vue:20
+msgid "Go to »Spaces Overview«"
+msgstr "الانتقال إلى \"نظرة عامة على المساحات\""
+
+#: src/components/FilesList/NotFoundMessage.vue:29
+msgid "Go to »Personal« page"
+msgstr "الانتقال إلى صفحة \"شخصي\""
+
+#: src/components/FilesList/NotFoundMessage.vue:38
+msgid "Reload public link"
+msgstr "إعادة تحميل الرابط العام"
+
+#: src/components/Modals/CreateFolderModal.vue:7
+#: src/composables/actions/files/useFileActionsRename.ts:167
+msgid "Folder name"
+msgstr "اسم المجلد"
+
+#: src/components/Modals/CreateFolderModal.vue:16
+msgid "End-to-end encrypt this folder"
+msgstr "تشفير هذا المجلد من طرف إلى طرف"
+
+#: src/components/Modals/CreateFolderModal.vue:28
+#: src/components/Modals/CreateSpaceModal.vue:62
+msgid "Extra secure: unreadable without an extra password. Lose it and the files are lost too. Collaboration features are limited."
+msgstr "أمان إضافي: لا يمكن قراءته دون كلمة مرور إضافية. إذا فقدتها فستفقد الملفات أيضًا. ميزات التعاون محدودة."
+
+#: src/components/Modals/CreateFolderModal.vue:49
+#: src/components/Modals/CreateSpaceModal.vue:95
+msgid "Back"
+msgstr "رجوع"
+
+#: src/components/Modals/CreateFolderModal.vue:58
+#: src/components/Modals/CreateSpaceModal.vue:104
+msgid "Continue"
+msgstr "متابعة"
+
+#: src/components/Modals/CreateFolderModal.vue:58
+#: src/components/Modals/CreateSpaceModal.vue:104
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:77
+#: src/composables/actions/files/useFileActionsCreateNewShortcut.ts:28
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:104
+msgid "Create"
+msgstr "إنشاء"
+
+#: src/components/Modals/CreateFolderModal.vue:115
+msgid "New folder"
+msgstr "مجلد جديد"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:7
+#: src/composables/actions/spaces/useSpaceActionsCustomizeMenu.ts:38
+msgid "Customize"
+msgstr "تخصيص"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:18
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:114
+msgid "Subtitle"
+msgstr "العنوان الفرعي"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:21
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:114
+msgid "Description"
+msgstr "الوصف"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:34
+msgid "Advanced"
+msgstr "متقدم"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:114
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:3
+msgid "Image"
+msgstr "صورة"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:119
+msgid "Quota"
+msgstr "الحصة"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:119
+#: src/components/Modals/CreateSpace/SpaceMemberSelect.vue:6
+#: src/components/SideBar/Shares/SpaceMembers.vue:18
+#: src/composables/actions/spaces/useSpaceActionsShowMembers.ts:25
+#: src/composables/extensions/useFileSideBars.ts:295
+msgid "Members"
+msgstr "الأعضاء"
+
+#: src/components/Modals/CreateSpace/CreateSpaceOptions.vue:125
+msgid "Space description"
+msgstr "وصف المساحة"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:7
+msgid "Upload"
+msgstr "رفع"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:11
+msgid "Icon"
+msgstr "أيقونة"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:15
+#: src/components/SideBar/Shares/FileShares.vue:213
+#: src/components/SideBar/Shares/SpaceMembers.vue:195
+msgid "Remove"
+msgstr "إزالة"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:44
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:107
+msgid "Set icon"
+msgstr "تعيين أيقونة"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:65
+msgid "Crop image"
+msgstr "اقتصاص الصورة"
+
+#: src/components/Modals/CreateSpace/SpaceImagePicker.vue:66
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:48
+#: src/composables/actions/spaces/useSpaceActionsSetImage.ts:35
+#: src/composables/actions/spaces/useSpaceActionsUploadImage.ts:42
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: src/components/Modals/CreateSpace/SpaceMemberSelect.vue:7
+#: src/components/Search/List.vue:382
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:520
+#: src/components/SideBar/Shares/SpaceMembers.vue:8
+#: src/views/shares/SharedViaLink.vue:13
+#: src/views/shares/SharedWithMe.vue:58
+#: src/views/shares/SharedWithOthers.vue:37
+#: src/views/spaces/Projects.vue:29
+#: src/views/trash/Overview.vue:25
+msgid "Search"
+msgstr "بحث"
+
+#: src/components/Modals/CreateSpace/SpaceMemberSelect.vue:25
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:509
+msgid "No users or groups found."
+msgstr "لم يُعثر على مستخدمين أو مجموعات."
+
+#: src/components/Modals/CreateSpaceModal.vue:13
+msgid "Options"
+msgstr "الخيارات"
+
+#: src/components/Modals/CreateSpaceModal.vue:27
+msgid "Selected space image"
+msgstr "صورة المساحة المحددة"
+
+#: src/components/Modals/CreateSpaceModal.vue:41
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:106
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:52
+msgid "Space name"
+msgstr "اسم المساحة"
+
+#: src/components/Modals/CreateSpaceModal.vue:50
+msgid "End-to-end encrypt this space"
+msgstr "تشفير هذه المساحة من طرف إلى طرف"
+
+#: src/components/Modals/CreateSpaceModal.vue:153
+msgid "New space"
+msgstr "مساحة جديدة"
+
+#: src/components/Modals/SetLinkPasswordModal.vue:4
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: src/components/Modals/SetLinkPasswordModal.vue:91
+#: src/components/SideBar/Shares/FileLinks.vue:211
+msgid "Link was updated successfully"
+msgstr "تم تحديث الرابط بنجاح"
+
+#: src/components/Modals/SetLinkPasswordModal.vue:101
+#: src/components/SideBar/Shares/FileLinks.vue:215
+msgid "Failed to update link"
+msgstr "تعذّر تحديث الرابط"
+
+#: src/components/Search/List.vue:11
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:214
+#: src/views/Favorites.vue:11
+msgid "Type"
+msgstr "النوع"
+
+#: src/components/Search/List.vue:34
+#: src/components/SideBar/Details/FileDetails.vue:144
+#: src/components/SideBar/Details/TagsSelect.vue:6
+msgid "Tags"
+msgstr "الوسوم"
+
+#: src/components/Search/List.vue:37
+msgid "Filter tags"
+msgstr "تصفية الوسوم"
+
+#: src/components/Search/List.vue:53
+#: src/views/Favorites.vue:33
+msgid "Last Modified"
+msgstr "آخر تعديل"
+
+#: src/components/Search/List.vue:69
+msgid "Title only"
+msgstr "العنوان فقط"
+
+#: src/components/Search/List.vue:85
+msgid "No results found"
+msgstr "لم يُعثر على نتائج"
+
+#: src/components/Search/List.vue:85
+msgid "Search for files"
+msgstr "البحث عن ملفات"
+
+#: src/components/Search/List.vue:93
+#: src/views/Favorites.vue:191
+#: src/views/spaces/Projects.vue:62
+#: src/views/trash/Overview.vue:36
+msgid "Try refining the search term or filters to get results"
+msgstr "جرّب تعديل عبارة البحث أو عوامل التصفية للحصول على نتائج"
+
+#: src/components/Search/List.vue:94
+msgid "Adjust the search term or filters to get results"
+msgstr "عدّل عبارة البحث أو عوامل التصفية للحصول على نتائج"
+
+#: src/components/Search/List.vue:381
+msgid "Search results for \"%{searchTerm}\""
+msgstr "نتائج البحث عن \"%{searchTerm}\""
+
+#: src/components/Search/List.vue:401
+msgid "Showing up to %{searchLimit} results"
+msgstr "عرض ما يصل إلى %{searchLimit} نتيجة"
+
+#: src/components/Search/List.vue:406
+msgid "Found %{totalResults}, showing the %{itemCount} best matching results"
+msgstr "تم العثور على %{totalResults}، وتُعرض أفضل %{itemCount} من النتائج المطابقة"
+
+#: src/components/Shares/CopyPrivateLink.vue:15
+msgid "Permanent link"
+msgstr "رابط دائم"
+
+#: src/components/Shares/CopyPrivateLink.vue:35
+msgid "Permanent link copied"
+msgstr "تم نسخ الرابط الدائم"
+
+#: src/components/Shares/CopyPrivateLink.vue:36
+msgid "The permanent link has been copied to your clipboard."
+msgstr "تم نسخ الرابط الدائم إلى الحافظة."
+
+#: src/components/Shares/CopyPrivateLink.vue:41
+msgid "Copy the link to point your team to this item. Works only for people with existing access."
+msgstr "انسخ الرابط لتوجيه فريقك إلى هذا العنصر. يعمل فقط مع الأشخاص الذين لديهم صلاحية وصول مسبقة."
+
+#: src/components/Shares/SharedWithMeSection.vue:14
+#: src/views/shares/SharedViaLink.vue:29
+#: src/views/shares/SharedWithOthers.vue:53
+msgid "Nothing shared, yet"
+msgstr "لم تتم مشاركة أي شيء بعد"
+
+#: src/components/Shares/SharedWithMeSection.vue:17
+msgid "All received shares will show up here"
+msgstr "ستظهر هنا جميع المشاركات المستلمة"
+
+#: src/components/SideBar/ActivitiesPanel.vue:4
+msgid "No activities"
+msgstr "لا توجد أنشطة"
+
+#: src/components/SideBar/ActivitiesPanel.vue:98
+msgid "Showing %{activitiesCount} activity"
+msgid_plural "Showing %{activitiesCount} activities"
+msgstr[0] "عرض %{activitiesCount} نشاط"
+msgstr[1] "عرض نشاط واحد"
+msgstr[2] "عرض نشاطين"
+msgstr[3] "عرض %{activitiesCount} أنشطة"
+msgstr[4] "عرض %{activitiesCount} نشاطًا"
+msgstr[5] "عرض %{activitiesCount} نشاط"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:4
+msgid "Title"
+msgstr "العنوان"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:6
+msgid "Duration"
+msgstr "المدة"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:8
+msgid "Authors"
+msgstr "المؤلفون"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:10
+msgid "Album"
+msgstr "الألبوم"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:12
+msgid "Genre"
+msgstr "النوع الفني"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:14
+msgid "Year recorded"
+msgstr "سنة التسجيل"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:16
+msgid "Track"
+msgstr "المقطع"
+
+#: src/components/SideBar/Audio/AudioMetaPanel.vue:18
+msgid "Disc"
+msgstr "نقطة دائرية"
+
+#: src/components/SideBar/Details/FileDetails.vue:34
+msgid "Loading preview"
+msgstr "جارٍ تحميل المعاينة"
+
+#: src/components/SideBar/Details/FileDetails.vue:53
+#: src/components/SideBar/Details/FileDetails.vue:55
+msgid "Loading version information"
+msgstr "جارٍ تحميل معلومات الإصدار"
+
+#: src/components/SideBar/Details/FileDetails.vue:59
+msgid "Version information could not be loaded"
+msgstr "تعذّر تحميل معلومات الإصدار"
+
+#: src/components/SideBar/Details/FileDetails.vue:68
+msgid "Overview of the information about the selected file"
+msgstr "نظرة عامة على معلومات الملف المحدد"
+
+#: src/components/SideBar/Details/FileDetails.vue:71
+msgid "Deleted at"
+msgstr "تاريخ الحذف"
+
+#: src/components/SideBar/Details/FileDetails.vue:75
+msgid "Last modified"
+msgstr "آخر تعديل"
+
+#: src/components/SideBar/Details/FileDetails.vue:91
+msgid "Locked via"
+msgstr "مقفل عبر"
+
+#: src/components/SideBar/Details/FileDetails.vue:98
+msgid "Shared via"
+msgstr "تمت المشاركة عبر"
+
+#: src/components/SideBar/Details/FileDetails.vue:106
+msgid "Shared by"
+msgstr "تمت المشاركة بواسطة"
+
+#: src/components/SideBar/Details/FileDetails.vue:110
+msgid "Owner"
+msgstr "المالك"
+
+#: src/components/SideBar/Details/FileDetails.vue:114
+msgid "(me)"
+msgstr "(أنا)"
+
+#: src/components/SideBar/Details/FileDetails.vue:119
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:53
+msgid "Size"
+msgstr "الحجم"
+
+#: src/components/SideBar/Details/FileDetails.vue:124
+msgid "Version"
+msgstr "الإصدار"
+
+#: src/components/SideBar/Details/FileDetails.vue:156
+msgid "No information to display"
+msgstr "لا توجد معلومات للعرض"
+
+#: src/components/SideBar/Details/FileDetails.vue:277
+msgid "Navigate to '%{folder}'"
+msgstr "الانتقال إلى '%{folder}'"
+
+#: src/components/SideBar/Details/FileDetails.vue:313
+msgid "This folder has been shared."
+msgstr "تمت مشاركة هذا المجلد."
+
+#: src/components/SideBar/Details/FileDetails.vue:315
+msgid "This file has been shared."
+msgstr "تمت مشاركة هذا الملف."
+
+#: src/components/SideBar/Details/FileDetails.vue:358
+msgid "See all versions"
+msgstr "عرض كل الإصدارات"
+
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:7
+msgid "Overview of the information about the selected files"
+msgstr "نظرة عامة على معلومات الملفات المحددة"
+
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:48
+msgid "Folders"
+msgstr "المجلدات"
+
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:50
+#: src/index.ts:94
+#: src/views/spaces/GenericSpace.vue:231
+#: src/views/spaces/Projects.vue:21
+#: src/views/spaces/Projects.vue:422
+msgid "Spaces"
+msgstr "المساحات"
+
+#: src/components/SideBar/Details/FileDetailsMultiple.vue:61
+msgid "%{ itemCount } item selected"
+msgid_plural "%{ itemCount } items selected"
+msgstr[0] "تم تحديد %{ itemCount } عنصر"
+msgstr[1] "تم تحديد عنصر واحد"
+msgstr[2] "تم تحديد عنصرين"
+msgstr[3] "تم تحديد %{ itemCount } عناصر"
+msgstr[4] "تم تحديد %{ itemCount } عنصرًا"
+msgstr[5] "تم تحديد %{ itemCount } عنصر"
+
+#: src/components/SideBar/Details/TagsSelect.vue:46
+msgid "Deselect %{label}"
+msgstr "إلغاء تحديد %{label}"
+
+#: src/components/SideBar/Details/TagsSelect.vue:70
+msgid "Enter text to create a Tag"
+msgstr "أدخل نصًا لإنشاء وسم"
+
+#: src/components/SideBar/Details/TagsSelect.vue:155
+msgid "Tag must not consist of blanks only"
+msgstr "يجب ألا يتكوّن الوسم من مسافات فقط"
+
+#: src/components/SideBar/Details/TagsSelect.vue:206
+msgid "Failed to edit tags"
+msgstr "تعذّر تعديل الوسوم"
+
+#: src/components/SideBar/Details/TagsSelect.vue:267
+msgid "Search for tag %{tag}"
+msgstr "البحث عن الوسم %{tag}"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:4
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:6
+msgid "Device make"
+msgstr "الشركة المصنّعة للجهاز"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:8
+msgid "Device model"
+msgstr "طراز الجهاز"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:10
+msgid "Focal length"
+msgstr "البعد البؤري"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:12
+msgid "F number"
+msgstr "الرقم البؤري"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:14
+msgid "Exposure time"
+msgstr "مدة التعريض"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:16
+msgid "ISO"
+msgstr "ISO"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:18
+msgid "Orientation"
+msgstr "الاتجاه"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:20
+msgid "Taken time"
+msgstr "وقت الالتقاط"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:22
+msgid "Location"
+msgstr "الموقع"
+
+#: src/components/SideBar/Exif/ExifPanel.vue:133
+msgid "The location has been copied to your clipboard."
+msgstr "تم نسخ الموقع إلى الحافظة."
+
+#: src/components/SideBar/Exif/ExifPanel.vue:137
+msgid "Copy location to clipboard"
+msgstr "نسخ الموقع إلى الحافظة"
+
+#: src/components/SideBar/NoSelection.vue:5
+msgid "Select a file or folder to view details"
+msgstr "حدّد ملفًا أو مجلدًا لعرض التفاصيل"
+
+#: src/components/SideBar/NoSelection.vue:25
+msgid "%{count} file"
+msgid_plural "%{count} files"
+msgstr[0] "%{count} ملف"
+msgstr[1] "ملف واحد"
+msgstr[2] "ملفان"
+msgstr[3] "%{count} ملفات"
+msgstr[4] "%{count} ملفًا"
+msgstr[5] "%{count} ملف"
+
+#: src/components/SideBar/NoSelection.vue:26
+msgid "%{count} folder"
+msgid_plural "%{count} folders"
+msgstr[0] "%{count} مجلد"
+msgstr[1] "مجلد واحد"
+msgstr[2] "مجلدان"
+msgstr[3] "%{count} مجلدات"
+msgstr[4] "%{count} مجلدًا"
+msgstr[5] "%{count} مجلد"
+
+#: src/components/SideBar/NoSelection.vue:50
+#: src/components/SideBar/TrashNoSelection.vue:23
+msgid "Items"
+msgstr "العناصر"
+
+#: src/components/SideBar/NoSelection.vue:51
+msgid "Total size"
+msgstr "الحجم الإجمالي"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:8
+msgid "Open context menu with share editing options"
+msgstr "فتح قائمة السياق مع خيارات تعديل المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:17
+msgid "Edit share"
+msgstr "تعديل المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:25
+msgid "Context menu of the share"
+msgstr "قائمة السياق للمشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:48
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:145
+msgid "Access details"
+msgstr "تفاصيل الوصول"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:111
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:98
+msgid "Resource is temporarily locked, unable to manage share"
+msgstr "العنصر مقفل مؤقتًا، تتعذّر إدارة المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:119
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:163
+msgid "Navigate to parent"
+msgstr "الانتقال إلى المجلد الأصل"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:129
+#: src/components/SideBar/Shares/SpaceMembers.vue:194
+msgid "Remove member"
+msgstr "إزالة العضو"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:130
+#: src/components/SideBar/Shares/FileShares.vue:212
+msgid "Remove share"
+msgstr "إزالة المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:155
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:7
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:16
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:211
+msgid "Edit expiration date"
+msgstr "تعديل تاريخ انتهاء الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:156
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:202
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:7
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:14
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:75
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:109
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:231
+msgid "Set expiration date"
+msgstr "تعيين تاريخ انتهاء الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/EditDropdown.vue:165
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:23
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/ExpirationDatepicker.vue:27
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:218
+msgid "Remove expiration date"
+msgstr "إزالة تاريخ انتهاء الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:58
+msgid "Loading users and groups"
+msgstr "جارٍ تحميل المستخدمين والمجموعات"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:63
+msgid "Share type"
+msgstr "نوع المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:113
+msgid "Show more actions"
+msgstr "إظهار إجراءات أخرى"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:120
+msgid "Share options"
+msgstr "خيارات المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:256
+msgid "Internal"
+msgstr "داخلي"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:257
+msgid "Internal users"
+msgstr "المستخدمون الداخليون"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:262
+msgid "External"
+msgstr "خارجي"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:263
+msgid "External users"
+msgstr "مستخدمون خارجيون"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:273
+#: src/composables/actions/files/useFileActionsShowShares.ts:32
+msgid "Share"
+msgstr "مشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:362
+msgid "Person was added"
+msgstr "تمت إضافة الشخص"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:449
+msgid "Share was added successfully"
+msgstr "تمت إضافة المشاركة بنجاح"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:454
+msgid "Sent a read-only link to %{count} contact"
+msgid_plural "Sent read-only links to %{count} contacts"
+msgstr[0] "تم إرسال روابط للقراءة فقط إلى %{count} جهة اتصال"
+msgstr[1] "تم إرسال رابط للقراءة فقط إلى جهة اتصال واحدة"
+msgstr[2] "تم إرسال روابط للقراءة فقط إلى جهتي اتصال"
+msgstr[3] "تم إرسال روابط للقراءة فقط إلى %{count} جهات اتصال"
+msgstr[4] "تم إرسال روابط للقراءة فقط إلى %{count} جهة اتصال"
+msgstr[5] "تم إرسال روابط للقراءة فقط إلى %{count} جهة اتصال"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:465
+msgid "Failed to add share for \"%{displayName}\""
+msgstr "تعذّرت إضافة مشاركة لـ \"%{displayName}\""
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:473
+msgid "Failed to send invite link for \"%{displayName}\""
+msgstr "تعذّر إرسال رابط الدعوة إلى \"%{displayName}\""
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/InviteCollaboratorForm.vue:507
+msgid "No external users found."
+msgstr "لم يُعثر على مستخدمين خارجيين."
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:62
+msgid "Deselect %{name}"
+msgstr "إلغاء تحديد %{name}"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:70
+msgid "Group"
+msgstr "مجموعة"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:76
+msgid "Guest user"
+msgstr "مستخدم ضيف"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:82
+msgid "Contact"
+msgstr "جهة اتصال"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:88
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:39
+msgid "External user"
+msgstr "مستخدم خارجي"
+
+#: src/components/SideBar/Shares/Collaborators/InviteCollaborator/RecipientContainer.vue:94
+msgid "User"
+msgstr "مستخدم"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:35
+msgid "External user, registered with another organization’s account but granted access to your resources. External users can only have “view” or “edit” permission."
+msgstr "مستخدم خارجي، مسجَّل بحساب تابع لمؤسسة أخرى لكنه مُنح صلاحية الوصول إلى عناصرك. لا يمكن منح المستخدمين الخارجيين سوى صلاحية \"العرض\" أو \"التعديل\"."
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:166
+msgid "Shared via the parent folder \"%{sharedParentDir}\""
+msgstr "تمت مشاركته عبر المجلد الأصل \"%{sharedParentDir}\""
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:188
+msgid "%{collaboratorName} (me)"
+msgstr "%{collaboratorName} (أنا)"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:199
+msgid "Share receiver name: %{ displayName }"
+msgstr "اسم مستلم المشاركة: %{ displayName }"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:212
+msgid "Name"
+msgstr "الاسم"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:216
+msgid "Access expires"
+msgstr "انتهاء صلاحية الوصول"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:217
+msgid "no"
+msgstr "لا"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:219
+msgid "Shared on"
+msgstr "تاريخ المشاركة"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:223
+msgid "Invited by"
+msgstr "دعوة من"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:238
+msgid "Failed to apply new permissions"
+msgstr "تعذّر تطبيق الصلاحيات الجديدة"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:251
+msgid "Failed to apply expiration date"
+msgstr "تعذّر تطبيق تاريخ انتهاء الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:289
+msgid "Share successfully changed"
+msgstr "تم تغيير المشاركة بنجاح"
+
+#: src/components/SideBar/Shares/Collaborators/ListItem.vue:293
+msgid "Error while editing the share."
+msgstr "حدث خطأ أثناء تعديل المشاركة."
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:14
+msgid "Select permission"
+msgstr "اختيار الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:14
+msgid "Edit permission"
+msgstr "تعديل الصلاحية"
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:25
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:133
+msgid "Custom permissions"
+msgstr "صلاحيات مخصصة"
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:30
+msgid "Role"
+msgstr "الدور"
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:39
+msgid "Select role for the invitation"
+msgstr "اختر دورًا للدعوة"
+
+#: src/components/SideBar/Shares/Collaborators/RoleDropdown.vue:104
+msgid "Dear user, please replace this legacy role with one of the currently available roles"
+msgstr "عزيزي المستخدم، يرجى استبدال هذا الدور القديم بأحد الأدوار المتاحة حاليًا"
+
+#: src/components/SideBar/Shares/ExpirationDateIndicator.vue:32
+msgid "Expires %{timeToExpiry} (%{expiryDate})"
+msgstr "تنتهي الصلاحية %{timeToExpiry} (%{expiryDate})"
+
+#: src/components/SideBar/Shares/ExpirationDateIndicator.vue:39
+msgid "Share expires %{ expiryDateRelative } (%{ expiryDate })"
+msgstr "تنتهي صلاحية المشاركة %{ expiryDateRelative } (%{ expiryDate })"
+
+#: src/components/SideBar/Shares/FileLinks.vue:5
+#: src/components/SideBar/Shares/FileLinks.vue:20
+#: src/components/SideBar/Shares/FileLinks.vue:66
+msgid "Public links"
+msgstr "الروابط العامة"
+
+#: src/components/SideBar/Shares/FileLinks.vue:16
+msgid "Add link"
+msgstr "إضافة رابط"
+
+#: src/components/SideBar/Shares/FileLinks.vue:47
+msgid "You do not have permission to create public links."
+msgstr "ليست لديك صلاحية إنشاء روابط عامة."
+
+#: src/components/SideBar/Shares/FileLinks.vue:231
+msgid "This space has no public links."
+msgstr "ليس لهذه المساحة روابط عامة."
+
+#: src/components/SideBar/Shares/FileLinks.vue:234
+msgid "This folder has no public link."
+msgstr "ليس لهذا المجلد رابط عام."
+
+#: src/components/SideBar/Shares/FileLinks.vue:236
+msgid "This file has no public link."
+msgstr "ليس لهذا الملف رابط عام."
+
+#: src/components/SideBar/Shares/FileLinks.vue:243
+msgid "Show"
+msgstr "إظهار"
+
+#: src/components/SideBar/Shares/FileLinks.vue:243
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:79
+msgid "Hide"
+msgstr "إخفاء"
+
+#: src/components/SideBar/Shares/FileLinks.vue:257
+msgid "Indirect (%{ count })"
+msgstr "غير مباشر (%{ count })"
+
+#: src/components/SideBar/Shares/FileLinks.vue:271
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:151
+msgid "Delete link"
+msgstr "حذف الرابط"
+
+#: src/components/SideBar/Shares/FileLinks.vue:272
+msgid "Are you sure you want to delete this link? Recreating the same link again is not possible."
+msgstr "هل أنت متأكد من أنك تريد حذف هذا الرابط؟ لا يمكن إعادة إنشاء الرابط نفسه مرة أخرى."
+
+#: src/components/SideBar/Shares/FileLinks.vue:275
+#: src/composables/actions/files/useFileActionsDelete.ts:23
+#: src/composables/actions/files/useFileActionsDelete.ts:50
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:48
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:101
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:112
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:58
+#: src/composables/actions/useFileActionsDeleteResources.ts:337
+msgid "Delete"
+msgstr "حذف"
+
+#: src/components/SideBar/Shares/FileLinks.vue:287
+msgid "Link was deleted successfully"
+msgstr "تم حذف الرابط بنجاح"
+
+#: src/components/SideBar/Shares/FileLinks.vue:299
+msgid "Failed to delete link"
+msgstr "تعذّر حذف الرابط"
+
+#: src/components/SideBar/Shares/FileShares.vue:6
+#: src/composables/contextualHelpers/useContextualHelpers.ts:26
+msgid "Share with people"
+msgstr "مشاركة مع أشخاص"
+
+#: src/components/SideBar/Shares/FileShares.vue:25
+msgid "Share receivers"
+msgstr "مستلمو المشاركة"
+
+#: src/components/SideBar/Shares/FileShares.vue:45
+msgid "Share receiver list pagination"
+msgstr "ترقيم صفحات قائمة مستلمي المشاركة"
+
+#: src/components/SideBar/Shares/FileShares.vue:70
+msgid "Space member list pagination"
+msgstr "ترقيم صفحات قائمة أعضاء المساحة"
+
+#: src/components/SideBar/Shares/FileShares.vue:185
+msgid "Shared with"
+msgstr "تمت المشاركة مع"
+
+#: src/components/SideBar/Shares/FileShares.vue:186
+#: src/components/SideBar/Shares/SpaceMembers.vue:56
+msgid "Space members"
+msgstr "أعضاء المساحة"
+
+#: src/components/SideBar/Shares/FileShares.vue:202
+msgid "You don't have permission to share this file."
+msgstr "ليست لديك صلاحية مشاركة هذا الملف."
+
+#: src/components/SideBar/Shares/FileShares.vue:203
+msgid "You don't have permission to share this folder."
+msgstr "ليست لديك صلاحية مشاركة هذا المجلد."
+
+#: src/components/SideBar/Shares/FileShares.vue:214
+msgid "Are you sure you want to remove this share?"
+msgstr "هل أنت متأكد من أنك تريد إزالة هذه المشاركة؟"
+
+#: src/components/SideBar/Shares/FileShares.vue:228
+#: src/components/SideBar/Shares/SpaceMembers.vue:215
+msgid "Share was removed successfully"
+msgstr "تمت إزالة المشاركة بنجاح"
+
+#: src/components/SideBar/Shares/FileShares.vue:236
+#: src/components/SideBar/Shares/SpaceMembers.vue:228
+msgid "Failed to remove share"
+msgstr "تعذّرت إزالة المشاركة"
+
+#: src/components/SideBar/Shares/Links/CopyLink.vue:4
+#: src/components/SideBar/Shares/Links/CopyLink.vue:5
+msgid "Copy link to clipboard"
+msgstr "نسخ الرابط إلى الحافظة"
+
+#: src/components/SideBar/Shares/Links/CopyLink.vue:37
+#: src/composables/actions/files/useFileActionsCopyPermanentLink.ts:25
+msgid "The link has been copied to your clipboard."
+msgstr "تم نسخ الرابط إلى الحافظة."
+
+#: src/components/SideBar/Shares/Links/CopyLink.vue:38
+msgid "The link \"%{linkName}\" has been copied to your clipboard."
+msgstr "تم نسخ الرابط \"%{linkName}\" إلى الحافظة."
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:5
+msgid "More options"
+msgstr "خيارات أخرى"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:13
+msgid "Edit public link"
+msgstr "تعديل الرابط العام"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:171
+msgid "Edit name"
+msgstr "تعديل الاسم"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:175
+msgid "Link name"
+msgstr "اسم الرابط"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:179
+msgid "Link name cannot be empty"
+msgstr "لا يمكن ترك اسم الرابط فارغًا"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:182
+msgid "Link name cannot exceed 255 characters"
+msgstr "لا يمكن أن يتجاوز اسم الرابط 255 حرفًا"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:202
+#: src/composables/actions/files/useFileActionsRename.ts:163
+#: src/composables/actions/files/useFileActionsRename.ts:179
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:50
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:68
+msgid "Rename"
+msgstr "إعادة تسمية"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:240
+#: src/components/SideBar/Shares/Links/ListItem.vue:125
+msgid "Edit password"
+msgstr "تعديل كلمة المرور"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:248
+msgid "Remove password"
+msgstr "إزالة كلمة المرور"
+
+#: src/components/SideBar/Shares/Links/EditDropdown.vue:257
+#: src/components/SideBar/Shares/Links/ListItem.vue:125
+msgid "Add password"
+msgstr "إضافة كلمة مرور"
+
+#: src/components/SideBar/Shares/Links/ListItem.vue:27
+#: src/components/SideBar/Shares/Links/ListItem.vue:31
+msgid "This link is password-protected"
+msgstr "هذا الرابط محمي بكلمة مرور"
+
+#: src/components/SideBar/Shares/SharesPanel.vue:3
+msgid "Loading list of shares"
+msgstr "جارٍ تحميل قائمة المشاركات"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:6
+msgid "Add"
+msgstr "إضافة"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:7
+msgid "Add members"
+msgstr "إضافة أعضاء"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:20
+#: src/components/SideBar/Shares/SpaceMembers.vue:22
+#: src/components/SideBar/Shares/SpaceMembers.vue:42
+msgid "Filter members"
+msgstr "تصفية الأعضاء"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:46
+#: src/components/SideBar/Shares/SpaceMembers.vue:48
+msgid "Close filter"
+msgstr "إغلاق عامل التصفية"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:72
+msgid "Member list pagination"
+msgstr "ترقيم صفحات قائمة الأعضاء"
+
+#: src/components/SideBar/Shares/SpaceMembers.vue:196
+msgid "Are you sure you want to remove this member?"
+msgstr "هل أنت متأكد من أنك تريد إزالة هذا العضو؟"
+
+#: src/components/SideBar/TrashNoSelection.vue:5
+msgid "Select a trash bin to view details"
+msgstr "حدّد سلة محذوفات لعرض التفاصيل"
+
+#: src/components/SideBar/TrashNoSelection.vue:24
+msgid "%{count} trash bin"
+msgid_plural "%{count} trash bins"
+msgstr[0] "%{count} سلة محذوفات"
+msgstr[1] "سلة محذوفات واحدة"
+msgstr[2] "سلتا محذوفات"
+msgstr[3] "%{count} سلال محذوفات"
+msgstr[4] "%{count} سلة محذوفات"
+msgstr[5] "%{count} سلة محذوفات"
+
+#: src/components/SideBar/Versions/FileVersions.vue:26
+#: src/components/SideBar/Versions/FileVersions.vue:29
+#: src/composables/actions/files/useFileActionsRestore.ts:244
+msgid "Restore"
+msgstr "استعادة"
+
+#: src/components/SideBar/Versions/FileVersions.vue:35
+#: src/components/SideBar/Versions/FileVersions.vue:38
+#: src/composables/actions/files/useFileActionFallbackToDownload.ts:14
+#: src/composables/actions/files/useFileActionFallbackToDownload.ts:30
+#: src/composables/actions/files/useFileActionsDownloadArchive.ts:78
+#: src/composables/actions/files/useFileActionsDownloadFile.ts:19
+msgid "Download"
+msgstr "تنزيل"
+
+#: src/components/SideBar/Versions/FileVersions.vue:51
+msgid "No versions available for this file"
+msgstr "لا توجد إصدارات متاحة لهذا الملف"
+
+#: src/components/Spaces/SpaceHeader.vue:15
+#: src/views/spaces/Projects.vue:94
+msgid "Space image is loading"
+msgstr "جارٍ تحميل صورة المساحة"
+
+#: src/components/Spaces/SpaceHeader.vue:33
+#: src/components/Spaces/SpaceHeader.vue:34
+msgid "Show context menu"
+msgstr "إظهار قائمة السياق"
+
+#: src/components/Spaces/SpaceHeader.vue:57
+msgid "Open context menu and show members"
+msgstr "فتح قائمة السياق وعرض الأعضاء"
+
+#: src/components/Spaces/SpaceHeader.vue:68
+msgid "Loading members"
+msgstr "جارٍ تحميل الأعضاء"
+
+#: src/components/Spaces/SpaceHeader.vue:76
+msgid "Space description is loading"
+msgstr "جارٍ تحميل وصف المساحة"
+
+#: src/components/Spaces/SpaceHeader.vue:298
+msgid "%{count} member"
+msgid_plural "%{count} members"
+msgstr[0] "%{count} عضو"
+msgstr[1] "عضو واحد"
+msgstr[2] "عضوان"
+msgstr[3] "%{count} أعضاء"
+msgstr[4] "%{count} عضوًا"
+msgstr[5] "%{count} عضو"
+
+#: src/composables/actions/files/useFileActionFallbackToDownload.ts:13
+msgid "No preview available for »%{name}«"
+msgstr "لا توجد معاينة متاحة لـ \"%{name}\""
+
+#: src/composables/actions/files/useFileActionFallbackToDownload.ts:15
+msgid "There is no preview available for this file. Do you want to download it instead?"
+msgstr "لا توجد معاينة متاحة لهذا الملف. هل تريد تنزيله بدلًا من ذلك؟"
+
+#: src/composables/actions/files/useFileActionsCopy.ts:154
+#: src/composables/actions/files/useFileActionsCopy.ts:172
+msgid "Copy to"
+msgstr "نسخ إلى"
+
+#: src/composables/actions/files/useFileActionsCopy.ts:158
+msgid "Copy here"
+msgstr "نسخ هنا"
+
+#: src/composables/actions/files/useFileActionsCopyPermanentLink.ts:28
+msgid "Copy link failed"
+msgstr "فشل نسخ الرابط"
+
+#: src/composables/actions/files/useFileActionsCopyPermanentLink.ts:38
+msgid "Copy permanent link"
+msgstr "نسخ الرابط الدائم"
+
+#: src/composables/actions/files/useFileActionsCreateLink.ts:39
+msgid "Copy link for »%{resourceName}«"
+msgid_plural "Copy links for the selected items"
+msgstr[0] "نسخ روابط العناصر المحددة"
+msgstr[1] "نسخ رابط \"%{resourceName}\""
+msgstr[2] "نسخ روابط العنصرين المحددين"
+msgstr[3] "نسخ روابط العناصر المحددة"
+msgstr[4] "نسخ روابط العناصر المحددة"
+msgstr[5] "نسخ روابط العناصر المحددة"
+
+#: src/composables/actions/files/useFileActionsCreateLink.ts:59
+msgid "Unnamed link"
+msgstr "رابط بدون اسم"
+
+#: src/composables/actions/files/useFileActionsCreateLink.ts:101
+msgid "Create links"
+msgstr "إنشاء روابط"
+
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:60
+msgid "New file"
+msgstr "ملف جديد"
+
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:76
+msgid "Create a new file"
+msgstr "إنشاء ملف جديد"
+
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:111
+msgid "»%{fileName}« was created successfully"
+msgstr "تم إنشاء \"%{fileName}\" بنجاح"
+
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:122
+msgid "Failed to create file"
+msgstr "تعذّر إنشاء الملف"
+
+#: src/composables/actions/files/useFileActionsCreateNewFile.ts:174
+msgid "This file type cannot be created inside vaults"
+msgstr "لا يمكن إنشاء هذا النوع من الملفات داخل الخزنات"
+
+#: src/composables/actions/files/useFileActionsCreateNewFolder.ts:82
+msgid "»%{folderName}« was created, but its passphrase was not saved"
+msgstr "تم إنشاء \"%{folderName}\"، لكن لم تُحفظ عبارة المرور الخاصة به"
+
+#: src/composables/actions/files/useFileActionsCreateNewFolder.ts:92
+msgid "»%{folderName}« was created successfully"
+msgstr "تم إنشاء \"%{folderName}\" بنجاح"
+
+#: src/composables/actions/files/useFileActionsCreateNewFolder.ts:100
+msgid "Failed to create folder"
+msgstr "تعذّر إنشاء المجلد"
+
+#: src/composables/actions/files/useFileActionsCreateNewFolder.ts:108
+msgid "Create a new folder"
+msgstr "إنشاء مجلد جديد"
+
+#: src/composables/actions/files/useFileActionsCreateNewFolder.ts:125
+msgid "New Folder"
+msgstr "مجلد جديد"
+
+#: src/composables/actions/files/useFileActionsCreateNewShortcut.ts:27
+msgid "Create a Shortcut"
+msgstr "إنشاء اختصار"
+
+#: src/composables/actions/files/useFileActionsCreateNewShortcut.ts:34
+msgid "New Shortcut"
+msgstr "اختصار جديد"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:70
+msgid "Space was created successfully"
+msgstr "تم إنشاء المساحة بنجاح"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:75
+msgid "Some files could not be copied"
+msgstr "تعذّر نسخ بعض الملفات"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:76
+msgid "Creating space failed…"
+msgstr "فشل إنشاء المساحة…"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:83
+msgid "Create Space from »%{resourceName}«"
+msgid_plural "Create Space from selection"
+msgstr[0] "إنشاء مساحة من التحديد"
+msgstr[1] "إنشاء مساحة من \"%{resourceName}\""
+msgstr[2] "إنشاء مساحة من التحديد"
+msgstr[3] "إنشاء مساحة من التحديد"
+msgstr[4] "إنشاء مساحة من التحديد"
+msgstr[5] "إنشاء مساحة من التحديد"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:91
+msgid "Create Space with the content of »%{resourceName}«."
+msgid_plural "Create Space with the selected files."
+msgstr[0] "إنشاء مساحة بالملفات المحددة."
+msgstr[1] "إنشاء مساحة بمحتوى \"%{resourceName}\"."
+msgstr[2] "إنشاء مساحة بالملفين المحددين."
+msgstr[3] "إنشاء مساحة بالملفات المحددة."
+msgstr[4] "إنشاء مساحة بالملفات المحددة."
+msgstr[5] "إنشاء مساحة بالملفات المحددة."
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:99
+msgid "The marked elements will be copied."
+msgstr "سيتم نسخ العناصر المحددة."
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:101
+msgid "Restrictions"
+msgstr "القيود"
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:102
+msgid "Shares, versions and tags will not be copied."
+msgstr "لن يتم نسخ المشاركات والإصدارات والوسوم."
+
+#: src/composables/actions/files/useFileActionsCreateSpaceFromResource.ts:122
+msgid "Create Space from selection"
+msgstr "إنشاء مساحة من التحديد"
+
+#: src/composables/actions/files/useFileActionsDelete.ts:43
+msgid "File can't be deleted because it is currently locked."
+msgstr "لا يمكن حذف الملف لأنه مقفل حاليًا."
+
+#: src/composables/actions/files/useFileActionsDisableSync.ts:61
+msgid "Sync for the selected share was disabled successfully"
+msgid_plural "Sync for the selected shares was disabled successfully"
+msgstr[0] "تم تعطيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[1] "تم تعطيل المزامنة للمشاركة المحددة بنجاح"
+msgstr[2] "تم تعطيل المزامنة للمشاركتين المحددتين بنجاح"
+msgstr[3] "تم تعطيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[4] "تم تعطيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[5] "تم تعطيل المزامنة للمشاركات المحددة بنجاح"
+
+#: src/composables/actions/files/useFileActionsDisableSync.ts:74
+msgid "Failed to disable sync for the the selected share"
+msgid_plural "Failed to disable sync for the selected shares"
+msgstr[0] "تعذّر تعطيل المزامنة للمشاركات المحددة"
+msgstr[1] "تعذّر تعطيل المزامنة للمشاركة المحددة"
+msgstr[2] "تعذّر تعطيل المزامنة للمشاركتين المحددتين"
+msgstr[3] "تعذّر تعطيل المزامنة للمشاركات المحددة"
+msgstr[4] "تعذّر تعطيل المزامنة للمشاركات المحددة"
+msgstr[5] "تعذّر تعطيل المزامنة للمشاركات المحددة"
+
+#: src/composables/actions/files/useFileActionsDisableSync.ts:88
+msgid "Disable sync"
+msgstr "تعطيل المزامنة"
+
+#: src/composables/actions/files/useFileActionsDownloadArchive.ts:46
+msgid "Failed to download the selected folder."
+msgstr "تعذّر تنزيل المجلد المحدد."
+
+#: src/composables/actions/files/useFileActionsDownloadArchive.ts:81
+msgid "The selection exceeds the allowed archive size (max. %{maxSize})"
+msgstr "التحديد يتجاوز حجم الأرشيف المسموح به (الحد الأقصى %{maxSize})"
+
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:29
+msgid "All deleted files were removed"
+msgstr "تمت إزالة جميع الملفات المحذوفة"
+
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:39
+msgid "Failed to empty trash bin"
+msgstr "تعذّر إفراغ سلة المحذوفات"
+
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:47
+msgid "Empty trash bin for »%{name}«"
+msgstr "إفراغ سلة المحذوفات لـ \"%{name}\""
+
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:49
+msgid "Are you sure you want to permanently delete the items in »%{name}«? You can’t undo this action."
+msgstr "هل أنت متأكد من أنك تريد حذف العناصر الموجودة في \"%{name}\" نهائيًا؟ لا يمكنك التراجع عن هذا الإجراء."
+
+#: src/composables/actions/files/useFileActionsEmptyTrashBin.ts:66
+msgid "Empty trash bin"
+msgstr "إفراغ سلة المحذوفات"
+
+#: src/composables/actions/files/useFileActionsEnableSync.ts:64
+msgid "Sync for the selected share was enabled successfully"
+msgid_plural "Sync for the selected shares was enabled successfully"
+msgstr[0] "تم تفعيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[1] "تم تفعيل المزامنة للمشاركة المحددة بنجاح"
+msgstr[2] "تم تفعيل المزامنة للمشاركتين المحددتين بنجاح"
+msgstr[3] "تم تفعيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[4] "تم تفعيل المزامنة للمشاركات المحددة بنجاح"
+msgstr[5] "تم تفعيل المزامنة للمشاركات المحددة بنجاح"
+
+#: src/composables/actions/files/useFileActionsEnableSync.ts:76
+msgid "Failed to enable sync for the the selected share"
+msgid_plural "Failed to enable sync for the selected shares"
+msgstr[0] "تعذّر تفعيل المزامنة للمشاركات المحددة"
+msgstr[1] "تعذّر تفعيل المزامنة للمشاركة المحددة"
+msgstr[2] "تعذّر تفعيل المزامنة للمشاركتين المحددتين"
+msgstr[3] "تعذّر تفعيل المزامنة للمشاركات المحددة"
+msgstr[4] "تعذّر تفعيل المزامنة للمشاركات المحددة"
+msgstr[5] "تعذّر تفعيل المزامنة للمشاركات المحددة"
+
+#: src/composables/actions/files/useFileActionsEnableSync.ts:90
+msgid "Enable sync"
+msgstr "تفعيل المزامنة"
+
+#: src/composables/actions/files/useFileActionsFavorite.ts:59
+msgid "Failed to change favorite state of \"%{file}\""
+msgstr "تعذّر تغيير حالة المفضلة لـ \"%{file}\""
+
+#: src/composables/actions/files/useFileActionsFavorite.ts:62
+msgid "Failed to change favorite state of %{count} items"
+msgstr "تعذّر تغيير حالة المفضلة لـ %{count} من العناصر"
+
+#: src/composables/actions/files/useFileActionsFavorite.ts:81
+msgid "Remove from favorites"
+msgstr "إزالة من المفضلة"
+
+#: src/composables/actions/files/useFileActionsFavorite.ts:83
+msgid "Add to favorites"
+msgstr "إضافة إلى المفضلة"
+
+#: src/composables/actions/files/useFileActionsMove.ts:157
+msgid "You cannot move resources into the same folder."
+msgstr "لا يمكنك نقل العناصر إلى المجلد نفسه."
+
+#: src/composables/actions/files/useFileActionsMove.ts:196
+#: src/composables/actions/files/useFileActionsMove.ts:214
+msgid "Move to"
+msgstr "نقل إلى"
+
+#: src/composables/actions/files/useFileActionsMove.ts:200
+msgid "Move here"
+msgstr "نقل إلى هنا"
+
+#: src/composables/actions/files/useFileActionsOpenShortcut.ts:40
+msgid "Failed to open shortcut"
+msgstr "تعذّر فتح الاختصار"
+
+#: src/composables/actions/files/useFileActionsOpenShortcut.ts:54
+msgid "Open shortcut"
+msgstr "فتح الاختصار"
+
+#: src/composables/actions/files/useFileActionsPaste.ts:43
+msgid "⌘ + V"
+msgstr "⌘ + V"
+
+#: src/composables/actions/files/useFileActionsPaste.ts:45
+msgid "Ctrl + V"
+msgstr "Ctrl + V"
+
+#: src/composables/actions/files/useFileActionsPaste.ts:157
+#: src/composables/actions/files/useFileActionsPaste.ts:232
+msgid "You cannot cut and paste resources into the same folder."
+msgstr "لا يمكنك قص العناصر ولصقها في المجلد نفسه."
+
+#: src/composables/actions/files/useFileActionsPaste.ts:191
+msgid "Paste"
+msgstr "لصق"
+
+#: src/composables/actions/files/useFileActionsPaste.ts:228
+msgid "You have no permission to paste files here."
+msgstr "ليست لديك صلاحية لصق الملفات هنا."
+
+#: src/composables/actions/files/useFileActionsRename.ts:107
+msgid "Failed to rename \"%{file}\" to »%{newName}«"
+msgstr "تعذّرت إعادة تسمية \"%{file}\" إلى \"%{newName}\""
+
+#: src/composables/actions/files/useFileActionsRename.ts:112
+msgid "Failed to rename »%{file}« to »%{newName}« - the file is locked"
+msgstr "تعذّرت إعادة تسمية \"%{file}\" إلى \"%{newName}\" - الملف مقفل"
+
+#: src/composables/actions/files/useFileActionsRename.ts:150
+msgid "Rename folder »%{name}«"
+msgstr "إعادة تسمية المجلد \"%{name}\""
+
+#: src/composables/actions/files/useFileActionsRename.ts:151
+msgid "Rename file »%{name}«"
+msgstr "إعادة تسمية الملف \"%{name}\""
+
+#: src/composables/actions/files/useFileActionsRestore.ts:137
+msgid "%{resource} was restored successfully"
+msgstr "تمت استعادة %{resource} بنجاح"
+
+#: src/composables/actions/files/useFileActionsRestore.ts:141
+msgid "%{resourceCount} files restored successfully"
+msgstr "تمت استعادة %{resourceCount} من الملفات بنجاح"
+
+#: src/composables/actions/files/useFileActionsRestore.ts:173
+msgid "Failed to restore \"%{resource}\""
+msgstr "تعذّرت استعادة \"%{resource}\""
+
+#: src/composables/actions/files/useFileActionsRestore.ts:177
+msgid "Failed to restore %{resourceCount} files"
+msgstr "تعذّرت استعادة %{resourceCount} من الملفات"
+
+#: src/composables/actions/files/useFileActionsShowDetails.ts:16
+#: src/composables/extensions/useFileSideBars.ts:51
+#: src/composables/extensions/useFileSideBars.ts:78
+#: src/composables/extensions/useFileSideBars.ts:93
+#: src/composables/extensions/useFileSideBars.ts:118
+#: src/composables/extensions/useFileSideBars.ts:237
+#: src/composables/extensions/useFileSideBars.ts:261
+#: src/composables/extensions/useFileSideBars.ts:276
+msgid "Details"
+msgstr "التفاصيل"
+
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:61
+msgid "The share was hidden successfully"
+msgstr "تم إخفاء المشاركة بنجاح"
+
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:62
+msgid "The share was unhidden successfully"
+msgstr "تم إظهار المشاركة بنجاح"
+
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:69
+msgid "Failed to hide the share"
+msgstr "تعذّر إخفاء المشاركة"
+
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:69
+msgid "Failed to unhide the share"
+msgstr "تعذّر إظهار المشاركة"
+
+#: src/composables/actions/files/useFileActionsToggleHideShare.ts:79
+msgid "Unhide"
+msgstr "إظهار"
+
+#: src/composables/actions/files/useFileActionsUndoDelete.ts:73
+msgid "Failed to restore files"
+msgstr "تعذّرت استعادة الملفات"
+
+#: src/composables/actions/files/useFileActionsUndoDelete.ts:81
+msgid "⌘ + Z"
+msgstr "⌘ + Z"
+
+#: src/composables/actions/files/useFileActionsUndoDelete.ts:83
+msgid "Ctrl + Z"
+msgstr "Ctrl + Z"
+
+#: src/composables/actions/files/useFileActionsUndoDelete.ts:98
+msgid "Undo"
+msgstr "تراجع"
+
+#: src/composables/actions/files/useFileActionsVaultLock.ts:54
+msgid "Lock vault"
+msgstr "قفل الخزنة"
+
+#: src/composables/actions/files/useFileActionsVaultLock.ts:65
+msgid "»%{vault}« was locked"
+msgstr "تم قفل \"%{vault}\""
+
+#: src/composables/actions/spaces/useSpaceActionsCreate.ts:15
+msgid "New Space"
+msgstr "مساحة جديدة"
+
+#: src/composables/actions/spaces/useSpaceActionsCreate.ts:22
+msgid "Create a new space"
+msgstr "إنشاء مساحة جديدة"
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:49
+msgid "Space »%{space}« was deleted successfully"
+msgstr "تم حذف المساحة \"%{space}\" بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:50
+msgid "%{spaceCount} space was deleted successfully"
+msgid_plural "%{spaceCount} spaces were deleted successfully"
+msgstr[0] "تم حذف %{spaceCount} مساحة بنجاح"
+msgstr[1] "تم حذف مساحة واحدة بنجاح"
+msgstr[2] "تم حذف مساحتين بنجاح"
+msgstr[3] "تم حذف %{spaceCount} مساحات بنجاح"
+msgstr[4] "تم حذف %{spaceCount} مساحة بنجاح"
+msgstr[5] "تم حذف %{spaceCount} مساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:65
+msgid "Failed to delete space »%{space}«"
+msgstr "تعذّر حذف المساحة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:66
+msgid "Failed to delete %{spaceCount} space"
+msgid_plural "Failed to delete %{spaceCount} spaces"
+msgstr[0] "تعذّر حذف %{spaceCount} مساحة"
+msgstr[1] "تعذّر حذف مساحة واحدة"
+msgstr[2] "تعذّر حذف مساحتين"
+msgstr[3] "تعذّر حذف %{spaceCount} مساحات"
+msgstr[4] "تعذّر حذف %{spaceCount} مساحة"
+msgstr[5] "تعذّر حذف %{spaceCount} مساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:84
+msgid "Are you sure you want to delete the selected space?"
+msgid_plural "Are you sure you want to delete %{count} selected spaces?"
+msgstr[0] "هل أنت متأكد من أنك تريد حذف %{count} مساحة محددة؟"
+msgstr[1] "هل أنت متأكد من أنك تريد حذف المساحة المحددة؟"
+msgstr[2] "هل أنت متأكد من أنك تريد حذف المساحتين المحددتين؟"
+msgstr[3] "هل أنت متأكد من أنك تريد حذف %{count} مساحات محددة؟"
+msgstr[4] "هل أنت متأكد من أنك تريد حذف %{count} مساحة محددة؟"
+msgstr[5] "هل أنت متأكد من أنك تريد حذف %{count} مساحة محددة؟"
+
+#: src/composables/actions/spaces/useSpaceActionsDelete.ts:92
+msgid "Delete Space »%{space}«?"
+msgid_plural "Delete %{spaceCount} Spaces?"
+msgstr[0] "حذف %{spaceCount} مساحة؟"
+msgstr[1] "حذف المساحة \"%{space}\"؟"
+msgstr[2] "حذف مساحتين؟"
+msgstr[3] "حذف %{spaceCount} مساحات؟"
+msgstr[4] "حذف %{spaceCount} مساحة؟"
+msgstr[5] "حذف %{spaceCount} مساحة؟"
+
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:45
+msgid "Space image deleted successfully"
+msgstr "تم حذف صورة المساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:49
+msgid "Failed to delete space image"
+msgstr "تعذّر حذف صورة المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:57
+msgid "Delete »%{space}« image"
+msgstr "حذف صورة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:60
+msgid "Are you sure you want to delete the image of »%{space}«?"
+msgstr "هل أنت متأكد من أنك تريد حذف صورة \"%{space}\"؟"
+
+#: src/composables/actions/spaces/useSpaceActionsDeleteImage.ts:72
+msgid "Delete image"
+msgstr "حذف الصورة"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:71
+msgid "Space »%{space}« was disabled successfully"
+msgstr "تم تعطيل المساحة \"%{space}\" بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:72
+msgid "%{spaceCount} space was disabled successfully"
+msgid_plural "%{spaceCount} spaces were disabled successfully"
+msgstr[0] "تم تعطيل %{spaceCount} مساحة بنجاح"
+msgstr[1] "تم تعطيل مساحة واحدة بنجاح"
+msgstr[2] "تم تعطيل مساحتين بنجاح"
+msgstr[3] "تم تعطيل %{spaceCount} مساحات بنجاح"
+msgstr[4] "تم تعطيل %{spaceCount} مساحة بنجاح"
+msgstr[5] "تم تعطيل %{spaceCount} مساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:89
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:69
+msgid "Failed to update space permissions"
+msgstr "تعذّر تحديث أذونات المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:101
+msgid "Failed to disable space »%{space}«"
+msgstr "تعذّر تعطيل المساحة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:102
+msgid "Failed to disable %{spaceCount} space"
+msgid_plural "Failed to disable %{spaceCount} spaces"
+msgstr[0] "تعذّر تعطيل %{spaceCount} مساحة"
+msgstr[1] "تعذّر تعطيل مساحة واحدة"
+msgstr[2] "تعذّر تعطيل مساحتين"
+msgstr[3] "تعذّر تعطيل %{spaceCount} مساحات"
+msgstr[4] "تعذّر تعطيل %{spaceCount} مساحة"
+msgstr[5] "تعذّر تعطيل %{spaceCount} مساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:120
+msgid "If you disable the selected space, it can no longer be accessed. Only Space managers will still have access. Note: No files will be deleted from the server."
+msgid_plural "If you disable the %{count} selected spaces, they can no longer be accessed. Only Space managers will still have access. Note: No files will be deleted from the server."
+msgstr[0] "إذا عطّلت المساحات المحددة، فلن يمكن الوصول إليها بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+msgstr[1] "إذا عطّلت المساحة المحددة، فلن يمكن الوصول إليها بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+msgstr[2] "إذا عطّلت المساحتين المحددتين، فلن يمكن الوصول إليهما بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+msgstr[3] "إذا عطّلت %{count} مساحات محددة، فلن يمكن الوصول إليها بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+msgstr[4] "إذا عطّلت %{count} مساحة محددة، فلن يمكن الوصول إليها بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+msgstr[5] "إذا عطّلت %{count} مساحة محددة، فلن يمكن الوصول إليها بعد الآن. سيحتفظ مديرو المساحة فقط بحق الوصول. ملاحظة: لن تُحذف أي ملفات من الخادم."
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:126
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:149
+msgid "Disable"
+msgstr "تعطيل"
+
+#: src/composables/actions/spaces/useSpaceActionsDisable.ts:129
+msgid "Disable Space »%{space}«?"
+msgid_plural "Disable %{spaceCount} Spaces?"
+msgstr[0] "تعطيل %{spaceCount} مساحة؟"
+msgstr[1] "تعطيل المساحة \"%{space}\"؟"
+msgstr[2] "تعطيل مساحتين؟"
+msgstr[3] "تعطيل %{spaceCount} مساحات؟"
+msgstr[4] "تعطيل %{spaceCount} مساحة؟"
+msgstr[5] "تعطيل %{spaceCount} مساحة؟"
+
+#: src/composables/actions/spaces/useSpaceActionsDuplicate.ts:108
+msgid "Space »%{space}« was duplicated successfully"
+msgstr "تم تكرار المساحة \"%{space}\" بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsDuplicate.ts:115
+msgid "Failed to duplicate space »%{space}«"
+msgstr "تعذّر تكرار المساحة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsDuplicate.ts:139
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:30
+msgid "Space subtitle was changed successfully"
+msgstr "تم تغيير العنوان الفرعي للمساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:35
+msgid "Failed to change space subtitle"
+msgstr "تعذّر تغيير العنوان الفرعي للمساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:47
+msgid "Change subtitle for space"
+msgstr "تغيير العنوان الفرعي للمساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:50
+msgid "Space subtitle"
+msgstr "العنوان الفرعي للمساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsEditDescription.ts:62
+msgid "Edit subtitle"
+msgstr "تعديل العنوان الفرعي"
+
+#: src/composables/actions/spaces/useSpaceActionsEditQuota.ts:19
+msgid "Change quota for Space »%{name}«"
+msgstr "تغيير حصة المساحة \"%{name}\""
+
+#: src/composables/actions/spaces/useSpaceActionsEditQuota.ts:23
+msgid "Change quota for %{count} Spaces"
+msgstr "تغيير الحصة لـ %{count} من المساحات"
+
+#: src/composables/actions/spaces/useSpaceActionsEditQuota.ts:44
+msgid "Edit quota"
+msgstr "تعديل الحصة"
+
+#: src/composables/actions/spaces/useSpaceActionsEditReadmeContent.ts:53
+msgid "Edit description"
+msgstr "تعديل الوصف"
+
+#: src/composables/actions/spaces/useSpaceActionsNavigateToTrash.ts:29
+msgid "Open trash bin"
+msgstr "فتح سلة المحذوفات"
+
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:32
+msgid "Space name was changed successfully"
+msgstr "تم تغيير اسم المساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:37
+msgid "Failed to rename space"
+msgstr "تعذّرت إعادة تسمية المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsRename.ts:49
+msgid "Rename space »%{name}«"
+msgstr "إعادة تسمية المساحة \"%{name}\""
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:51
+msgid "Space »%{space}« was enabled successfully"
+msgstr "تم تفعيل المساحة \"%{space}\" بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:52
+msgid "%{spaceCount} space was enabled successfully"
+msgid_plural "%{spaceCount} spaces were enabled successfully"
+msgstr[0] "تم تفعيل %{spaceCount} مساحة بنجاح"
+msgstr[1] "تم تفعيل مساحة واحدة بنجاح"
+msgstr[2] "تم تفعيل مساحتين بنجاح"
+msgstr[3] "تم تفعيل %{spaceCount} مساحات بنجاح"
+msgstr[4] "تم تفعيل %{spaceCount} مساحة بنجاح"
+msgstr[5] "تم تفعيل %{spaceCount} مساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:81
+msgid "Failed to enable space »%{space}«"
+msgstr "تعذّر تفعيل المساحة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:82
+msgid "Failed to enable %{spaceCount} space"
+msgid_plural "Failed to enable %{spaceCount} spaces"
+msgstr[0] "تعذّر تفعيل %{spaceCount} مساحة"
+msgstr[1] "تعذّر تفعيل مساحة واحدة"
+msgstr[2] "تعذّر تفعيل مساحتين"
+msgstr[3] "تعذّر تفعيل %{spaceCount} مساحات"
+msgstr[4] "تعذّر تفعيل %{spaceCount} مساحة"
+msgstr[5] "تعذّر تفعيل %{spaceCount} مساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:100
+msgid "If you enable the selected space, it can be accessed again."
+msgid_plural "If you enable the %{count} selected spaces, they can be accessed again."
+msgstr[0] "إذا فعّلت المساحات المحددة، فسيمكن الوصول إليها مجددًا."
+msgstr[1] "إذا فعّلت المساحة المحددة، فسيمكن الوصول إليها مجددًا."
+msgstr[2] "إذا فعّلت المساحتين المحددتين، فسيمكن الوصول إليهما مجددًا."
+msgstr[3] "إذا فعّلت %{count} مساحات محددة، فسيمكن الوصول إليها مجددًا."
+msgstr[4] "إذا فعّلت %{count} مساحة محددة، فسيمكن الوصول إليها مجددًا."
+msgstr[5] "إذا فعّلت %{count} مساحة محددة، فسيمكن الوصول إليها مجددًا."
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:106
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:129
+msgid "Enable"
+msgstr "تفعيل"
+
+#: src/composables/actions/spaces/useSpaceActionsRestore.ts:109
+msgid "Enable Space »%{space}«?"
+msgid_plural "Enable %{spaceCount} Spaces?"
+msgstr[0] "تفعيل %{spaceCount} مساحة؟"
+msgstr[1] "تفعيل المساحة \"%{space}\"؟"
+msgstr[2] "تفعيل مساحتين؟"
+msgstr[3] "تفعيل %{spaceCount} مساحات؟"
+msgstr[4] "تفعيل %{spaceCount} مساحة؟"
+msgstr[5] "تفعيل %{spaceCount} مساحة؟"
+
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:38
+msgid "Set icon for »%{space}«"
+msgstr "تعيين أيقونة للمساحة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:79
+msgid "Space icon was set successfully"
+msgstr "تم تعيين أيقونة المساحة بنجاح"
+
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:86
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:94
+msgid "Failed to set space icon"
+msgstr "تعذّر تعيين أيقونة المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsSetIcon.ts:87
+msgid "Not enough quota to set the space icon"
+msgstr "الحصة غير كافية لتعيين أيقونة المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsSetImage.ts:34
+msgid "Crop your Space image"
+msgstr "اقتصاص صورة المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsSetImage.ts:51
+msgid "Set as space image"
+msgstr "تعيين كصورة للمساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsUploadImage.ts:41
+msgid "Crop image for »%{space}«"
+msgstr "اقتصاص صورة \"%{space}\""
+
+#: src/composables/actions/spaces/useSpaceActionsUploadImage.ts:87
+msgid "Set image"
+msgstr "تعيين صورة"
+
+#: src/composables/actions/spaces/useSpaceActionsVaultLock.ts:28
+msgid "Lock space"
+msgstr "قفل المساحة"
+
+#: src/composables/actions/spaces/useSpaceActionsVaultLock.ts:37
+msgid "»%{space}« was locked"
+msgstr "تم قفل \"%{space}\""
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:82
+msgid "\"%{item}\" was moved to trash bin"
+msgstr "تم نقل \"%{item}\" إلى سلة المحذوفات"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:83
+msgid "%{itemCount} item was moved to trash bin"
+msgid_plural "%{itemCount} items were moved to trash bin"
+msgstr[0] "تم نقل %{itemCount} عنصر إلى سلة المحذوفات"
+msgstr[1] "تم نقل عنصر واحد إلى سلة المحذوفات"
+msgstr[2] "تم نقل عنصرين إلى سلة المحذوفات"
+msgstr[3] "تم نقل %{itemCount} عناصر إلى سلة المحذوفات"
+msgstr[4] "تم نقل %{itemCount} عنصرًا إلى سلة المحذوفات"
+msgstr[5] "تم نقل %{itemCount} عنصر إلى سلة المحذوفات"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:133
+msgid "Permanently delete folder »%{name}«"
+msgstr "حذف المجلد \"%{name}\" نهائيًا"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:137
+msgid "Permanently delete file »%{name}«"
+msgstr "حذف الملف \"%{name}\" نهائيًا"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:144
+msgid "Permanently delete selected resource?"
+msgid_plural "Permanently delete %{amount} selected resources?"
+msgstr[0] "حذف %{amount} عنصر محدد نهائيًا؟"
+msgstr[1] "حذف العنصر المحدد نهائيًا؟"
+msgstr[2] "حذف العنصرين المحددين نهائيًا؟"
+msgstr[3] "حذف %{amount} عناصر محددة نهائيًا؟"
+msgstr[4] "حذف %{amount} عنصرًا محددًا نهائيًا؟"
+msgstr[5] "حذف %{amount} عنصر محدد نهائيًا؟"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:158
+msgid "Are you sure you want to delete this folder? All its content will be permanently removed. This action cannot be undone."
+msgstr "هل أنت متأكد من أنك تريد حذف هذا المجلد؟ ستتم إزالة كل محتواه نهائيًا. لا يمكن التراجع عن هذا الإجراء."
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:162
+msgid "Are you sure you want to delete this file? All its content will be permanently removed. This action cannot be undone."
+msgstr "هل أنت متأكد من أنك تريد حذف هذا الملف؟ ستتم إزالة كل محتواه نهائيًا. لا يمكن التراجع عن هذا الإجراء."
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:167
+msgid "Are you sure you want to delete all selected resources? All their content will be permanently removed. This action cannot be undone."
+msgstr "هل أنت متأكد من أنك تريد حذف جميع العناصر المحددة؟ ستتم إزالة كل محتواها نهائيًا. لا يمكن التراجع عن هذا الإجراء."
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:181
+msgid "\"%{item}\" was deleted successfully"
+msgstr "تم حذف \"%{item}\" بنجاح"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:182
+msgid "%{itemCount} item was deleted successfully"
+msgid_plural "%{itemCount} items were deleted successfully"
+msgstr[0] "تم حذف %{itemCount} عنصر بنجاح"
+msgstr[1] "تم حذف عنصر واحد بنجاح"
+msgstr[2] "تم حذف عنصرين بنجاح"
+msgstr[3] "تم حذف %{itemCount} عناصر بنجاح"
+msgstr[4] "تم حذف %{itemCount} عنصرًا بنجاح"
+msgstr[5] "تم حذف %{itemCount} عنصر بنجاح"
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:193
+msgid "Failed to delete \"%{item}\""
+msgstr "تعذّر حذف \"%{item}\""
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:273
+msgid "Failed to delete \"%{resource}\""
+msgstr "تعذّر حذف \"%{resource}\""
+
+#: src/composables/actions/useFileActionsDeleteResources.ts:275
+msgid "Failed to delete \"%{resource}\" - the file is locked"
+msgstr "تعذّر حذف \"%{resource}\" - الملف مقفل"
+
+#: src/composables/actions/useFileActionsNavigate.ts:41
+msgid "Navigate"
+msgstr "تنقل"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:27
+msgid "Use the input field to search for users and groups. Select them to share the item."
+msgstr "استخدم حقل الإدخال للبحث عن المستخدمين والمجموعات. حدّدهم لمشاركة العنصر."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:31
+msgid "Subfolders"
+msgstr "المجلدات الفرعية"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:33
+msgid "If you share a folder, all of its contents and subfolders will be shared as well."
+msgstr "إذا شاركت مجلدًا، فستتم مشاركة جميع محتوياته ومجلداته الفرعية أيضًا."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:37
+msgid "Notification"
+msgstr "إشعار"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:39
+msgid "People you share resources with will be notified via email or in-app notification."
+msgstr "سيتم إعلام الأشخاص الذين تشارك العناصر معهم عبر البريد الإلكتروني أو بإشعار داخل التطبيق."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:43
+msgid "Incognito"
+msgstr "التصفح المتخفي"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:45
+msgid "People you share resources with can not see who else has access."
+msgstr "الأشخاص الذين تشارك العناصر معهم لا يمكنهم معرفة من لديه حق الوصول غيرهم."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:47
+msgid "\"via folder\""
+msgstr "\"عبر مجلد\""
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:49
+msgid "The \"via folder\" is shown next to a share, if access has already been given via a parent folder. Click on the \"via folder\" to edit the share on its parent folder."
+msgstr "تظهر عبارة \"عبر مجلد\" بجانب المشاركة إذا كان الوصول ممنوحًا مسبقًا عبر مجلد أصل. انقر على \"عبر مجلد\" لتعديل المشاركة في المجلد الأصل."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:62
+msgid "Add members to this Space"
+msgstr "إضافة أعضاء إلى هذه المساحة"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:63
+msgid "Enter a name to add people or groups as members to this Space."
+msgstr "أدخل اسمًا لإضافة أشخاص أو مجموعات كأعضاء في هذه المساحة."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:65
+msgid "Member capabilities"
+msgstr "صلاحيات الأعضاء"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:67
+msgid "Members are able to see who has access to this space and access all files in this space. Read or write permissions can be set by assigning a role."
+msgstr "يمكن للأعضاء معرفة من لديه حق الوصول إلى هذه المساحة والوصول إلى جميع الملفات فيها. يمكن تحديد أذونات القراءة أو الكتابة عبر تعيين دور."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:71
+msgid "Space manager capabilities"
+msgstr "صلاحيات مدير المساحة"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:73
+msgid "Members with the Manager role are able to edit all properties and content of a Space, such as adding or removing members, sharing subfolders with non-members, or creating links to share."
+msgstr "يمكن للأعضاء ذوي دور المدير تعديل جميع خصائص المساحة ومحتواها، مثل إضافة الأعضاء أو إزالتهم، ومشاركة المجلدات الفرعية مع غير الأعضاء، أو إنشاء روابط للمشاركة."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:86
+msgid "Choose how access is granted"
+msgstr "اختر طريقة منح الوصول"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:89
+msgid "No login required. Everyone with the link can access. If you share this link with people from the list \"Invited people\", they need to login so that their individual assigned permissions can take effect. If they are not logged-in, the permissions of the link take effect."
+msgstr "لا يتطلب تسجيل الدخول. يمكن لكل من لديه الرابط الوصول. إذا شاركت هذا الرابط مع أشخاص من قائمة \"الأشخاص المدعوون\"، فعليهم تسجيل الدخول لكي تسري الأذونات المعيّنة لكل منهم. وإذا لم يسجلوا الدخول، تسري أذونات الرابط."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:102
+msgid "What are indirect links?"
+msgstr "ما هي الروابط غير المباشرة؟"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:103
+msgid "Indirect links are links giving access by a parent folder."
+msgstr "الروابط غير المباشرة هي روابط تمنح الوصول عبر مجلد أصل."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:106
+msgid "How to edit indirect links"
+msgstr "كيفية تعديل الروابط غير المباشرة"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:110
+msgid "Indirect links can only be edited in their parent folder. Click on the folder icon below the link to navigate to the parent folder."
+msgstr "لا يمكن تعديل الروابط غير المباشرة إلا في مجلدها الأصل. انقر على أيقونة المجلد أسفل الرابط للانتقال إلى المجلد الأصل."
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:123
+msgid "Who can view tags?"
+msgstr "من يمكنه عرض الوسوم؟"
+
+#: src/composables/contextualHelpers/useContextualHelpers.ts:126
+msgid "Everyone who can view the file can view its tags. Likewise, everyone who can edit the file can edit its tags."
+msgstr "كل من يمكنه عرض الملف يمكنه عرض وسومه. وكذلك كل من يمكنه تعديل الملف يمكنه تعديل وسومه."
+
+#: src/composables/extensions/useFileSideBars.ts:146
+msgid "Image Info"
+msgstr "معلومات الصورة"
+
+#: src/composables/extensions/useFileSideBars.ts:167
+msgid "Audio Info"
+msgstr "معلومات الصوت"
+
+#: src/composables/extensions/useFileSideBars.ts:189
+#: src/index.ts:79
+#: src/views/shares/SharedViaLink.vue:177
+#: src/views/shares/SharedWithMe.vue:153
+#: src/views/shares/SharedWithMe.vue:161
+#: src/views/shares/SharedWithMe.vue:165
+#: src/views/shares/SharedWithOthers.vue:170
+#: src/views/spaces/GenericSpace.vue:239
+msgid "Shares"
+msgstr "المشاركات"
+
+#: src/composables/extensions/useFileSideBars.ts:217
+msgid "Versions"
+msgstr "الإصدارات"
+
+#: src/composables/extensions/useFileSideBars.ts:316
+msgid "Activities"
+msgstr "الأنشطة"
+
+#: src/composables/extensions/useFolderViews.ts:36
+msgid "Grid"
+msgstr "شبكة"
+
+#: src/composables/extensions/useFolderViews.ts:60
+msgid "List"
+msgstr "قائمة"
+
+#: src/composables/extensions/useFolderViews.ts:84
+msgid "Condensed list"
+msgstr "قائمة مضغوطة"
+
+#: src/composables/extensions/useVaultIndicator.ts:51
+msgid "This vault is unlocked in your session"
+msgstr "هذه الخزنة مفتوحة في جلستك"
+
+#: src/composables/extensions/useVaultIndicator.ts:52
+msgid "This vault is locked"
+msgstr "هذه الخزنة مقفلة"
+
+#: src/composables/extensions/useVaultIndicator.ts:53
+#: src/composables/extensions/useVaultIndicator.ts:73
+msgid "Vault unlocked"
+msgstr "تم فتح قفل الخزنة"
+
+#: src/composables/extensions/useVaultIndicator.ts:53
+msgid "Vault locked"
+msgstr "تم قفل الخزنة"
+
+#: src/composables/extensions/useVaultIndicator.ts:72
+msgid "This item is inside an unlocked vault"
+msgstr "هذا العنصر داخل خزنة مفتوحة"
+
+#: src/composables/openXchange/renderContactShareEmail.ts:21
+msgid "«%{name}» was shared with you"
+msgstr "تمت مشاركة \"%{name}\" معك"
+
+#: src/composables/openXchange/renderContactShareEmail.ts:34
+msgid "Dear %{name},"
+msgstr "عزيزي %{name}،"
+
+#: src/composables/openXchange/renderContactShareEmail.ts:35
+msgid "«%{resource}» has been shared with you. To access it, please use the link below."
+msgstr "تمت مشاركة \"%{resource}\" معك. للوصول إليه، يُرجى استخدام الرابط أدناه."
+
+#: src/composables/openXchange/renderContactShareEmail.ts:39
+msgid "Open «%{resource}»"
+msgstr "فتح \"%{resource}\""
+
+#: src/composables/openXchange/renderContactShareEmail.ts:41
+msgid "The link is protected by the following password: %{password}"
+msgstr "الرابط محمي بكلمة المرور التالية: %{password}"
+
+#: src/composables/spaces/useSpaceImage.ts:17
+msgid "Space image was set successfully"
+msgstr "تم تعيين صورة المساحة بنجاح"
+
+#: src/composables/spaces/useSpaceImage.ts:23
+#: src/composables/spaces/useSpaceImage.ts:31
+msgid "Failed to set space image"
+msgstr "تعذّر تعيين صورة المساحة"
+
+#: src/composables/spaces/useSpaceImage.ts:24
+msgid "Not enough quota to set the space image"
+msgstr "الحصة غير كافية لتعيين صورة المساحة"
+
+#: src/extensions.ts:77
+msgid "Creating Spaces requires additional permissions"
+msgstr "يتطلب إنشاء المساحات صلاحيات إضافية"
+
+#: src/extensions.ts:83
+msgid "To share a file or folder, open the Sharing panel"
+msgstr "لمشاركة ملف أو مجلد، افتح لوحة المشاركة"
+
+#: src/extensions.ts:87
+msgid "To add a favorite, open the context menu of a file or folder and select \"Add to favorites\""
+msgstr "لإضافة عنصر إلى المفضلة، افتح قائمة السياق لملف أو مجلد واختر \"إضافة إلى المفضلة\""
+
+#: src/extensions.ts:93
+msgid "To create or upload files, open a folder or Space"
+msgstr "لإنشاء ملفات أو رفعها، افتح مجلدًا أو مساحة"
+
+#: src/extensions.ts:97
+msgid "To create or upload files, switch to Personal or a Space"
+msgstr "لإنشاء ملفات أو رفعها، انتقل إلى \"شخصي\" أو إلى مساحة"
+
+#: src/HandleUpload.ts:280
+#: src/index.ts:47
+#: src/views/spaces/GenericTrash.vue:158
+#: src/views/trash/Overview.vue:193
+msgid "Personal"
+msgstr "شخصي"
+
+#: src/HandleUpload.ts:284
+msgid "Insufficient quota"
+msgstr "الحصة غير كافية"
+
+#: src/HandleUpload.ts:285
+msgid "Insufficient quota on %{spaceName}. You need additional %{missingSpace} to upload these files"
+msgstr "الحصة غير كافية في %{spaceName}. تحتاج إلى %{missingSpace} إضافية لرفع هذه الملفات"
+
+#: src/helpers/resource/actions/upload.ts:42
+msgid "Folder already exists"
+msgstr "المجلد موجود بالفعل"
+
+#: src/helpers/resource/actions/upload.ts:43
+msgid "File already exists"
+msgstr "الملف موجود بالفعل"
+
+#: src/helpers/resource/actions/upload.ts:48
+msgid "Merge"
+msgstr "دمج"
+
+#: src/helpers/resource/actions/upload.ts:49
+msgid "Replace"
+msgstr "استبدال"
+
+#: src/index.ts:68
+#: src/views/Favorites.vue:233
+msgid "Favorites"
+msgstr "المفضلة"
+
+#: src/index.ts:106
+#: src/views/spaces/GenericTrash.vue:162
+#: src/views/spaces/GenericTrash.vue:181
+#: src/views/trash/Overview.vue:257
+msgid "Deleted files"
+msgstr "سلة المحذوفات"
+
+#: src/views/Favorites.vue:57
+msgid "Nothing marked as favorite, yet"
+msgstr "لم يُضف أي شيء إلى المفضلة بعد"
+
+#: src/views/Favorites.vue:193
+msgid "All your favorites will show up here"
+msgstr "ستظهر هنا جميع عناصرك المفضلة"
+
+#: src/views/FilesDrop.vue:11
+msgid "An error occurred while loading the public link"
+msgstr "حدث خطأ أثناء تحميل الرابط العام"
+
+#: src/views/FilesDrop.vue:32
+msgid "Upload more files"
+msgstr "رفع ملفات أخرى"
+
+#: src/views/FilesDrop.vue:53
+msgid "Upload files"
+msgstr "رفع ملفات"
+
+#: src/views/FilesDrop.vue:58
+msgid "Drop files here to upload or click the button below to select files or folders."
+msgstr "أفلت الملفات هنا لرفعها أو انقر على الزر أدناه لاختيار ملفات أو مجلدات."
+
+#: src/views/FilesDrop.vue:69
+msgid "Select files"
+msgstr "اختيار ملفات"
+
+#: src/views/FilesDrop.vue:80
+msgid "Select folder"
+msgstr "اختيار مجلد"
+
+#: src/views/FilesDrop.vue:90
+msgid "Transfer of nested folder structures is not possible. Instead, all files from the subfolders will be uploaded individually."
+msgstr "لا يمكن نقل هياكل المجلدات المتداخلة. بدلًا من ذلك، سيتم رفع جميع الملفات من المجلدات الفرعية بشكل منفرد."
+
+#: src/views/FilesDrop.vue:263
+msgid "Upload files for %{owner}"
+msgstr "رفع ملفات إلى %{owner}"
+
+#: src/views/FilesDrop.vue:266
+msgid "%{count} file transferred"
+msgid_plural "%{count} files transferred"
+msgstr[0] "تم نقل %{count} ملف"
+msgstr[1] "تم نقل ملف واحد"
+msgstr[2] "تم نقل ملفين"
+msgstr[3] "تم نقل %{count} ملفات"
+msgstr[4] "تم نقل %{count} ملفًا"
+msgstr[5] "تم نقل %{count} ملف"
+
+#: src/views/FilesDrop.vue:273
+msgid "Your files have been successfully received."
+msgstr "تم استلام ملفاتك بنجاح."
+
+#: src/views/FilesDrop.vue:275
+msgid "%{owner} has successfully received your files."
+msgstr "استلم %{owner} ملفاتك بنجاح."
+
+#: src/views/FilesDrop.vue:281
+msgid "%{count} file could not be transferred."
+msgid_plural "%{count} files could not be transferred."
+msgstr[0] "تعذّر نقل %{count} ملف."
+msgstr[1] "تعذّر نقل ملف واحد."
+msgstr[2] "تعذّر نقل ملفين."
+msgstr[3] "تعذّر نقل %{count} ملفات."
+msgstr[4] "تعذّر نقل %{count} ملفًا."
+msgstr[5] "تعذّر نقل %{count} ملف."
+
+#: src/views/shares/SharedViaLink.vue:14
+#: src/views/shares/SharedWithMe.vue:59
+#: src/views/shares/SharedWithOthers.vue:38
+msgid "Search for shares"
+msgstr "البحث عن مشاركات"
+
+#: src/views/shares/SharedViaLink.vue:32
+msgid "All your links will show up here"
+msgstr "ستظهر هنا جميع روابطك"
+
+#: src/views/shares/SharedWithMe.vue:19
+#: src/views/shares/SharedWithOthers.vue:19
+msgid "Share Type"
+msgstr "نوع المشاركة"
+
+#: src/views/shares/SharedWithMe.vue:22
+#: src/views/shares/SharedWithOthers.vue:22
+msgid "Filter share types"
+msgstr "تصفية أنواع المشاركة"
+
+#: src/views/shares/SharedWithMe.vue:35
+msgid "Shared By"
+msgstr "تمت المشاركة بواسطة"
+
+#: src/views/shares/SharedWithMe.vue:38
+msgid "Filter shared by"
+msgstr "تصفية حسب المُشارِك"
+
+#: src/views/shares/SharedWithMe.vue:161
+#: src/views/shares/SharedWithMe.vue:166
+msgid "Hidden Shares"
+msgstr "المشاركات المخفية"
+
+#: src/views/shares/SharedWithOthers.vue:56
+msgid "Anything you shared will show up here"
+msgstr "سيظهر هنا كل ما شاركته"
+
+#: src/views/spaces/GenericSpace.vue:32
+msgid "No files found"
+msgstr "لم يُعثر على ملفات"
+
+#: src/views/spaces/GenericSpace.vue:206
+msgid "OCM share"
+msgstr "مشاركة OCM"
+
+#: src/views/spaces/GenericSpace.vue:206
+msgid "Public files"
+msgstr "الملفات العامة"
+
+#: src/views/spaces/GenericSpace.vue:224
+msgid "Encrypted vault"
+msgstr "خزنة مشفّرة"
+
+#: src/views/spaces/GenericSpace.vue:281
+msgid "Public link"
+msgstr "رابط عام"
+
+#: src/views/spaces/GenericSpace.vue:340
+msgid "This folder contains %{ amount } item."
+msgid_plural "This folder contains %{ amount } items."
+msgstr[0] "لا يحتوي هذا المجلد على أي عنصر."
+msgstr[1] "يحتوي هذا المجلد على عنصر واحد."
+msgstr[2] "يحتوي هذا المجلد على عنصرين."
+msgstr[3] "يحتوي هذا المجلد على %{ amount } عناصر."
+msgstr[4] "يحتوي هذا المجلد على %{ amount } عنصرًا."
+msgstr[5] "يحتوي هذا المجلد على %{ amount } عنصر."
+
+#: src/views/spaces/GenericSpace.vue:347
+msgid "This folder has no content."
+msgstr "هذا المجلد فارغ."
+
+#: src/views/spaces/GenericSpace.vue:484
+msgid "Moving items into or out of a vault by drag and drop is not supported"
+msgstr "نقل العناصر إلى الخزنة أو منها بالسحب والإفلات غير مدعوم"
+
+#: src/views/spaces/GenericSpace.vue:509
+msgid "Drag files and folders here or use the \"New\" button to add files"
+msgstr "اسحب الملفات والمجلدات إلى هنا أو استخدم زر \"جديد\" لإضافة ملفات"
+
+#: src/views/spaces/GenericTrash.vue:34
+msgid "This trash bin is empty"
+msgstr "سلة المحذوفات هذه فارغة"
+
+#: src/views/spaces/GenericTrash.vue:38
+msgid "All deleted files and folders of this space will show up here"
+msgstr "ستظهر هنا جميع الملفات والمجلدات المحذوفة من هذه المساحة"
+
+#: src/views/spaces/Projects.vue:18
+msgid "Learn about spaces"
+msgstr "تعرّف على المساحات"
+
+#: src/views/spaces/Projects.vue:30
+msgid "Search for spaces"
+msgstr "البحث عن مساحات"
+
+#: src/views/spaces/Projects.vue:46
+#: src/views/spaces/Projects.vue:59
+msgid "No spaces found"
+msgstr "لم يُعثر على مساحات"
+
+#: src/views/spaces/Projects.vue:330
+#: src/views/spaces/Projects.vue:343
+msgid "Unrestricted"
+msgstr "غير مقيّد"
+
+#: src/views/spaces/Projects.vue:372
+msgid "%{spaceCount} space in total"
+msgid_plural "%{spaceCount} spaces in total"
+msgstr[0] "الإجمالي: %{spaceCount} مساحة"
+msgstr[1] "الإجمالي: مساحة واحدة"
+msgstr[2] "الإجمالي: مساحتان"
+msgstr[3] "الإجمالي: %{spaceCount} مساحات"
+msgstr[4] "الإجمالي: %{spaceCount} مساحة"
+msgstr[5] "الإجمالي: %{spaceCount} مساحة"
+
+#: src/views/spaces/Projects.vue:382
+msgid "%{spaceCount} space in total (including %{disabledSpaceCount} disabled)"
+msgid_plural "%{spaceCount} spaces in total (including %{disabledSpaceCount} disabled)"
+msgstr[0] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[1] "الإجمالي: مساحة واحدة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[2] "الإجمالي: مساحتان (منها %{disabledSpaceCount} معطّلة)"
+msgstr[3] "الإجمالي: %{spaceCount} مساحات (منها %{disabledSpaceCount} معطّلة)"
+msgstr[4] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[5] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+
+#: src/views/spaces/Projects.vue:393
+msgid "%{spaceCount} matching spaces"
+msgstr "المساحات المطابقة: %{spaceCount}"
+
+#: src/views/spaces/Projects.vue:401
+msgid "Spaces are special folders for making files accessible to a team."
+msgstr "المساحات مجلدات خاصة لإتاحة الملفات لفريق."
+
+#: src/views/spaces/Projects.vue:404
+msgid "Spaces belong to a team and not to a single person. Even if members are removed, the files remain in the Space so that the team can continue to work on the files."
+msgstr "المساحات تتبع فريقًا لا شخصًا واحدًا. حتى عند إزالة الأعضاء، تبقى الملفات في المساحة ليتمكن الفريق من مواصلة العمل عليها."
+
+#: src/views/spaces/Projects.vue:409
+msgid "Members with the Manager role can add or remove other members from the Space."
+msgstr "يمكن للأعضاء ذوي دور المدير إضافة أعضاء آخرين إلى المساحة أو إزالتهم منها."
+
+#: src/views/spaces/Projects.vue:414
+msgid "A Space can have multiple Managers. Each Space has at least one Manager."
+msgstr "يمكن أن يكون للمساحة عدة مديرين. لكل مساحة مدير واحد على الأقل."
+
+#: src/views/spaces/Projects.vue:429
+msgid "Show members"
+msgstr "إظهار الأعضاء"
+
+#: src/views/spaces/Projects.vue:433
+msgid "Use the \"New\" button to create a space or ask an Administrator to do so"
+msgstr "استخدم زر \"جديد\" لإنشاء مساحة أو اطلب ذلك من مسؤول النظام"
+
+#: src/views/trash/Overview.vue:17
+msgid "You don't have access to any trashbins"
+msgstr "ليس لديك وصول إلى أي سلة محذوفات"
+
+#: src/views/trash/Overview.vue:26
+msgid "Search for trash bins"
+msgstr "البحث عن سلال المحذوفات"
+
+#: src/views/trash/Overview.vue:33
+msgid "No trash bins found"
+msgstr "لم يُعثر على سلال محذوفات"
+
+#: src/views/trash/Overview.vue:218
+msgid "%{spaceCount} trash bin in total"
+msgid_plural "%{spaceCount} trash bins in total"
+msgstr[0] "الإجمالي: %{spaceCount} سلة محذوفات"
+msgstr[1] "الإجمالي: سلة محذوفات واحدة"
+msgstr[2] "الإجمالي: سلتا محذوفات"
+msgstr[3] "الإجمالي: %{spaceCount} سلال محذوفات"
+msgstr[4] "الإجمالي: %{spaceCount} سلة محذوفات"
+msgstr[5] "الإجمالي: %{spaceCount} سلة محذوفات"
+
+#: src/views/trash/Overview.vue:228
+msgid "%{spaceCount} trash bin in total (including %{emptyTrashCount} empty)"
+msgid_plural "%{spaceCount} trash bins in total (including %{emptyTrashCount} empty)"
+msgstr[0] "الإجمالي: %{spaceCount} سلة محذوفات (منها %{emptyTrashCount} فارغة)"
+msgstr[1] "الإجمالي: سلة محذوفات واحدة (منها %{emptyTrashCount} فارغة)"
+msgstr[2] "الإجمالي: سلتا محذوفات (منها %{emptyTrashCount} فارغة)"
+msgstr[3] "الإجمالي: %{spaceCount} سلال محذوفات (منها %{emptyTrashCount} فارغة)"
+msgstr[4] "الإجمالي: %{spaceCount} سلة محذوفات (منها %{emptyTrashCount} فارغة)"
+msgstr[5] "الإجمالي: %{spaceCount} سلة محذوفات (منها %{emptyTrashCount} فارغة)"
+
+#: src/views/trash/Overview.vue:240
+msgid "%{spaceCount} matching trash bin"
+msgid_plural "%{spaceCount} matching trash bins"
+msgstr[0] "%{spaceCount} سلة محذوفات مطابقة"
+msgstr[1] "سلة محذوفات واحدة مطابقة"
+msgstr[2] "سلتا محذوفات مطابقتان"
+msgstr[3] "%{spaceCount} سلال محذوفات مطابقة"
+msgstr[4] "%{spaceCount} سلة محذوفات مطابقة"
+msgstr[5] "%{spaceCount} سلة محذوفات مطابقة"

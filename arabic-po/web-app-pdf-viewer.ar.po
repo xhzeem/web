@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/App.vue:12
+msgid "This PDF could not be displayed in your browser."
+msgstr "تعذّر عرض ملف PDF هذا في متصفحك."
+
+#: src/App.vue:15
+msgid "Download PDF"
+msgstr "تنزيل PDF"
+
+#: src/index.ts:24
+#: src/index.ts:32
+msgid "PDF Viewer"
+msgstr "عارض PDF"

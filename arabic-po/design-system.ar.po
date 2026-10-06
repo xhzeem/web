@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/OcBreadcrumb/OcBreadcrumb.vue:5
+msgid "Breadcrumbs"
+msgstr "مسار التنقل"
+
+#: src/components/OcBreadcrumb/OcBreadcrumb.vue:38
+msgid "Show collapsed breadcrumb items"
+msgstr "إظهار عناصر مسار التنقل المطوية"
+
+#: src/components/OcBreadcrumb/OcBreadcrumb.vue:43
+msgid "Collapsed items"
+msgstr "العناصر المطوية"
+
+#: src/components/OcBreadcrumb/OcBreadcrumb.vue:103
+msgid "Navigate one level up"
+msgstr "الانتقال مستوى واحدًا للأعلى"
+
+#: src/components/OcBreadcrumb/OcBreadcrumbContextMenu.vue:59
+msgid "Show actions for current folder"
+msgstr "إظهار إجراءات المجلد الحالي"
+
+#: src/components/OcContextualHelper/OcContextualHelper.vue:5
+msgid "Show more information"
+msgstr "إظهار معلومات أكثر"
+
+#: src/components/OcDatepicker/OcDatepicker.vue:11
+msgid "Clear date"
+msgstr "مسح التاريخ"
+
+#: src/components/OcDatepicker/OcDatepicker.vue:87
+msgid "The date must be after %{date}"
+msgstr "يجب أن يكون التاريخ بعد %{date}"
+
+#: src/components/OcDrop/OcMobileDrop.vue:19
+msgid "Open the parent context menu"
+msgstr "فتح قائمة سياق العنصر الأصل"
+
+#: src/components/OcDrop/OcMobileDrop.vue:28
+msgid "Close the context menu"
+msgstr "إغلاق قائمة السياق"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:51
+#: src/components/OcSearchBar/OcSearchBar.vue:22
+msgid "Search"
+msgstr "بحث"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:52
+msgid "Oh no!"
+msgstr "عذرًا!"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:53
+msgid "That emoji couldn’t be found"
+msgstr "تعذّر العثور على هذا الرمز التعبيري"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:54
+msgid "Pick an emoji…"
+msgstr "اختر رمزًا تعبيريًا…"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:55
+msgid "Add custom emoji"
+msgstr "إضافة رمز تعبيري مخصص"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:57
+msgid "Activity"
+msgstr "النشاط"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:58
+msgid "Custom"
+msgstr "مخصص"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:59
+msgid "Flags"
+msgstr "العلامات"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:60
+msgid "Food & Drink"
+msgstr "طعام وشراب"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:61
+msgid "Frequently used"
+msgstr "الأكثر استخدامًا"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:62
+msgid "Animals & Nature"
+msgstr "الحيوانات والطبيعة"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:63
+msgid "Objects"
+msgstr "أشياء"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:64
+msgid "Smileys & People"
+msgstr "الوجوه والأشخاص"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:65
+msgid "Travel & Places"
+msgstr "السفر والأماكن"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:66
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:67
+msgid "Symbols"
+msgstr "الرموز"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:70
+msgid "Choose default skin tone"
+msgstr "اختيار لون البشرة الافتراضي"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:71
+msgid "Default"
+msgstr "افتراضي"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:72
+msgid "Light"
+msgstr "فاتح"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:73
+msgid "Medium-Light"
+msgstr "متوسط فاتح"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:74
+msgid "Medium"
+msgstr "متوسط"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:75
+msgid "Medium-Dark"
+msgstr "متوسط داكن"
+
+#: src/components/OcEmojiPicker/OcEmojiPicker.vue:76
+msgid "Dark"
+msgstr "داكن"
+
+#: src/components/OcErrorLog/OcErrorLog.vue:14
+msgid "Copied"
+msgstr "تم النسخ"
+
+#: src/components/OcErrorLog/OcErrorLog.vue:18
+msgid "Copy"
+msgstr "نسخ"
+
+#: src/components/OcErrorLog/OcErrorLog.vue:41
+msgid "Copy the following information and pass them to technical support to troubleshoot the problem:"
+msgstr "انسخ المعلومات التالية وأرسلها إلى الدعم الفني لتشخيص المشكلة:"
+
+#: src/components/OcFileInput/OcFileInput.vue:22
+msgid "Selected image preview"
+msgstr "معاينة الصورة المحددة"
+
+#: src/components/OcFileInput/OcFileInput.vue:86
+msgid "Upload file"
+msgid_plural "Upload files"
+msgstr[0] "رفع ملفات"
+msgstr[1] "رفع ملف"
+msgstr[2] "رفع ملفين"
+msgstr[3] "رفع ملفات"
+msgstr[4] "رفع ملفات"
+msgstr[5] "رفع ملفات"
+
+#: src/components/OcFileInput/OcFileInput.vue:92
+msgid "Clear input"
+msgstr "مسح الإدخال"
+
+#: src/components/OcFilterChip/OcFilterChip.vue:58
+#: src/components/OcFilterChip/OcFilterChip.vue:62
+msgid "Clear filter"
+msgstr "مسح عامل التصفية"
+
+#: src/components/OcFloatingActionButton/OcFloatingActionButton.vue:101
+msgid "Open actions menu"
+msgstr "فتح قائمة الإجراءات"
+
+#: src/components/OcInfoDrop/OcInfoDrop.vue:18
+#: src/components/OcNotificationMessage/OcNotificationMessage.vue:14
+msgid "Close"
+msgstr "إغلاق"
+
+#: src/components/OcInfoDrop/OcInfoDrop.vue:46
+msgid "Read more"
+msgstr "قراءة المزيد"
+
+#: src/components/OcModal/OcModal.vue:310
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: src/components/OcModal/OcModal.vue:314
+#: src/components/OcSearchBar/OcSearchBar.vue:55
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/components/OcNotificationMessage/OcNotificationMessage.vue:31
+msgid "Details"
+msgstr "التفاصيل"
+
+#: src/components/OcPagination/OcPagination.vue:2
+#: src/components/OcPaginationInline/OcPaginationInline.vue:68
+msgid "Pagination"
+msgstr "ترقيم الصفحات"
+
+#: src/components/OcPagination/OcPagination.vue:8
+#: src/components/OcPaginationInline/OcPaginationInline.vue:6
+msgid "Go to the previous page"
+msgstr "الانتقال إلى الصفحة السابقة"
+
+#: src/components/OcPagination/OcPagination.vue:28
+#: src/components/OcPaginationInline/OcPaginationInline.vue:24
+msgid "Go to the next page"
+msgstr "الانتقال إلى الصفحة التالية"
+
+#: src/components/OcPagination/OcPagination.vue:121
+msgid "Go to page %{ page }"
+msgstr "الانتقال إلى الصفحة %{ page }"
+
+#: src/components/OcPaginationInline/OcPaginationInline.vue:15
+msgid "Page %{currentPage} of %{pages}"
+msgstr "الصفحة %{currentPage} من %{pages}"
+
+#: src/components/OcSelect/OcSelect.vue:46
+msgid "No options available."
+msgstr "لا توجد خيارات متاحة."
+
+#: src/components/OcSelect/OcSelect.vue:67
+#: src/components/OcSelect/OcSelect.vue:68
+msgid "Deselect %{label}"
+msgstr "إلغاء تحديد %{label}"
+
+#: src/components/OcTable/OcTable.vue:407
+msgid "Sort by %{ name }"
+msgstr "ترتيب حسب %{ name }"
+
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:23
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:24
+msgid "Hide password"
+msgstr "إخفاء كلمة المرور"
+
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:23
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:24
+msgid "Show password"
+msgstr "إظهار كلمة المرور"
+
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:34
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:35
+msgid "Copy password"
+msgstr "نسخ كلمة المرور"
+
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:45
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:46
+msgid "Generate password"
+msgstr "توليد كلمة مرور"
+
+#: src/components/OcTextInputPassword/OcTextInputPassword.vue:75
+msgid "Password policy"
+msgstr "سياسة كلمات المرور"

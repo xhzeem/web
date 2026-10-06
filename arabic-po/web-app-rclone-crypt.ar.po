@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/VaultSetup.vue:8
+msgid "%{vaultName} is end-to-end encrypted"
+msgstr "يستخدم %{vaultName} التشفير من طرف إلى طرف"
+
+#: src/components/VaultSetup.vue:13
+msgid "Set the password that unlocks it. OpenCloud cannot recover it. Without the password the files are lost, so keep it in a password manager."
+msgstr "عيّن كلمة المرور التي تفتح القفل. لا يستطيع OpenCloud استرجاعها. بدون كلمة المرور تُفقد الملفات، لذا احتفظ بها في مدير كلمات المرور."
+
+#: src/components/VaultSetup.vue:28
+#: src/views/UnlockVault.vue:59
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: src/components/VaultSetup.vue:87
+msgid "End-to-end encryption"
+msgstr "التشفير من طرف إلى طرف"
+
+#: src/components/VaultSetup.vue:88
+msgid "Files in this vault are encrypted on your device before upload. The key is derived from your password and never leaves your device, so the server only ever holds encrypted data."
+msgstr "تُشفَّر الملفات في هذه الخزنة على جهازك قبل الرفع. يُشتق المفتاح من كلمة المرور ولا يغادر جهازك أبدًا، لذا لا يحتفظ الخادم إلا ببيانات مشفّرة."
+
+#: src/components/VaultSetup.vue:93
+msgid "That means nobody can unlock the vault without the password. Not OpenCloud, not your administrator, not anyone with access to the server or its backups."
+msgstr "هذا يعني أنه لا يمكن لأحد فتح الخزنة بدون كلمة المرور. لا OpenCloud، ولا مسؤول النظام، ولا أي شخص لديه وصول إلى الخادم أو نسخه الاحتياطية."
+
+#: src/components/VaultSetup.vue:98
+msgid "There is no reset link, no security question and no admin override. If the password is lost, the encrypted files remain on the server but can never be read again and can be considered lost."
+msgstr "لا يوجد رابط لإعادة التعيين، ولا سؤال أمان، ولا صلاحية تجاوز للمسؤول. إذا فُقدت كلمة المرور، تبقى الملفات المشفّرة على الخادم لكن لا يمكن قراءتها مجددًا أبدًا ويمكن اعتبارها مفقودة."
+
+#: src/components/VaultSetup.vue:103
+msgid "Save the password in a password manager, or write it down and keep it somewhere safe. Use a password you will still recognize in a year."
+msgstr "احفظ كلمة المرور في مدير كلمات المرور، أو دوّنها واحتفظ بها في مكان آمن. استخدم كلمة مرور ستتعرّف عليها بعد عام."
+
+#: src/index.ts:16
+msgid "Rclone Crypt"
+msgstr "Rclone Crypt"
+
+#: src/index.ts:44
+msgid "Unlock vault"
+msgstr "فتح قفل الخزنة"
+
+#: src/views/UnlockVault.vue:4
+#: src/views/UnlockVault.vue:21
+msgid "Loading vault"
+msgstr "جارٍ تحميل الخزنة"
+
+#: src/views/UnlockVault.vue:8
+msgid "Vault not found"
+msgstr "الخزنة غير موجودة"
+
+#: src/views/UnlockVault.vue:11
+msgid "Go back and open the vault again from its original location"
+msgstr "ارجع وافتح الخزنة مجددًا من موقعها الأصلي"
+
+#: src/views/UnlockVault.vue:67
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/views/UnlockVault.vue:149
+msgid "Set up encrypted space"
+msgstr "إعداد مساحة مشفّرة"
+
+#: src/views/UnlockVault.vue:150
+msgid "Set up encrypted folder"
+msgstr "إعداد مجلد مشفّر"
+
+#: src/views/UnlockVault.vue:152
+msgid "Unlock space"
+msgstr "فتح قفل المساحة"
+
+#: src/views/UnlockVault.vue:152
+msgid "Unlock folder"
+msgstr "فتح قفل المجلد"
+
+#: src/views/UnlockVault.vue:157
+msgid "This space is end-to-end encrypted. Enter its password to decrypt the files on this device."
+msgstr "هذه المساحة مشفّرة من طرف إلى طرف. أدخل كلمة المرور الخاصة بها لفك تشفير الملفات على هذا الجهاز."
+
+#: src/views/UnlockVault.vue:160
+msgid "This folder is end-to-end encrypted. Enter its password to decrypt the files on this device."
+msgstr "هذا المجلد مشفّر من طرف إلى طرف. أدخل كلمة المرور الخاصة به لفك تشفير الملفات على هذا الجهاز."
+
+#: src/views/UnlockVault.vue:166
+msgid "Set password"
+msgstr "تعيين كلمة المرور"
+
+#: src/views/UnlockVault.vue:166
+msgid "Unlock"
+msgstr "فتح القفل"
+
+#: src/views/UnlockVault.vue:196
+msgid "Incorrect password."
+msgstr "كلمة المرور غير صحيحة."
+
+#: src/views/UnlockVault.vue:211
+msgid "Unlocking failed. Please try again"
+msgstr "فشل فتح القفل. يُرجى المحاولة مرة أخرى"

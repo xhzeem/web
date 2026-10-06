@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/MailActionBar.vue:3
+msgid "Edit draft"
+msgstr "تعديل المسودة"
+
+#: src/components/MailAppointmentItem.vue:27
+msgid "Toggle details"
+msgstr "إظهار/إخفاء التفاصيل"
+
+#: src/components/MailAppointmentItem.vue:41
+msgid "Organizer"
+msgstr "المنظِّم"
+
+#: src/components/MailAppointmentItem.vue:48
+msgid "Participants"
+msgstr "المشاركون"
+
+#: src/components/MailAppointmentItem.vue:68
+msgid "Download"
+msgstr "تنزيل"
+
+#: src/components/MailAppointmentItem.vue:129
+msgid "+%{attendeeCount} more"
+msgstr "+%{attendeeCount} آخرين"
+
+#: src/components/MailAppointmentItem.vue:172
+#: src/components/MailAttachmentItem.vue:140
+msgid "Failed to download %{name}"
+msgstr "تعذّر تنزيل %{name}"
+
+#: src/components/MailAttachmentItem.vue:23
+msgid "Remove attachment"
+msgstr "إزالة المرفق"
+
+#: src/components/MailAttachmentItem.vue:31
+msgid "Download attachment"
+msgstr "تنزيل المرفق"
+
+#: src/components/MailAttachmentList.vue:14
+#: src/components/MailIndicators.vue:17
+msgid "Attachment"
+msgid_plural "Attachments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: src/components/MailAttachmentList.vue:23
+msgid "Expand"
+msgstr "توسيع"
+
+#: src/components/MailAttachmentList.vue:23
+msgid "Collapse"
+msgstr "طي"
+
+#: src/components/MailboxTree.vue:34
+msgid "Unread emails"
+msgstr "رسائل غير مقروءة"
+
+#: src/components/MailComposeAttachmentButton.vue:8
+#: src/components/MailComposeAttachmentButton.vue:9
+#: src/components/MailComposeAttachmentButton.vue:16
+#: src/components/MailComposeAttachmentButton.vue:17
+#: src/components/MailComposeAttachmentButton.vue:24
+msgid "Add attachment"
+msgstr "إضافة مرفق"
+
+#: src/components/MailComposeAttachmentButton.vue:30
+msgid "Attach file"
+msgstr "إرفاق ملف"
+
+#: src/components/MailComposeAttachmentButton.vue:75
+msgid "Please select a sender account first"
+msgstr "يرجى اختيار حساب المرسل أولًا"
+
+#: src/components/MailComposeAttachmentButton.vue:94
+msgid "Failed to upload %{name}"
+msgstr "تعذّر رفع %{name}"
+
+#: src/components/MailComposeForm.vue:6
+msgid "From"
+msgstr "من"
+
+#: src/components/MailComposeForm.vue:20
+msgid "To"
+msgstr "إلى"
+
+#: src/components/MailComposeForm.vue:29
+msgid "CC"
+msgstr "نسخة"
+
+#: src/components/MailComposeForm.vue:38
+msgid "BCC"
+msgstr "نسخة مخفية"
+
+#: src/components/MailComposeForm.vue:46
+msgid "Subject"
+msgstr "الموضوع"
+
+#: src/components/MailDetails.vue:6
+msgid "No mail selected"
+msgstr "لم تُحدد أي رسالة"
+
+#: src/components/MailDetails.vue:14
+msgid "Navigate back"
+msgstr "الرجوع"
+
+#: src/components/MailDetails.vue:35
+msgid "To:"
+msgstr "إلى:"
+
+#: src/components/MailIndicators.vue:5
+msgid "Thread"
+msgstr "سلسلة رسائل"
+
+#: src/components/MailIndicators.vue:7
+msgid "%{number} messages in this thread"
+msgstr "عدد الرسائل في هذه السلسلة: %{number}"
+
+#: src/components/MailIndicators.vue:18
+msgid "This mail has attachments"
+msgstr "تحتوي هذه الرسالة على مرفقات"
+
+#: src/components/MailIndicators.vue:25
+msgid "Draft"
+msgstr "مسودة"
+
+#: src/components/MailIndicators.vue:26
+msgid "This mail is a draft"
+msgstr "هذه الرسالة مسودة"
+
+#: src/components/MailIndicators.vue:33
+msgid "Flagged"
+msgstr "معلَّم"
+
+#: src/components/MailIndicators.vue:34
+msgid "This mail is flagged"
+msgstr "هذه الرسالة معلَّمة"
+
+#: src/components/MailIndicators.vue:41
+msgid "Answered"
+msgstr "تم الرد"
+
+#: src/components/MailIndicators.vue:42
+msgid "This mail has been answered"
+msgstr "تم الرد على هذه الرسالة"
+
+#: src/components/MailIndicators.vue:49
+msgid "Forwarded"
+msgstr "مُعاد توجيهه"
+
+#: src/components/MailIndicators.vue:50
+msgid "This mail has been forwarded"
+msgstr "تمت إعادة توجيه هذه الرسالة"
+
+#: src/components/MailIndicators.vue:63
+msgid "Spam"
+msgstr "البريد العشوائي"
+
+#: src/components/MailList.vue:6
+msgid "No mailbox selected"
+msgstr "لم يُحدد أي صندوق بريد"
+
+#: src/components/MailList.vue:21
+msgid "No mails in this mailbox"
+msgstr "لا توجد رسائل في صندوق البريد هذا"
+
+#: src/components/MailSavedHint.vue:4
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#: src/components/MailWidget.vue:12
+#: src/components/MailWidget.vue:68
+msgid "New message"
+msgstr "رسالة جديدة"
+
+#: src/components/MailWidget.vue:19
+#: src/components/MailWidget.vue:77
+msgid "Collapse compose window"
+msgstr "طي نافذة إنشاء الرسالة"
+
+#: src/components/MailWidget.vue:19
+msgid "Expand compose window"
+msgstr "توسيع نافذة إنشاء الرسالة"
+
+#: src/components/MailWidget.vue:28
+#: src/components/MailWidget.vue:82
+msgid "Close"
+msgstr "إغلاق"
+
+#: src/components/MailWidget.vue:51
+#: src/components/MailWidget.vue:105
+msgid "Send"
+msgstr "إرسال"
+
+#: src/components/MailWidget.vue:417
+msgid "Unsaved changes"
+msgstr "تغييرات غير محفوظة"
+
+#: src/components/MailWidget.vue:418
+msgid "Your email isn’t finished yet. Save it as draft before leaving."
+msgstr "لم تكتمل رسالتك بعد. احفظها كمسودة قبل المغادرة."
+
+#: src/components/MailWidget.vue:419
+msgid "Save as draft"
+msgstr "حفظ كمسودة"
+
+#: src/extensions.ts:40
+msgid "New"
+msgstr "جديد"
+
+#: src/index.ts:16
+msgid "Mail"
+msgstr "البريد"
+
+#: src/index.ts:50
+msgid "All emails"
+msgstr "جميع الرسائل"

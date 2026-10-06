@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/AppContextualHelper.vue:3
+msgid "How to install?"
+msgstr "كيف يتم التثبيت؟"
+
+#: src/components/AppContextualHelper.vue:5
+msgid "The App Store app lets you download apps as .zip files. Please follow the link below to learn how to install these apps into your OpenCloud."
+msgstr "يتيح لك تطبيق App Store تنزيل التطبيقات كملفات ‎.zip. يُرجى اتباع الرابط أدناه لمعرفة كيفية تثبيت هذه التطبيقات في OpenCloud لديك."
+
+#: src/components/AppVersions.vue:6
+msgid "most recent"
+msgstr "الأحدث"
+
+#: src/components/AppVersions.vue:57
+msgid "App Version"
+msgstr "إصدار التطبيق"
+
+#: src/components/AppVersions.vue:64
+msgid "OpenCloud Version"
+msgstr "إصدار OpenCloud"
+
+#: src/composables/actions/useAppActionsDownload.ts:17
+msgid "Download"
+msgstr "تنزيل"
+
+#: src/index.ts:38
+#: src/index.ts:71
+#: src/views/AppList.vue:4
+msgid "App Store"
+msgstr "متجر التطبيقات"
+
+#: src/index.ts:80
+msgid "App Details"
+msgstr "تفاصيل التطبيق"
+
+#: src/views/AppDetails.vue:12
+msgid "Back to list"
+msgstr "الرجوع إلى القائمة"
+
+#: src/views/AppDetails.vue:25
+msgid "Details"
+msgstr "التفاصيل"
+
+#: src/views/AppDetails.vue:29
+msgid "Tags"
+msgstr "الوسوم"
+
+#: src/views/AppDetails.vue:33
+msgid "Author"
+msgstr "المؤلف"
+
+#: src/views/AppDetails.vue:37
+msgid "Resources"
+msgstr "العناصر"
+
+#: src/views/AppDetails.vue:42
+msgid "Releases"
+msgstr "الإصدارات المنشورة"
+
+#: src/views/AppList.vue:11
+msgid "Search"
+msgstr "بحث"
+
+#: src/views/AppList.vue:12
+msgid "Search for apps"
+msgstr "البحث عن تطبيقات"
+
+#: src/views/AppList.vue:20
+msgid "No apps found matching your search"
+msgstr "لم يُعثر على تطبيقات تطابق بحثك"

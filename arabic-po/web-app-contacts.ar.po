@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/AddressBooksList.vue:4
+msgid "Loading address books"
+msgstr "جارٍ تحميل دفاتر العناوين"
+
+#: src/components/ContactCreateForm.vue:5
+#: src/components/ContactDetailsContent.vue:113
+msgid "First name"
+msgstr "الاسم الأول"
+
+#: src/components/ContactCreateForm.vue:10
+#: src/components/ContactDetailsContent.vue:114
+msgid "Last name"
+msgstr "اسم العائلة"
+
+#: src/components/ContactCreateForm.vue:16
+msgid "E-Mail"
+msgstr "البريد الإلكتروني"
+
+#: src/components/ContactCreateForm.vue:18
+msgid "Please enter a valid email"
+msgstr "يرجى إدخال بريد إلكتروني صالح"
+
+#: src/components/ContactCreateForm.vue:25
+msgid "Phone number"
+msgstr "رقم الهاتف"
+
+#: src/components/ContactDetailsContent.vue:32
+msgid "Expand"
+msgstr "توسيع"
+
+#: src/components/ContactDetailsContent.vue:32
+msgid "Collapse"
+msgstr "طي"
+
+#: src/components/ContactDetailsContent.vue:111
+msgid "Basic information"
+msgstr "المعلومات الأساسية"
+
+#: src/components/ContactDetailsContent.vue:116
+msgid "Nickname"
+msgstr "الاسم المستعار"
+
+#: src/components/ContactDetailsContent.vue:119
+msgid "Birthday"
+msgstr "تاريخ الميلاد"
+
+#: src/components/ContactDetailsContent.vue:120
+msgid "Note"
+msgstr "ملاحظة"
+
+#: src/components/ContactDetailsContent.vue:126
+msgid "Email addresses"
+msgstr "عناوين البريد الإلكتروني"
+
+#: src/components/ContactDetailsContent.vue:129
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: src/components/ContactDetailsContent.vue:137
+msgid "Phone numbers"
+msgstr "أرقام الهواتف"
+
+#: src/components/ContactDetailsContent.vue:140
+msgid "Phone"
+msgstr "الهاتف"
+
+#: src/components/ContactDetailsContent.vue:148
+msgid "Addresses"
+msgstr "العناوين"
+
+#: src/components/ContactDetailsContent.vue:151
+msgid "Address"
+msgstr "العنوان"
+
+#: src/components/ContactDetailsContent.vue:163
+#: src/components/ContactDetailsContent.vue:165
+msgid "Organization"
+msgstr "المؤسسة"
+
+#: src/components/ContactDetailsContent.vue:167
+msgid "Department"
+msgstr "القسم"
+
+#: src/components/ContactDetailsContent.vue:170
+msgid "Job title"
+msgstr "المسمى الوظيفي"
+
+#: src/components/ContactFormPanel.vue:11
+#: src/components/ContactFormPanel.vue:52
+msgid "New contact"
+msgstr "جهة اتصال جديدة"
+
+#: src/components/ContactFormPanel.vue:16
+#: src/components/ContactFormPanel.vue:57
+msgid "Close"
+msgstr "إغلاق"
+
+#: src/components/ContactFormPanel.vue:40
+#: src/components/ContactFormPanel.vue:77
+msgid "Save"
+msgstr "حفظ"
+
+#: src/components/ContactFormPanel.vue:145
+msgid "Failed to create contact"
+msgstr "تعذّر إنشاء جهة الاتصال"
+
+#: src/components/ContactFormPanel.vue:146
+msgid "The contact could not be created. Please try again."
+msgstr "تعذّر إنشاء جهة الاتصال. يُرجى المحاولة مرة أخرى."
+
+#: src/composables/useContactEditor.ts:47
+msgid "Discard changes?"
+msgstr "تجاهل التغييرات؟"
+
+#: src/composables/useContactEditor.ts:48
+msgid "You have unsaved changes. Do you want to discard them and leave this screen?"
+msgstr "لديك تغييرات غير محفوظة. هل تريد تجاهلها ومغادرة هذه الشاشة؟"
+
+#: src/composables/useContactEditor.ts:51
+msgid "Discard"
+msgstr "تجاهل"
+
+#: src/extensions.ts:40
+msgid "New"
+msgstr "جديد"
+
+#: src/index.ts:16
+#: src/index.ts:37
+msgid "Contacts"
+msgstr "جهات الاتصال"
+
+#: src/views/ContactDetails.vue:4
+msgid "No contact selected"
+msgstr "لم تُحدد أي جهة اتصال"
+
+#: src/views/ContactDetails.vue:13
+msgid "Navigate back"
+msgstr "الرجوع"
+
+#: src/views/ContactsList.vue:15
+#: src/views/ContactsList.vue:16
+msgid "Search contacts"
+msgstr "البحث في جهات الاتصال"
+
+#: src/views/ContactsList.vue:27
+msgid "No contacts available yet."
+msgstr "لا توجد جهات اتصال حتى الآن."
+
+#: src/views/ContactsList.vue:36
+msgid "No contacts found."
+msgstr "لم يُعثر على جهات اتصال."
+
+#: src/views/ContactsList.vue:66
+msgid "Open contact actions"
+msgstr "فتح إجراءات جهة الاتصال"
+
+#: src/views/ContactsList.vue:74
+msgid "Contact actions"
+msgstr "إجراءات جهة الاتصال"
+
+#: src/views/ContactsList.vue:149
+msgid "Details"
+msgstr "التفاصيل"

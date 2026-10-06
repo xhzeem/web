@@ -1,0 +1,2190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/AppBar/AppBar.vue:66
+msgid "Loading actions"
+msgstr "جارٍ تحميل الإجراءات"
+
+#: src/components/AppBar/AppBar.vue:70
+#: src/components/AppBar/AppBar.vue:71
+#: src/composables/resources/useResourceViewSelection.ts:45
+msgid "Clear selection"
+msgstr "إلغاء التحديد"
+
+#: src/components/AppBar/AppBar.vue:80
+msgid "%{count} selected"
+msgstr "تم تحديد %{count}"
+
+#: src/components/AppBar/AppBar.vue:219
+msgid "No items selected."
+msgstr "لم تُحدد أي عناصر."
+
+#: src/components/AppBar/AppBar.vue:221
+msgid "%{ amount } item selected. Actions are available above the table."
+msgid_plural "%{ amount } items selected. Actions are available above the table."
+msgstr[0] "تم تحديد %{ amount } عنصر. الإجراءات متاحة أعلى الجدول."
+msgstr[1] "تم تحديد عنصر واحد. الإجراءات متاحة أعلى الجدول."
+msgstr[2] "تم تحديد عنصرين. الإجراءات متاحة أعلى الجدول."
+msgstr[3] "تم تحديد %{ amount } عناصر. الإجراءات متاحة أعلى الجدول."
+msgstr[4] "تم تحديد %{ amount } عنصرًا. الإجراءات متاحة أعلى الجدول."
+msgstr[5] "تم تحديد %{ amount } عنصر. الإجراءات متاحة أعلى الجدول."
+
+#: src/components/AppTemplates/AppWrapper.vue:262
+msgid "File updated"
+msgstr "تم تحديث الملف"
+
+#: src/components/AppTemplates/AppWrapper.vue:263
+msgid "This file was updated outside this window. The editor now shows the latest version."
+msgstr "تم تحديث هذا الملف خارج هذه النافذة. يعرض المحرر الآن أحدث إصدار."
+
+#: src/components/AppTemplates/AppWrapper.vue:297
+msgid "%{appName} for %{fileName}"
+msgstr "%{appName} لـ %{fileName}"
+
+#: src/components/AppTemplates/AppWrapper.vue:430
+msgid "Importing failed"
+msgstr "فشل الاستيراد"
+
+#: src/components/AppTemplates/AppWrapper.vue:484
+msgid "File exceeds %{threshold}"
+msgstr "الملف يتجاوز %{threshold}"
+
+#: src/components/AppTemplates/AppWrapper.vue:487
+msgid "%{resource} exceeds the recommended size of %{threshold} for editing, and may cause performance issues."
+msgstr "يتجاوز %{resource} الحجم الموصى به للتعديل وهو %{threshold}، وقد يسبب مشكلات في الأداء."
+
+#: src/components/AppTemplates/AppWrapper.vue:494
+msgid "Continue"
+msgstr "متابعة"
+
+#: src/components/AppTemplates/AppWrapper.vue:515
+msgid "An error occurred"
+msgstr "حدث خطأ"
+
+#: src/components/AppTemplates/AppWrapper.vue:522
+msgid "File autosaved"
+msgstr "تم حفظ الملف تلقائيًا"
+
+#: src/components/AppTemplates/AppWrapper.vue:528
+msgid "This file was updated outside this window. Please copy your changes, save the file under a new name (»Save As...«) or reload the page to discard your changes."
+msgstr "تم تحديث هذا الملف خارج هذه النافذة. يُرجى نسخ تغييراتك، أو حفظ الملف باسم جديد (\"حفظ باسم...\")، أو إعادة تحميل الصفحة لتجاهل تغييراتك."
+
+#: src/components/AppTemplates/AppWrapper.vue:583
+msgid "You're not authorized to save this file"
+msgstr "غير مصرّح لك بحفظ هذا الملف"
+
+#: src/components/AppTemplates/AppWrapper.vue:588
+msgid "This file is locked by another application and cannot be saved. Copy your changes, or save the file under a new name (»Save As...«)."
+msgstr "هذا الملف مقفل من قِبل تطبيق آخر ولا يمكن حفظه. انسخ تغييراتك، أو احفظ الملف باسم جديد (\"حفظ باسم...\")."
+
+#: src/components/AppTemplates/AppWrapper.vue:602
+msgid "Insufficient quota on \"%{spaceName}\" to save this file"
+msgstr "الحصة غير كافية في \"%{spaceName}\" لحفظ هذا الملف"
+
+#: src/components/AppTemplates/AppWrapper.vue:610
+msgid "Insufficient quota for saving this file"
+msgstr "الحصة غير كافية لحفظ هذا الملف"
+
+#: src/components/AppTemplates/AppWrapper.vue:723
+msgid "Unsaved changes are not included"
+msgstr "التغييرات غير المحفوظة غير مضمّنة"
+
+#: src/components/AppTemplates/AppWrapper.vue:724
+msgid "This file was updated outside this window, so the download does not contain your unsaved changes."
+msgstr "تم تحديث هذا الملف خارج هذه النافذة، لذا لا يتضمن التنزيل تغييراتك غير المحفوظة."
+
+#: src/components/AppTemplates/AppWrapper.vue:822
+#: src/components/SideBar/CompareSaveDialog.vue:60
+msgid "Unsaved changes"
+msgstr "تغييرات غير محفوظة"
+
+#: src/components/AppTemplates/useAppWrapperYjs.ts:127
+msgid "Collaboration error"
+msgstr "خطأ في التعاون"
+
+#: src/components/AppTopBar.vue:10
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:31
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:34
+msgid "Close"
+msgstr "إغلاق"
+
+#: src/components/AppTopBar.vue:138
+#: src/components/ContextActions/ContextMenuQuickAction.vue:68
+msgid "Show context menu"
+msgstr "إظهار قائمة السياق"
+
+#: src/components/AppTopBar.vue:147
+msgid "Autosave (every %{ duration })"
+msgstr "حفظ تلقائي (كل %{ duration })"
+
+#: src/components/Avatars/AvatarUpload.vue:17
+#: src/components/Modals/ResourceConflictModal.vue:76
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:64
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:65
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:70
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:108
+msgid "Replace"
+msgstr "استبدال"
+
+#: src/components/Avatars/AvatarUpload.vue:17
+msgid "Upload"
+msgstr "رفع"
+
+#: src/components/Avatars/AvatarUpload.vue:26
+#: src/components/Avatars/AvatarUpload.vue:55
+msgid "Remove"
+msgstr "إزالة"
+
+#: src/components/Avatars/AvatarUpload.vue:33
+msgid "Crop your new profile picture"
+msgstr "اقتصاص صورة ملفك الشخصي الجديدة"
+
+#: src/components/Avatars/AvatarUpload.vue:34
+#: src/components/Avatars/AvatarUpload.vue:54
+#: src/components/Modals/UnsavedChangesModal.vue:8
+#: src/services/uppy/uppyService.ts:115
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/components/Avatars/AvatarUpload.vue:35
+msgid "Set"
+msgstr "تعيين"
+
+#: src/components/Avatars/AvatarUpload.vue:52
+msgid "Are you sure you want to remove your profile picture?"
+msgstr "هل أنت متأكد من أنك تريد إزالة صورة ملفك الشخصي؟"
+
+#: src/components/Avatars/AvatarUpload.vue:53
+msgid "Remove profile picture"
+msgstr "إزالة صورة الملف الشخصي"
+
+#: src/components/Avatars/AvatarUpload.vue:103
+msgid "File size exceeds the limit of %{size}MB"
+msgstr "حجم الملف يتجاوز الحد الأقصى البالغ %{size}MB"
+
+#: src/components/Avatars/AvatarUpload.vue:152
+msgid "Profile picture was set successfully"
+msgstr "تم تعيين صورة الملف الشخصي بنجاح"
+
+#: src/components/Avatars/AvatarUpload.vue:155
+msgid "Failed to set profile picture"
+msgstr "تعذّر تعيين صورة الملف الشخصي"
+
+#: src/components/Avatars/AvatarUpload.vue:168
+msgid "Profile picture was removed successfully"
+msgstr "تمت إزالة صورة الملف الشخصي بنجاح"
+
+#: src/components/Avatars/AvatarUpload.vue:171
+msgid "Failed to remove profile picture"
+msgstr "تعذّرت إزالة صورة الملف الشخصي"
+
+#: src/components/CreateLinkModal.vue:27
+msgid "Options"
+msgstr "الخيارات"
+
+#: src/components/CreateLinkModal.vue:39
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: src/components/CreateLinkModal.vue:45
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: src/components/CreateLinkModal.vue:52
+#: src/components/Modals/DatePickerModal.vue:3
+msgid "Expiration date"
+msgstr "تاريخ انتهاء الصلاحية"
+
+#: src/components/CreateLinkModal.vue:72
+#: src/components/CreateLinkModal.vue:75
+#: src/components/CreateLinkModal.vue:83
+msgid "More options"
+msgstr "خيارات أخرى"
+
+#: src/components/CreateLinkModal.vue:166
+msgid "Share link(s)"
+msgstr "مشاركة الرابط/الروابط"
+
+#: src/components/CreateLinkModal.vue:169
+msgid "Copy link"
+msgstr "نسخ الرابط"
+
+#: src/components/CreateLinkModal.vue:174
+msgid "Share link(s) and password(s)"
+msgstr "مشاركة الروابط وكلمات المرور"
+
+#: src/components/CreateLinkModal.vue:177
+msgid "Copy link and password"
+msgstr "نسخ الرابط وكلمة المرور"
+
+#: src/components/CreateLinkModal.vue:225
+msgid "Unnamed link"
+msgstr "رابط بدون اسم"
+
+#: src/components/CreateShortcutModal.vue:6
+#: src/components/CreateShortcutModal.vue:17
+#: src/components/CreateShortcutModal.vue:26
+msgid "Webpage or file"
+msgstr "صفحة ويب أو ملف"
+
+#: src/components/CreateShortcutModal.vue:22
+msgid "Enter the target URL of a webpage or the name of a file. Users will be directed to this webpage or file."
+msgstr "أدخل عنوان URL لصفحة الويب المستهدفة أو اسم ملف. سيُوجَّه المستخدمون إلى صفحة الويب هذه أو إلى هذا الملف."
+
+#: src/components/CreateShortcutModal.vue:70
+msgid "Link to a file"
+msgstr "رابط إلى ملف"
+
+#: src/components/CreateShortcutModal.vue:96
+#: src/components/CreateShortcutModal.vue:104
+#: src/components/CreateShortcutModal.vue:109
+msgid "Shortcut name"
+msgstr "اسم الاختصار"
+
+#: src/components/CreateShortcutModal.vue:108
+msgid "Shortcut name as it will appear in the file list."
+msgstr "اسم الاختصار كما سيظهر في قائمة الملفات."
+
+#: src/components/CreateShortcutModal.vue:382
+msgid "Shortcut was created successfully"
+msgstr "تم إنشاء الاختصار بنجاح"
+
+#: src/components/CreateShortcutModal.vue:386
+msgid "Failed to create shortcut"
+msgstr "تعذّر إنشاء الاختصار"
+
+#: src/components/FilesList/ContextActions.vue:59
+msgid "Open with..."
+msgstr "فتح باستخدام..."
+
+#: src/components/FilesList/MotionPhotoBadge.vue:57
+msgid "Motion photo"
+msgstr "صورة متحركة"
+
+#: src/components/FilesList/MotionPhotoBadge.vue:58
+msgid "Loading motion photo"
+msgstr "جارٍ تحميل الصورة المتحركة"
+
+#: src/components/FilesList/MotionPhotoPlayer.vue:62
+msgid "Motion photo (clip not available)"
+msgstr "صورة متحركة (المقطع غير متوفر)"
+
+#: src/components/FilesList/MotionPhotoPlayer.vue:64
+msgid "Pause motion photo"
+msgstr "إيقاف الصورة المتحركة مؤقتًا"
+
+#: src/components/FilesList/MotionPhotoPlayer.vue:64
+msgid "Play motion photo"
+msgstr "تشغيل الصورة المتحركة"
+
+#: src/components/FilesList/ResourceListItem.vue:22
+msgid "Open »%{name}«"
+msgstr "فتح \"%{name}\""
+
+#: src/components/FilesList/ResourceListItem.vue:155
+#: src/components/FilesList/ResourceTile.vue:253
+#: src/composables/resources/useResourceIndicators.ts:165
+msgid "This item is locked"
+msgstr "هذا العنصر مقفل"
+
+#: src/components/FilesList/ResourceName.vue:24
+msgid "Favorite"
+msgstr "مفضّل"
+
+#: src/components/FilesList/ResourceTable.vue:52
+#: src/components/FilesList/ResourceTile.vue:41
+msgid "File is being processed"
+msgstr "الملف قيد المعالجة"
+
+#: src/components/FilesList/ResourceTable.vue:463
+msgid "Search for tag %{tag}"
+msgstr "البحث عن الوسم %{tag}"
+
+#: src/components/FilesList/ResourceTable.vue:487
+msgid "Name"
+msgstr "الاسم"
+
+#: src/components/FilesList/ResourceTable.vue:496
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:66
+msgid "Manager"
+msgstr "مدير"
+
+#: src/components/FilesList/ResourceTable.vue:501
+msgid "Members"
+msgstr "الأعضاء"
+
+#: src/components/FilesList/ResourceTable.vue:508
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:71
+msgid "Total quota"
+msgstr "إجمالي الحصة"
+
+#: src/components/FilesList/ResourceTable.vue:514
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:76
+msgid "Used quota"
+msgstr "الحصة المستخدمة"
+
+#: src/components/FilesList/ResourceTable.vue:520
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:73
+msgid "Remaining quota"
+msgstr "الحصة المتبقية"
+
+#: src/components/FilesList/ResourceTable.vue:525
+msgid "Status"
+msgstr "الحالة"
+
+#: src/components/FilesList/ResourceTable.vue:533
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:76
+msgid "Size"
+msgstr "الحجم"
+
+#: src/components/FilesList/ResourceTable.vue:541
+msgid "Info"
+msgstr "معلومات"
+
+#: src/components/FilesList/ResourceTable.vue:549
+msgid "Tags"
+msgstr "الوسوم"
+
+#: src/components/FilesList/ResourceTable.vue:557
+msgid "Shared by"
+msgstr "تمت المشاركة بواسطة"
+
+#: src/components/FilesList/ResourceTable.vue:565
+msgid "Shared with"
+msgstr "تمت المشاركة مع"
+
+#: src/components/FilesList/ResourceTable.vue:573
+msgid "Modified"
+msgstr "التعديل"
+
+#: src/components/FilesList/ResourceTable.vue:586
+msgid "Shared on"
+msgstr "تاريخ المشاركة"
+
+#: src/components/FilesList/ResourceTable.vue:599
+msgid "Deleted"
+msgstr "محذوف"
+
+#: src/components/FilesList/ResourceTable.vue:648
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: src/components/FilesList/ResourceTable.vue:717
+#: src/components/FilesList/ResourceTable.vue:742
+msgid "folder"
+msgstr "مجلد"
+
+#: src/components/FilesList/ResourceTable.vue:717
+#: src/components/FilesList/ResourceTable.vue:742
+msgid "file"
+msgstr "ملف"
+
+#: src/components/FilesList/ResourceTable.vue:727
+msgid "This %{ resourceType } is shared via %{ shareCount } invite"
+msgid_plural "This %{ resourceType } is shared via %{ shareCount } invites"
+msgstr[0] "لم تتم مشاركة هذا %{ resourceType } عبر أي دعوة"
+msgstr[1] "تمت مشاركة هذا %{ resourceType } عبر دعوة واحدة"
+msgstr[2] "تمت مشاركة هذا %{ resourceType } عبر دعوتين"
+msgstr[3] "تمت مشاركة هذا %{ resourceType } عبر %{ shareCount } دعوات"
+msgstr[4] "تمت مشاركة هذا %{ resourceType } عبر %{ shareCount } دعوة"
+msgstr[5] "تمت مشاركة هذا %{ resourceType } عبر %{ shareCount } دعوة"
+
+#: src/components/FilesList/ResourceTable.vue:743
+msgid "This %{ resourceType } is shared by %{ user }"
+msgstr "تمت مشاركة هذا %{ resourceType } بواسطة %{ user }"
+
+#: src/components/FilesList/ResourceTile.vue:50
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:78
+#: src/composables/resources/useResourceIndicators.ts:203
+msgid "Disabled"
+msgstr "معطّل"
+
+#: src/components/FilesList/ResourceTiles.vue:19
+msgid "Sort by"
+msgstr "ترتيب حسب"
+
+#: src/components/Filters/DateFilter.vue:58
+#: src/components/Filters/DateFilter.vue:84
+msgid "Custom date range"
+msgstr "نطاق تاريخ مخصص"
+
+#: src/components/Filters/DateFilter.vue:79
+msgid "Go back to filter options"
+msgstr "العودة إلى خيارات التصفية"
+
+#: src/components/Filters/DateFilter.vue:88
+msgid "Close filter"
+msgstr "إغلاق عامل التصفية"
+
+#: src/components/Filters/DateFilter.vue:96
+msgid "From"
+msgstr "من"
+
+#: src/components/Filters/DateFilter.vue:105
+msgid "To"
+msgstr "إلى"
+
+#: src/components/Filters/DateFilter.vue:117
+msgid "Apply"
+msgstr "تطبيق"
+
+#: src/components/Groupware/Accounts/AccountsSwitch.vue:10
+msgid "Loading accounts"
+msgstr "جارٍ تحميل الحسابات"
+
+#: src/components/Groupware/Accounts/AccountsSwitch.vue:26
+msgid "Accounts"
+msgstr "الحسابات"
+
+#: src/components/ImageCropper.vue:49
+msgid "Zoom via %{ zoomKeys }, pan via %{ panKeys }"
+msgstr "التكبير/التصغير عبر %{ zoomKeys }، والتحريك عبر %{ panKeys }"
+
+#: src/components/ImageCropper.vue:50
+msgid "+-"
+msgstr "+-"
+
+#: src/components/ImageCropper.vue:51
+msgid "↑↓←→"
+msgstr "↑↓←→"
+
+#: src/components/ItemFilter.vue:17
+msgid "Filter list"
+msgstr "تصفية القائمة"
+
+#: src/components/ItemFilter.vue:38
+msgid "Toggle selection"
+msgstr "تبديل التحديد"
+
+#: src/components/ItemFilter.vue:208
+msgid "%{ count } more item is not shown. Use the filter to narrow down the list."
+msgid_plural "%{ count } more items are not shown. Use the filter to narrow down the list."
+msgstr[0] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+msgstr[1] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+msgstr[2] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+msgstr[3] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+msgstr[4] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+msgstr[5] "عدد العناصر الإضافية غير المعروضة: %{ count }. استخدم عامل التصفية لتضييق القائمة."
+
+#: src/components/LinkRoleDropdown.vue:10
+msgid "Select a role"
+msgstr "اختر دورًا"
+
+#: src/components/LinkRoleDropdown.vue:22
+msgid "Role"
+msgstr "الدور"
+
+#: src/components/Modals/DatePickerModal.vue:20
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: src/components/Modals/ResourceConflictModal.vue:14
+msgid "Skip"
+msgstr "تخطي"
+
+#: src/components/Modals/ResourceConflictModal.vue:20
+msgid "Keep both"
+msgstr "الاحتفاظ بكليهما"
+
+#: src/components/Modals/ResourceConflictModal.vue:59
+msgid "Apply to all %{count} conflicts"
+msgstr "تطبيق على جميع التعارضات (%{count})"
+
+#: src/components/Modals/ResourceConflictModal.vue:63
+msgid "Apply to all %{count} folders"
+msgstr "تطبيق على جميع المجلدات (%{count})"
+
+#: src/components/Modals/ResourceConflictModal.vue:65
+msgid "Apply to all %{count} files"
+msgstr "تطبيق على جميع الملفات (%{count})"
+
+#: src/components/Modals/ResourceConflictModal.vue:71
+msgid "Folder with name »%{name}« already exists."
+msgstr "يوجد مجلد بالاسم \"%{name}\" بالفعل."
+
+#: src/components/Modals/ResourceConflictModal.vue:72
+msgid "File with name »%{name}« already exists."
+msgstr "يوجد ملف بالاسم \"%{name}\" بالفعل."
+
+#: src/components/Modals/SaveAsModal.vue:88
+msgid "»%{fileName}« was saved successfully"
+msgstr "تم حفظ \"%{fileName}\" بنجاح"
+
+#: src/components/Modals/SaveAsModal.vue:94
+msgid "Unable to save »%{fileName}«"
+msgstr "تعذّر حفظ \"%{fileName}\""
+
+#: src/components/Modals/SpaceMoveInfoModal.vue:5
+msgid "Moving files from one space to another is not possible. Do you want to copy instead?"
+msgstr "لا يمكن نقل الملفات من مساحة إلى أخرى. هل تريد نسخها بدلًا من ذلك؟"
+
+#: src/components/Modals/SpaceMoveInfoModal.vue:12
+msgid "Note: Links and shares of the original file are not copied."
+msgstr "ملاحظة: لا تُنسخ روابط الملف الأصلي ومشاركاته."
+
+#: src/components/Modals/UnsavedChangesModal.vue:4
+msgid "Your changes were not saved. Do you want to save them?"
+msgstr "لم تُحفظ تغييراتك. هل تريد حفظها؟"
+
+#: src/components/Modals/UnsavedChangesModal.vue:11
+msgid "Don't Save"
+msgstr "عدم الحفظ"
+
+#: src/components/Modals/UnsavedChangesModal.vue:18
+#: src/components/SideBar/CompareSaveDialog.vue:22
+#: src/composables/actions/useFileActionsSave.ts:44
+msgid "Save"
+msgstr "حفظ"
+
+#: src/components/NoContentMessage.vue:10
+msgid "No content image"
+msgstr "صورة عدم وجود محتوى"
+
+#: src/components/QuotaSelect.vue:13
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:70
+msgid "Quota"
+msgstr "الحصة"
+
+#: src/components/QuotaSelect.vue:103
+msgid "No restriction"
+msgstr "بلا قيود"
+
+#: src/components/QuotaSelect.vue:124
+msgid "Please enter only numbers"
+msgstr "يرجى إدخال أرقام فقط"
+
+#: src/components/QuotaSelect.vue:134
+msgid "Please enter a value equal to or less than %{ quotaLimit }"
+msgstr "يرجى إدخال قيمة تساوي %{ quotaLimit } أو أقل"
+
+#: src/components/SearchBarFilter.vue:11
+msgid "Location filter"
+msgstr "تصفية حسب الموقع"
+
+#: src/components/SearchBarFilter.vue:83
+msgid "Current folder"
+msgstr "المجلد الحالي"
+
+#: src/components/SearchBarFilter.vue:88
+msgid "All files"
+msgstr "جميع الملفات"
+
+#: src/components/SideBar/CompareSaveDialog.vue:5
+msgid "Changes saved"
+msgstr "تم حفظ التغييرات"
+
+#: src/components/SideBar/CompareSaveDialog.vue:14
+msgid "Revert"
+msgstr "تراجع"
+
+#: src/components/SideBar/CompareSaveDialog.vue:60
+msgid "No changes"
+msgstr "لا توجد تغييرات"
+
+#: src/components/SideBar/SideBarNoSelection.vue:17
+msgid "Overview of the information about the current items"
+msgstr "نظرة عامة على معلومات العناصر الحالية"
+
+#: src/components/SideBar/SideBarPanels.vue:42
+msgid "Close file sidebar"
+msgstr "إغلاق الشريط الجانبي للملف"
+
+#: src/components/SideBar/SideBarPanels.vue:102
+msgid "Loading sidebar content"
+msgstr "جارٍ تحميل محتوى الشريط الجانبي"
+
+#: src/components/SideBar/SideBarPanels.vue:184
+msgid "Back to %{panel} panel"
+msgstr "الرجوع إلى لوحة %{panel}"
+
+#: src/components/SideBar/SideBarPanels.vue:188
+msgid "Back to main panels"
+msgstr "الرجوع إلى اللوحات الرئيسية"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:5
+#: src/components/Spaces/SpaceImage.vue:4
+msgid "Space image is loading"
+msgstr "جارٍ تحميل صورة المساحة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:52
+msgid "Show"
+msgstr "إظهار"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:57
+msgid "Overview of the information about the selected space"
+msgstr "نظرة عامة على معلومات المساحة المحددة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:59
+msgid "Last activity"
+msgstr "آخر نشاط"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:62
+msgid "Subtitle"
+msgstr "العنوان الفرعي"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:176
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:187
+msgid "%{displayName} (me)"
+msgstr "%{displayName} (أنا)"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:211
+msgid "This space has one member and %{linkShareCount} link."
+msgid_plural "This space has one member and %{linkShareCount} links."
+msgstr[0] "في هذه المساحة عضو واحد ولا توجد روابط."
+msgstr[1] "في هذه المساحة عضو واحد ورابط واحد."
+msgstr[2] "في هذه المساحة عضو واحد ورابطان."
+msgstr[3] "في هذه المساحة عضو واحد و%{linkShareCount} روابط."
+msgstr[4] "في هذه المساحة عضو واحد و%{linkShareCount} رابطًا."
+msgstr[5] "في هذه المساحة عضو واحد و%{linkShareCount} رابط."
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:219
+msgid "This space has %{memberShareCount} members and one link."
+msgstr "في هذه المساحة %{memberShareCount} من الأعضاء ورابط واحد."
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:223
+msgid "This space has %{memberShareCount} members and %{linkShareCount} links."
+msgstr "في هذه المساحة %{memberShareCount} من الأعضاء و%{linkShareCount} من الروابط."
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:230
+msgid "Open share panel"
+msgstr "فتح لوحة المشاركة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:233
+msgid "Open link list in share panel"
+msgstr "فتح قائمة الروابط في لوحة المشاركة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:236
+msgid "Open member list in share panel"
+msgstr "فتح قائمة الأعضاء في لوحة المشاركة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:248
+msgid "This space has %{memberShareCount} member."
+msgid_plural "This space has %{memberShareCount} members."
+msgstr[0] "لا يوجد أعضاء في هذه المساحة."
+msgstr[1] "في هذه المساحة عضو واحد."
+msgstr[2] "في هذه المساحة عضوان."
+msgstr[3] "في هذه المساحة %{memberShareCount} أعضاء."
+msgstr[4] "في هذه المساحة %{memberShareCount} عضوًا."
+msgstr[5] "في هذه المساحة %{memberShareCount} عضو."
+
+#: src/components/SideBar/Spaces/Details/SpaceDetails.vue:256
+msgid "%{linkShareCount} link giving access."
+msgid_plural "%{linkShareCount} links giving access."
+msgstr[0] "%{linkShareCount} رابط يمنح حق الوصول."
+msgstr[1] "رابط واحد يمنح حق الوصول."
+msgstr[2] "رابطان يمنحان حق الوصول."
+msgstr[3] "%{linkShareCount} روابط تمنح حق الوصول."
+msgstr[4] "%{linkShareCount} رابطًا يمنح حق الوصول."
+msgstr[5] "%{linkShareCount} رابط يمنح حق الوصول."
+
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:57
+msgid "Overview of the information about the selected spaces"
+msgstr "نظرة عامة على معلومات المساحات المحددة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:60
+msgid "%{ itemCount } space selected"
+msgid_plural "%{ itemCount } spaces selected"
+msgstr[0] "تم تحديد %{ itemCount } مساحة"
+msgstr[1] "تم تحديد مساحة واحدة"
+msgstr[2] "تم تحديد مساحتين"
+msgstr[3] "تم تحديد %{ itemCount } مساحات"
+msgstr[4] "تم تحديد %{ itemCount } مساحة"
+msgstr[5] "تم تحديد %{ itemCount } مساحة"
+
+#: src/components/SideBar/Spaces/Details/SpaceDetailsMultiple.vue:77
+#: src/composables/resources/useResourceIndicators.ts:191
+msgid "Enabled"
+msgstr "مفعّل"
+
+#: src/components/SideBar/Spaces/SpaceNoSelection.vue:4
+msgid "Select a space to view details"
+msgstr "حدّد مساحة لعرض التفاصيل"
+
+#: src/components/SideBar/Spaces/SpaceNoSelection.vue:20
+msgid "Items"
+msgstr "العناصر"
+
+#: src/components/SideBar/Spaces/SpaceNoSelection.vue:21
+msgid "%{count} space"
+msgid_plural "%{count} spaces"
+msgstr[0] "%{count} مساحة"
+msgstr[1] "مساحة واحدة"
+msgstr[2] "مساحتان"
+msgstr[3] "%{count} مساحات"
+msgstr[4] "%{count} مساحة"
+msgstr[5] "%{count} مساحة"
+
+#: src/components/SideBar/WebDavDetails.vue:2
+msgid "WebDAV path"
+msgstr "مسار WebDAV"
+
+#: src/components/SideBar/WebDavDetails.vue:6
+msgid "Copy WebDAV path"
+msgstr "نسخ مسار WebDAV"
+
+#: src/components/SideBar/WebDavDetails.vue:10
+msgid "Copy WebDAV path to clipboard"
+msgstr "نسخ مسار WebDAV إلى الحافظة"
+
+#: src/components/SideBar/WebDavDetails.vue:17
+msgid "WebDAV URL"
+msgstr "عنوان URL لـ WebDAV"
+
+#: src/components/SideBar/WebDavDetails.vue:21
+msgid "Copy WebDAV URL"
+msgstr "نسخ عنوان URL لـ WebDAV"
+
+#: src/components/SideBar/WebDavDetails.vue:25
+msgid "Copy WebDAV URL to clipboard"
+msgstr "نسخ عنوان URL لـ WebDAV إلى الحافظة"
+
+#: src/components/SpaceQuota.vue:29
+msgid "%{used} of %{total} used (%{percentage}%)"
+msgstr "تم استخدام %{used} من %{total} (%{percentage}%)"
+
+#: src/components/SpaceQuota.vue:36
+msgid "%{used} used (no restriction)"
+msgstr "تم استخدام %{used} (بلا قيود)"
+
+#: src/components/Spaces/QuotaModal.vue:65
+msgid "Space quota was changed successfully"
+msgid_plural "Quota of %{count} spaces was changed successfully"
+msgstr[0] "تم تغيير حصة %{count} مساحة بنجاح"
+msgstr[1] "تم تغيير حصة المساحة بنجاح"
+msgstr[2] "تم تغيير حصة مساحتين بنجاح"
+msgstr[3] "تم تغيير حصة %{count} مساحات بنجاح"
+msgstr[4] "تم تغيير حصة %{count} مساحة بنجاح"
+msgstr[5] "تم تغيير حصة %{count} مساحة بنجاح"
+
+#: src/components/Spaces/QuotaModal.vue:73
+msgid "User quota was changed successfully"
+msgid_plural "Quota of %{count} users was changed successfully"
+msgstr[0] "لم تتغير حصة أي مستخدم"
+msgstr[1] "تم تغيير حصة المستخدم بنجاح"
+msgstr[2] "تم تغيير حصة مستخدمَين بنجاح"
+msgstr[3] "تم تغيير حصة %{count} مستخدمين بنجاح"
+msgstr[4] "تم تغيير حصة %{count} مستخدمًا بنجاح"
+msgstr[5] "تم تغيير حصة %{count} مستخدم بنجاح"
+
+#: src/components/Spaces/QuotaModal.vue:80
+msgid "Quota was changed successfully"
+msgstr "تم تغيير الحصة بنجاح"
+
+#: src/components/Spaces/QuotaModal.vue:85
+msgid "Failed to change space quota"
+msgid_plural "Failed to change quota for %{count} spaces"
+msgstr[0] "تعذّر تغيير الحصة لـ %{count} مساحة"
+msgstr[1] "تعذّر تغيير حصة المساحة"
+msgstr[2] "تعذّر تغيير حصة مساحتين"
+msgstr[3] "تعذّر تغيير الحصة لـ %{count} مساحات"
+msgstr[4] "تعذّر تغيير الحصة لـ %{count} مساحة"
+msgstr[5] "تعذّر تغيير الحصة لـ %{count} مساحة"
+
+#: src/components/Spaces/QuotaModal.vue:93
+msgid "Failed to change user quota"
+msgid_plural "Failed to change quota for %{count} users"
+msgstr[0] "تعذّر تغيير الحصة لـ %{count} مستخدم"
+msgstr[1] "تعذّر تغيير حصة المستخدم"
+msgstr[2] "تعذّر تغيير حصة مستخدمَين"
+msgstr[3] "تعذّر تغيير الحصة لـ %{count} مستخدمين"
+msgstr[4] "تعذّر تغيير الحصة لـ %{count} مستخدمًا"
+msgstr[5] "تعذّر تغيير الحصة لـ %{count} مستخدم"
+
+#: src/components/Spaces/QuotaModal.vue:100
+msgid "Failed to change quota"
+msgstr "تعذّر تغيير الحصة"
+
+#: src/components/VersionCheck.vue:4
+msgid "Checking for updates"
+msgstr "جارٍ البحث عن تحديثات"
+
+#: src/components/VersionCheck.vue:9
+msgid "Up to date"
+msgstr "محدَّث"
+
+#: src/components/VersionCheck.vue:25
+msgid "Version %{version} available"
+msgstr "الإصدار %{version} متاح"
+
+#: src/components/VersionCheck.vue:34
+msgid "Critical"
+msgstr "حرج"
+
+#: src/components/ViewOptions.vue:6
+#: src/components/ViewOptions.vue:7
+msgid "Switch view mode"
+msgstr "تبديل وضع العرض"
+
+#: src/components/ViewOptions.vue:18
+msgid "View mode"
+msgstr "وضع العرض"
+
+#: src/components/ViewOptions.vue:60
+#: src/components/ViewOptions.vue:62
+msgid "Display customization options of the files list"
+msgstr "عرض خيارات تخصيص قائمة الملفات"
+
+#: src/components/ViewOptions.vue:69
+#: src/editor/composables/strategies/html.ts:149
+#: src/editor/composables/strategies/markdown.ts:210
+msgid "View options"
+msgstr "خيارات العرض"
+
+#: src/components/ViewOptions.vue:82
+msgid "Show hidden files"
+msgstr "إظهار الملفات المخفية"
+
+#: src/components/ViewOptions.vue:90
+msgid "Show file extensions"
+msgstr "إظهار امتدادات الملفات"
+
+#: src/components/ViewOptions.vue:99
+msgid "Items per page"
+msgstr "عدد العناصر في الصفحة"
+
+#: src/components/ViewOptions.vue:109
+msgid "Show disabled Spaces"
+msgstr "إظهار المساحات المعطّلة"
+
+#: src/components/ViewOptions.vue:120
+msgid "Show empty trash bins"
+msgstr "إظهار سلال المحذوفات الفارغة"
+
+#: src/components/ViewOptions.vue:128
+msgid "Grid size"
+msgstr "حجم الشبكة"
+
+#: src/components/Yjs/YjsCollaborators.vue:70
+msgid "(you)"
+msgstr "(أنت)"
+
+#: src/components/Yjs/YjsCollaborators.vue:97
+msgid "%{count} person in this editing session"
+msgid_plural "%{count} people in this editing session"
+msgstr[0] "%{count} شخص في جلسة التعديل هذه"
+msgstr[1] "شخص واحد في جلسة التعديل هذه"
+msgstr[2] "شخصان في جلسة التعديل هذه"
+msgstr[3] "%{count} أشخاص في جلسة التعديل هذه"
+msgstr[4] "%{count} شخصًا في جلسة التعديل هذه"
+msgstr[5] "%{count} شخص في جلسة التعديل هذه"
+
+#: src/components/Yjs/YjsStatusIndicator.vue:37
+msgid "Collaboration ready"
+msgstr "التعاون جاهز"
+
+#: src/components/Yjs/YjsStatusIndicator.vue:40
+msgid "Collaboration disconnected"
+msgstr "انقطع اتصال التعاون"
+
+#: src/components/Yjs/YjsStatusIndicator.vue:43
+msgid "Collaboration connecting..."
+msgstr "جارٍ الاتصال بخدمة التعاون..."
+
+#: src/composables/actions/useFileActionsOpenWithApp.ts:33
+msgid "Open file in %{app}"
+msgstr "فتح الملف في %{app}"
+
+#: src/composables/actions/useFileActionsOpenWithApp.ts:51
+#: src/composables/actions/useFileActionsOpenWithDefault.ts:15
+msgid "Open"
+msgstr "فتح"
+
+#: src/composables/actions/useFileActionsSave.ts:28
+#: src/composables/actions/useFileActionsSave.ts:53
+msgid "Save as"
+msgstr "حفظ باسم"
+
+#: src/composables/actions/useWindowOpen.ts:13
+msgid "Pop-up and redirect block detected"
+msgstr "تم اكتشاف حظر للنوافذ المنبثقة وإعادة التوجيه"
+
+#: src/composables/actions/useWindowOpen.ts:16
+msgid "Please turn on pop-ups and redirects in your browser settings to make sure everything works right."
+msgstr "يرجى السماح بالنوافذ المنبثقة وعمليات إعادة التوجيه في إعدادات المتصفح لضمان عمل كل شيء بشكل صحيح."
+
+#: src/composables/download/useDownloadFile.ts:82
+msgid "Download failed"
+msgstr "فشل التنزيل"
+
+#: src/composables/download/useDownloadFile.ts:83
+msgid "File could not be located"
+msgstr "تعذّر العثور على الملف"
+
+#: src/composables/folderLink/useFolderLink.ts:26
+#: src/composables/folderLink/useFolderLink.ts:79
+#: src/router/spaces.ts:32
+msgid "Spaces"
+msgstr "المساحات"
+
+#: src/composables/folderLink/useFolderLink.ts:30
+msgid "Shares"
+msgstr "المشاركات"
+
+#: src/composables/folderLink/useFolderLink.ts:66
+msgid "Shared with me"
+msgstr "تمت مشاركته معي"
+
+#: src/composables/folderLink/useFolderLink.ts:86
+msgid "Personal"
+msgstr "شخصي"
+
+#: src/composables/links/useCopyLink.ts:30
+msgid "Link has been created successfully"
+msgstr "تم إنشاء الرابط بنجاح"
+
+#: src/composables/links/useCopyLink.ts:36
+msgid "%{link} Password: %{password}"
+msgstr "%{link} كلمة المرور: %{password}"
+
+#: src/composables/links/useCopyLink.ts:42
+msgid "The link has been copied to your clipboard."
+msgstr "تم نسخ الرابط إلى الحافظة."
+
+#: src/composables/links/useCopyLink.ts:57
+msgid "Failed to create link"
+msgid_plural "Failed to create links"
+msgstr[0] "تعذّر إنشاء الروابط"
+msgstr[1] "تعذّر إنشاء الرابط"
+msgstr[2] "تعذّر إنشاء الرابطين"
+msgstr[3] "تعذّر إنشاء الروابط"
+msgstr[4] "تعذّر إنشاء الروابط"
+msgstr[5] "تعذّر إنشاء الروابط"
+
+#: src/composables/links/useLinkTypes.ts:49
+msgid "Can view"
+msgstr "يمكنه العرض"
+
+#: src/composables/links/useLinkTypes.ts:50
+msgid "View, download"
+msgstr "العرض، التنزيل"
+
+#: src/composables/links/useLinkTypes.ts:55
+msgid "Can upload"
+msgstr "يمكنه الرفع"
+
+#: src/composables/links/useLinkTypes.ts:56
+msgid "View, upload, download"
+msgstr "العرض، الرفع، التنزيل"
+
+#: src/composables/links/useLinkTypes.ts:61
+msgid "Can edit"
+msgstr "يمكنه التعديل"
+
+#: src/composables/links/useLinkTypes.ts:62
+msgid "View, upload, edit, download, delete"
+msgstr "العرض، الرفع، التعديل، التنزيل، الحذف"
+
+#: src/composables/links/useLinkTypes.ts:67
+msgid "Secret File Drop"
+msgstr "إيداع ملفات سري"
+
+#: src/composables/links/useLinkTypes.ts:68
+msgid "Upload only, existing content is not revealed"
+msgstr "رفع فقط، لا يُكشف المحتوى الموجود"
+
+#: src/composables/piniaStores/clipboard.ts:23
+msgid "Copied to clipboard!"
+msgstr "تم النسخ إلى الحافظة!"
+
+#: src/composables/piniaStores/clipboard.ts:34
+msgid "Cut to clipboard!"
+msgstr "تم القص إلى الحافظة!"
+
+#: src/composables/resources/useIsResourceNameValid.ts:17
+msgid "The name cannot be empty"
+msgstr "لا يمكن أن يكون الاسم فارغًا"
+
+#: src/composables/resources/useIsResourceNameValid.ts:21
+msgid "The name cannot contain \"/\""
+msgstr "لا يمكن أن يحتوي الاسم على \"/\""
+
+#: src/composables/resources/useIsResourceNameValid.ts:25
+msgid "The name cannot contain \"\\\""
+msgstr "لا يمكن أن يحتوي الاسم على \"\\\""
+
+#: src/composables/resources/useIsResourceNameValid.ts:29
+msgid "The name cannot be equal to \".\""
+msgstr "لا يمكن أن يكون الاسم \".\""
+
+#: src/composables/resources/useIsResourceNameValid.ts:33
+msgid "The name cannot be equal to \"..\""
+msgstr "لا يمكن أن يكون الاسم \"..\""
+
+#: src/composables/resources/useIsResourceNameValid.ts:37
+msgid "The name cannot start or end with whitespace"
+msgstr "لا يمكن أن يبدأ الاسم أو ينتهي بمسافة"
+
+#: src/composables/resources/useIsResourceNameValid.ts:43
+msgid "The name is too long"
+msgstr "الاسم طويل جدًا"
+
+#: src/composables/resources/useIsResourceNameValid.ts:53
+msgid "The name »%{name}« is already taken"
+msgstr "الاسم \"%{name}\" مستخدم بالفعل"
+
+#: src/composables/resources/useIsResourceNameValid.ts:64
+msgid "The Space name cannot be empty"
+msgstr "لا يمكن أن يكون اسم المساحة فارغًا"
+
+#: src/composables/resources/useIsResourceNameValid.ts:71
+msgid "The Space name is too long"
+msgstr "اسم المساحة طويل جدًا"
+
+#: src/composables/resources/useIsResourceNameValid.ts:78
+msgid "The Space name cannot start or end with whitespace"
+msgstr "لا يمكن أن يبدأ اسم المساحة أو ينتهي بمسافة"
+
+#: src/composables/resources/useIsResourceNameValid.ts:85
+msgid "The Space name cannot contain the following characters: / \\\\ . : ? * \" > < |'"
+msgstr "لا يمكن أن يحتوي اسم المساحة على الأحرف التالية: / \\\\ . : ? * \" > < |'"
+
+#: src/composables/resources/useResourceContents.ts:32
+msgid "%{ filesCount } file"
+msgid_plural "%{ filesCount } files"
+msgstr[0] "%{ filesCount } ملف"
+msgstr[1] "ملف واحد"
+msgstr[2] "ملفان"
+msgstr[3] "%{ filesCount } ملفات"
+msgstr[4] "%{ filesCount } ملفًا"
+msgstr[5] "%{ filesCount } ملف"
+
+#: src/composables/resources/useResourceContents.ts:42
+msgid "%{ filesCount } file including %{ filesHiddenCount } hidden"
+msgid_plural "%{ filesCount } files including %{ filesHiddenCount } hidden"
+msgstr[0] "%{ filesCount } ملف، منها %{ filesHiddenCount } مخفية"
+msgstr[1] "ملف واحد، منها %{ filesHiddenCount } مخفية"
+msgstr[2] "ملفان، منها %{ filesHiddenCount } مخفية"
+msgstr[3] "%{ filesCount } ملفات، منها %{ filesHiddenCount } مخفية"
+msgstr[4] "%{ filesCount } ملفًا، منها %{ filesHiddenCount } مخفية"
+msgstr[5] "%{ filesCount } ملف، منها %{ filesHiddenCount } مخفية"
+
+#: src/composables/resources/useResourceContents.ts:53
+msgid "%{ foldersCount } folder"
+msgid_plural "%{ foldersCount } folders"
+msgstr[0] "%{ foldersCount } مجلد"
+msgstr[1] "مجلد واحد"
+msgstr[2] "مجلدان"
+msgstr[3] "%{ foldersCount } مجلدات"
+msgstr[4] "%{ foldersCount } مجلدًا"
+msgstr[5] "%{ foldersCount } مجلد"
+
+#: src/composables/resources/useResourceContents.ts:63
+msgid "%{ foldersCount } folder including %{ foldersHiddenCount } hidden"
+msgid_plural "%{ foldersCount } folders including %{ foldersHiddenCount } hidden"
+msgstr[0] "%{ foldersCount } مجلد، منها %{ foldersHiddenCount } مخفية"
+msgstr[1] "مجلد واحد، منها %{ foldersHiddenCount } مخفية"
+msgstr[2] "مجلدان، منها %{ foldersHiddenCount } مخفية"
+msgstr[3] "%{ foldersCount } مجلدات، منها %{ foldersHiddenCount } مخفية"
+msgstr[4] "%{ foldersCount } مجلدًا، منها %{ foldersHiddenCount } مخفية"
+msgstr[5] "%{ foldersCount } مجلد، منها %{ foldersHiddenCount } مخفية"
+
+#: src/composables/resources/useResourceContents.ts:74
+msgid "%{ spacesCount } space"
+msgid_plural "%{ spacesCount } spaces"
+msgstr[0] "%{ spacesCount } مساحة"
+msgstr[1] "مساحة واحدة"
+msgstr[2] "مساحتان"
+msgstr[3] "%{ spacesCount } مساحات"
+msgstr[4] "%{ spacesCount } مساحة"
+msgstr[5] "%{ spacesCount } مساحة"
+
+#: src/composables/resources/useResourceContents.ts:91
+msgid "%{ itemsCount } item with %{ itemSize } in total"
+msgstr "الإجمالي: %{ itemsCount } عنصر بحجم %{ itemSize }"
+
+#: src/composables/resources/useResourceContents.ts:92
+msgid "%{ itemsCount } item in total"
+msgstr "الإجمالي: %{ itemsCount } عنصر"
+
+#: src/composables/resources/useResourceContents.ts:95
+msgid "%{ itemsCount } items with %{ itemSize } in total"
+msgstr "الإجمالي: %{ itemsCount } من العناصر بحجم %{ itemSize }"
+
+#: src/composables/resources/useResourceContents.ts:96
+msgid "%{ itemsCount } items in total"
+msgstr "الإجمالي: %{ itemsCount } من العناصر"
+
+#: src/composables/resources/useResourceIndicators.ts:61
+msgid "This item is directly shared with others."
+msgstr "تمت مشاركة هذا العنصر مباشرةً مع الآخرين."
+
+#: src/composables/resources/useResourceIndicators.ts:62
+msgid "This item is shared with others through one of the parent folders."
+msgstr "تمت مشاركة هذا العنصر مع الآخرين من خلال أحد المجلدات الأصل."
+
+#: src/composables/resources/useResourceIndicators.ts:67
+msgid "This item is directly shared via links."
+msgstr "تمت مشاركة هذا العنصر مباشرةً عبر روابط."
+
+#: src/composables/resources/useResourceIndicators.ts:68
+msgid "This item is shared via links through one of the parent folders."
+msgstr "تمت مشاركة هذا العنصر عبر روابط من خلال أحد المجلدات الأصل."
+
+#: src/composables/resources/useResourceIndicators.ts:82
+msgid "Show invited people"
+msgstr "إظهار الأشخاص المدعوين"
+
+#: src/composables/resources/useResourceIndicators.ts:101
+msgid "This item is synced with your devices"
+msgstr "هذا العنصر تتم مزامنته مع أجهزتك"
+
+#: src/composables/resources/useResourceIndicators.ts:102
+msgid "Synced with your devices"
+msgstr "تمت المزامنة مع أجهزتك"
+
+#: src/composables/resources/useResourceIndicators.ts:151
+msgid "Show links"
+msgstr "إظهار الروابط"
+
+#: src/composables/resources/useResourceIndicators.ts:164
+msgid "Item locked"
+msgstr "العنصر مقفل"
+
+#: src/composables/resources/useResourceIndicators.ts:177
+msgid "Item in processing"
+msgstr "العنصر قيد المعالجة"
+
+#: src/composables/resources/useResourceIndicators.ts:178
+msgid "This item is in processing"
+msgstr "هذا العنصر قيد المعالجة"
+
+#: src/composables/resources/useResourceIndicators.ts:190
+msgid "Space is enabled"
+msgstr "المساحة مفعّلة"
+
+#: src/composables/resources/useResourceIndicators.ts:202
+msgid "Space is disabled"
+msgstr "المساحة معطّلة"
+
+#: src/composables/resources/useResourceIndicators.ts:218
+msgid "Trash bin contains deleted items"
+msgstr "سلة المحذوفات تحتوي على عناصر محذوفة"
+
+#: src/composables/resources/useResourceIndicators.ts:219
+msgid "Contains deleted items"
+msgstr "يحتوي على عناصر محذوفة"
+
+#: src/composables/resources/useResourceViewSelection.ts:28
+msgid "Select folder"
+msgstr "اختيار مجلد"
+
+#: src/composables/resources/useResourceViewSelection.ts:30
+msgid "Select space"
+msgstr "اختيار مساحة"
+
+#: src/composables/resources/useResourceViewSelection.ts:32
+msgid "Select file"
+msgstr "اختيار ملف"
+
+#: src/composables/resources/useResourceViewSelection.ts:45
+msgid "Select all"
+msgstr "تحديد الكل"
+
+#: src/composables/spaces/useCreateSpace.ts:216
+msgid "The quota could not be set."
+msgstr "تعذّر تعيين الحصة."
+
+#: src/composables/spaces/useCreateSpace.ts:227
+msgid "The description could not be saved."
+msgstr "تعذّر حفظ الوصف."
+
+#: src/composables/spaces/useCreateSpace.ts:233
+msgid "The image could not be uploaded."
+msgstr "تعذّر رفع الصورة."
+
+#: src/composables/spaces/useCreateSpace.ts:243
+msgid "These members could not be added: %{members}."
+msgstr "تعذّرت إضافة هؤلاء الأعضاء: %{members}."
+
+#: src/composables/spaces/useCreateSpace.ts:271
+msgid "Creating space failed…"
+msgstr "فشل إنشاء المساحة…"
+
+#: src/composables/spaces/useCreateSpace.ts:285
+msgid "The password was not saved."
+msgstr "لم يتم حفظ كلمة المرور."
+
+#: src/composables/spaces/useCreateSpace.ts:306
+msgid "Space was created"
+msgstr "تم إنشاء المساحة"
+
+#: src/composables/spaces/useCreateSpace.ts:314
+msgid "Space was created successfully"
+msgstr "تم إنشاء المساحة بنجاح"
+
+#: src/composables/yjs/useYjsSession.ts:640
+msgid "Preparing this file for collaborative editing failed. Please reload."
+msgstr "فشل تجهيز هذا الملف للتحرير التشاركي. يرجى إعادة التحميل."
+
+#: src/composables/yjs/useYjsSession.ts:783
+msgid "This file was changed externally and your editor cannot recover in-place. Please reload."
+msgstr "تم تغيير هذا الملف خارجيًا ولا يستطيع المحرر الاستعادة في مكانه. يُرجى إعادة التحميل."
+
+#: src/composables/yjs/useYjsSession.ts:851
+msgid "This file was changed externally and recovering it failed. Please reload."
+msgstr "تم تغيير هذا الملف خارجيًا وفشلت استعادته. يُرجى إعادة التحميل."
+
+#: src/composables/yjs/useYjsSession.ts:951
+msgid "Your session expired and collaborative editing stopped. Reload the page to collaborate again."
+msgstr "انتهت صلاحية جلستك وتوقف التحرير التعاوني. أعد تحميل الصفحة للتعاون مجددًا."
+
+#: src/composables/yjs/useYjsSession.ts:955
+msgid "Collaborative editing is not available for this file."
+msgstr "التعديل التعاوني غير متاح لهذا الملف."
+
+#: src/composables/yjs/useYjsSession.ts:957
+msgid "The collaboration server refused the connection. Editing continues without collaboration."
+msgstr "رفض خادم التعاون الاتصال. يستمر التحرير بدون تعاون."
+
+#: src/composables/yjs/useYjsSession.ts:1029
+msgid "The collaboration server could not be reached. Editing continues without collaboration; others will not see your changes until you reload."
+msgstr "تعذّر الوصول إلى خادم التعاون. يستمر التحرير بدون تعاون؛ لن يرى الآخرون تغييراتك حتى تعيد التحميل."
+
+#: src/composables/yjs/useYjsSession.ts:1067
+msgid "This file was changed externally and your unsaved changes could not be restored. Please reload."
+msgstr "تم تغيير هذا الملف خارجيًا وتعذّرت استعادة تغييراتك غير المحفوظة. يُرجى إعادة التحميل."
+
+#: src/composables/yjs/useYjsSession.ts:1093
+msgid "This file was changed externally and restoring your unsaved changes failed. Please reload."
+msgstr "تم تغيير هذا الملف خارجيًا وفشلت استعادة تغييراتك غير المحفوظة. يُرجى إعادة التحميل."
+
+#: src/editor/components/CodeBlockComponent.vue:8
+msgid "Code language"
+msgstr "لغة البرمجة"
+
+#: src/editor/components/CodeBlockComponent.vue:18
+msgid "Press Shift+Enter or press Enter three times in a row to exit the code block."
+msgstr "اضغط Shift+Enter أو اضغط Enter ثلاث مرات متتالية للخروج من كتلة الكود."
+
+#: src/editor/components/FrontmatterComponent.vue:5
+#: src/editor/composables/useEditorActions.ts:886
+msgid "Frontmatter"
+msgstr "Frontmatter"
+
+#: src/editor/components/FrontmatterComponent.vue:9
+msgid "Press Shift+Enter or press Enter three times in a row to exit the frontmatter block."
+msgstr "اضغط Shift+Enter أو اضغط Enter ثلاث مرات متتالية للخروج من كتلة البيانات التمهيدية."
+
+#: src/editor/components/MentionMenu.vue:30
+msgid "No matching people"
+msgstr "لا يوجد أشخاص مطابقون"
+
+#: src/editor/components/SlashCommandMenu.vue:45
+msgid "No matching commands"
+msgstr "لا توجد أوامر مطابقة"
+
+#: src/editor/components/TextEditorContent.vue:31
+msgid "Add content"
+msgstr "إضافة محتوى"
+
+#: src/editor/components/TextEditorContent.vue:40
+msgid "Drag to move"
+msgstr "اسحب للنقل"
+
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:13
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:18
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:23
+msgid "Edit Link"
+msgstr "تعديل الرابط"
+
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:29
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:33
+msgid "Open link in a new tab"
+msgstr "فتح الرابط في تبويب جديد"
+
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:44
+#: src/editor/components/TextEditorLinkBubbleMenu.vue:48
+msgid "Unlink"
+msgstr "إزالة الرابط"
+
+#: src/editor/components/TextEditorLinkPanel.vue:15
+msgid "Edit link"
+msgstr "تعديل الرابط"
+
+#: src/editor/components/TextEditorLinkPanel.vue:30
+#: src/editor/components/TextEditorLinkPanel.vue:34
+msgid "URL"
+msgstr "URL"
+
+#: src/editor/components/TextEditorLinkPanel.vue:31
+msgid "Paste link"
+msgstr "لصق الرابط"
+
+#: src/editor/components/TextEditorLinkPanel.vue:48
+#: src/editor/components/TextEditorLinkPanel.vue:49
+#: src/editor/components/TextEditorLinkPanel.vue:52
+msgid "Text to display"
+msgstr "النص المراد عرضه"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:9
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:12
+msgid "Previous result"
+msgstr "النتيجة السابقة"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:20
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:23
+msgid "Next result"
+msgstr "النتيجة التالية"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:48
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:49
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:55
+#: src/editor/composables/strategies/html.ts:225
+#: src/editor/composables/strategies/markdown.ts:260
+#: src/editor/composables/strategies/plainText.ts:82
+#: src/editor/composables/strategies/tiptapJson.ts:217
+msgid "Search"
+msgstr "بحث"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:79
+msgid "Match case"
+msgstr "مطابقة حالة الأحرف"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:90
+msgid "Whole words"
+msgstr "كلمات كاملة"
+
+#: src/editor/components/TextEditorSearchAndReplacePanel.vue:117
+msgid "Replace all"
+msgstr "استبدال الكل"
+
+#: src/editor/components/TextEditorSourceView.vue:7
+msgid "Source view, read-only"
+msgstr "عرض المصدر، للقراءة فقط"
+
+#: src/editor/components/TextEditorSourceView.vue:7
+msgid "Source view"
+msgstr "عرض المصدر"
+
+#: src/editor/components/TextEditorTableOfContents.vue:6
+msgid "Table of contents"
+msgstr "جدول المحتويات"
+
+#: src/editor/components/TextEditorTableOfContents.vue:15
+msgid "Show table of contents"
+msgstr "إظهار جدول المحتويات"
+
+#: src/editor/components/TextEditorTableOfContents.vue:15
+msgid "Hide table of contents"
+msgstr "إخفاء جدول المحتويات"
+
+#: src/editor/components/TextEditorTableOfContents.vue:21
+msgid "Outlines"
+msgstr "المخططات التفصيلية"
+
+#: src/editor/components/TextEditorTableOfContents.vue:52
+msgid "Start editing your document to see the outline."
+msgstr "ابدأ بتحرير مستندك لعرض المخطط."
+
+#: src/editor/components/TextEditorTableSizeSelectorMobile.vue:23
+msgid "Rows"
+msgstr "الصفوف"
+
+#: src/editor/components/TextEditorTableSizeSelectorMobile.vue:24
+msgid "Columns"
+msgstr "الأعمدة"
+
+#: src/editor/components/TextEditorTableSizeSelectorMobile.vue:35
+msgid "Insert table"
+msgstr "إدراج جدول"
+
+#: src/editor/components/TextEditorToolbar.vue:151
+msgid "More actions"
+msgstr "إجراءات أخرى"
+
+#: src/editor/composables/strategies/html.ts:144
+#: src/editor/composables/strategies/markdown.ts:205
+#: src/editor/composables/strategies/plainText.ts:72
+#: src/editor/composables/strategies/tiptapJson.ts:142
+msgid "Navigation"
+msgstr "التنقل"
+
+#: src/editor/composables/strategies/html.ts:154
+#: src/editor/composables/strategies/markdown.ts:215
+#: src/editor/composables/strategies/tiptapJson.ts:147
+msgid "Formatting"
+msgstr "التنسيق"
+
+#: src/editor/composables/strategies/html.ts:177
+#: src/editor/composables/strategies/markdown.ts:232
+#: src/editor/composables/strategies/tiptapJson.ts:169
+msgid "Lists"
+msgstr "القوائم"
+
+#: src/editor/composables/strategies/html.ts:182
+#: src/editor/composables/strategies/tiptapJson.ts:174
+msgid "Text layout"
+msgstr "تخطيط النص"
+
+#: src/editor/composables/strategies/html.ts:187
+#: src/editor/composables/strategies/tiptapJson.ts:179
+#: src/editor/composables/useEditorActions.ts:260
+msgid "Text align"
+msgstr "محاذاة النص"
+
+#: src/editor/composables/strategies/html.ts:197
+#: src/editor/composables/strategies/markdown.ts:237
+#: src/editor/composables/strategies/tiptapJson.ts:189
+#: src/editor/composables/useEditorActions.ts:643
+msgid "Insert"
+msgstr "إدراج"
+
+#: src/editor/composables/strategies/html.ts:211
+#: src/editor/composables/strategies/tiptapJson.ts:203
+msgid "Table tools"
+msgstr "أدوات الجدول"
+
+#: src/editor/composables/strategies/html.ts:230
+#: src/editor/composables/strategies/markdown.ts:265
+#: src/editor/composables/strategies/plainText.ts:87
+#: src/editor/composables/strategies/tiptapJson.ts:222
+msgid "Export"
+msgstr "تصدير"
+
+#: src/editor/composables/strategies/plainText.ts:77
+msgid "Emoji"
+msgstr "رموز تعبيرية"
+
+#: src/editor/composables/useEditorActions.ts:90
+msgid "Undo"
+msgstr "تراجع"
+
+#: src/editor/composables/useEditorActions.ts:100
+msgid "Redo"
+msgstr "إعادة"
+
+#: src/editor/composables/useEditorActions.ts:112
+msgid "Show source (read-only)"
+msgstr "إظهار المصدر (للقراءة فقط)"
+
+#: src/editor/composables/useEditorActions.ts:113
+msgid "Show source"
+msgstr "إظهار المصدر"
+
+#: src/editor/composables/useEditorActions.ts:123
+msgid "Zoom in"
+msgstr "تكبير"
+
+#: src/editor/composables/useEditorActions.ts:135
+msgid "Zoom out"
+msgstr "تصغير"
+
+#: src/editor/composables/useEditorActions.ts:147
+msgid "Reset zoom"
+msgstr "إعادة تعيين التكبير"
+
+#: src/editor/composables/useEditorActions.ts:159
+msgid "Zoom"
+msgstr "تكبير/تصغير"
+
+#: src/editor/composables/useEditorActions.ts:169
+msgid "Print"
+msgstr "طباعة"
+
+#: src/editor/composables/useEditorActions.ts:187
+msgid "Font size"
+msgstr "حجم الخط"
+
+#: src/editor/composables/useEditorActions.ts:193
+#: src/editor/composables/useEditorActions.ts:284
+msgid "Default"
+msgstr "افتراضي"
+
+#: src/editor/composables/useEditorActions.ts:220
+msgid "Align left"
+msgstr "محاذاة إلى اليسار"
+
+#: src/editor/composables/useEditorActions.ts:230
+msgid "Align center"
+msgstr "محاذاة إلى الوسط"
+
+#: src/editor/composables/useEditorActions.ts:240
+msgid "Align right"
+msgstr "محاذاة إلى اليمين"
+
+#: src/editor/composables/useEditorActions.ts:250
+msgid "Align justify"
+msgstr "ضبط المحاذاة"
+
+#: src/editor/composables/useEditorActions.ts:277
+msgid "Text color"
+msgstr "لون النص"
+
+#: src/editor/composables/useEditorActions.ts:290
+#: src/editor/composables/useEditorActions.ts:348
+msgid "Black"
+msgstr "أسود"
+
+#: src/editor/composables/useEditorActions.ts:291
+#: src/editor/composables/useEditorActions.ts:342
+msgid "Red"
+msgstr "أحمر"
+
+#: src/editor/composables/useEditorActions.ts:292
+#: src/editor/composables/useEditorActions.ts:343
+msgid "Orange"
+msgstr "برتقالي"
+
+#: src/editor/composables/useEditorActions.ts:293
+#: src/editor/composables/useEditorActions.ts:344
+msgid "Yellow"
+msgstr "أصفر"
+
+#: src/editor/composables/useEditorActions.ts:294
+#: src/editor/composables/useEditorActions.ts:345
+msgid "Green"
+msgstr "أخضر"
+
+#: src/editor/composables/useEditorActions.ts:295
+#: src/editor/composables/useEditorActions.ts:346
+msgid "Blue"
+msgstr "أزرق"
+
+#: src/editor/composables/useEditorActions.ts:296
+#: src/editor/composables/useEditorActions.ts:347
+msgid "Purple"
+msgstr "بنفسجي"
+
+#: src/editor/composables/useEditorActions.ts:297
+msgid "White"
+msgstr "أبيض"
+
+#: src/editor/composables/useEditorActions.ts:298
+#: src/editor/composables/useEditorActions.ts:336
+msgid "Light red"
+msgstr "أحمر فاتح"
+
+#: src/editor/composables/useEditorActions.ts:299
+#: src/editor/composables/useEditorActions.ts:337
+msgid "Light orange"
+msgstr "برتقالي فاتح"
+
+#: src/editor/composables/useEditorActions.ts:300
+#: src/editor/composables/useEditorActions.ts:338
+msgid "Light yellow"
+msgstr "أصفر فاتح"
+
+#: src/editor/composables/useEditorActions.ts:301
+#: src/editor/composables/useEditorActions.ts:339
+msgid "Light green"
+msgstr "أخضر فاتح"
+
+#: src/editor/composables/useEditorActions.ts:302
+#: src/editor/composables/useEditorActions.ts:340
+msgid "Light blue"
+msgstr "أزرق فاتح"
+
+#: src/editor/composables/useEditorActions.ts:303
+#: src/editor/composables/useEditorActions.ts:341
+msgid "Light purple"
+msgstr "بنفسجي فاتح"
+
+#: src/editor/composables/useEditorActions.ts:316
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: src/editor/composables/useEditorActions.ts:327
+msgid "None"
+msgstr "لا شيء"
+
+#: src/editor/composables/useEditorActions.ts:361
+msgid "Bold"
+msgstr "غامق"
+
+#: src/editor/composables/useEditorActions.ts:371
+msgid "Italic"
+msgstr "مائل"
+
+#: src/editor/composables/useEditorActions.ts:381
+msgid "Underline"
+msgstr "تسطير"
+
+#: src/editor/composables/useEditorActions.ts:391
+msgid "Strikethrough"
+msgstr "يتوسطه خط"
+
+#: src/editor/composables/useEditorActions.ts:401
+msgid "Subscript"
+msgstr "نص منخفض"
+
+#: src/editor/composables/useEditorActions.ts:411
+msgid "Superscript"
+msgstr "نص مرتفع"
+
+#: src/editor/composables/useEditorActions.ts:421
+msgid "Inline code"
+msgstr "كود مضمّن"
+
+#: src/editor/composables/useEditorActions.ts:432
+msgid "Turn into"
+msgstr "تحويل إلى"
+
+#: src/editor/composables/useEditorActions.ts:466
+msgid "Paragraph"
+msgstr "فقرة"
+
+#: src/editor/composables/useEditorActions.ts:467
+msgid "Text paragraph"
+msgstr "فقرة نصية"
+
+#: src/editor/composables/useEditorActions.ts:483
+msgid "Heading 1"
+msgstr "عنوان 1"
+
+#: src/editor/composables/useEditorActions.ts:484
+msgid "Large section heading"
+msgstr "عنوان قسم كبير"
+
+#: src/editor/composables/useEditorActions.ts:497
+msgid "Heading 2"
+msgstr "عنوان 2"
+
+#: src/editor/composables/useEditorActions.ts:498
+msgid "Medium section heading"
+msgstr "عنوان قسم متوسط"
+
+#: src/editor/composables/useEditorActions.ts:511
+msgid "Heading 3"
+msgstr "عنوان 3"
+
+#: src/editor/composables/useEditorActions.ts:512
+msgid "Small section heading"
+msgstr "عنوان قسم صغير"
+
+#: src/editor/composables/useEditorActions.ts:525
+msgid "Heading 4"
+msgstr "عنوان 4"
+
+#: src/editor/composables/useEditorActions.ts:526
+msgid "Extra small section heading"
+msgstr "عنوان قسم صغير جدًا"
+
+#: src/editor/composables/useEditorActions.ts:540
+msgid "Line height"
+msgstr "ارتفاع السطر"
+
+#: src/editor/composables/useEditorActions.ts:554
+msgid "Blockquote"
+msgstr "اقتباس"
+
+#: src/editor/composables/useEditorActions.ts:555
+msgid "Quote block"
+msgstr "اقتباس"
+
+#: src/editor/composables/useEditorActions.ts:568
+msgid "Code block"
+msgstr "كتلة برمجية"
+
+#: src/editor/composables/useEditorActions.ts:569
+msgid "Preformatted code block"
+msgstr "كتلة كود منسقة مسبقًا"
+
+#: src/editor/composables/useEditorActions.ts:583
+msgid "Bullet list"
+msgstr "قائمة نقطية"
+
+#: src/editor/composables/useEditorActions.ts:584
+msgid "Unordered list of items"
+msgstr "قائمة عناصر غير مرتبة"
+
+#: src/editor/composables/useEditorActions.ts:596
+msgid "Ordered list"
+msgstr "قائمة مرتبة"
+
+#: src/editor/composables/useEditorActions.ts:597
+msgid "Numbered list of items"
+msgstr "قائمة عناصر مرقمة"
+
+#: src/editor/composables/useEditorActions.ts:609
+msgid "Task list"
+msgstr "قائمة مهام"
+
+#: src/editor/composables/useEditorActions.ts:610
+msgid "List with checkable items"
+msgstr "قائمة بعناصر قابلة للتحديد"
+
+#: src/editor/composables/useEditorActions.ts:623
+msgid "Link"
+msgstr "رابط"
+
+#: src/editor/composables/useEditorActions.ts:624
+msgid "Link to a website"
+msgstr "رابط إلى موقع ويب"
+
+#: src/editor/composables/useEditorActions.ts:640
+msgid "Insert image from URL"
+msgstr "إدراج صورة من URL"
+
+#: src/editor/composables/useEditorActions.ts:642
+msgid "Image URL"
+msgstr "URL الصورة"
+
+#: src/editor/composables/useEditorActions.ts:648
+msgid "URL must start with http:// or https://"
+msgstr "يجب أن يبدأ عنوان URL بـ http:// أو https://"
+
+#: src/editor/composables/useEditorActions.ts:687
+msgid "Insert image from cloud"
+msgstr "إدراج صورة من السحابة"
+
+#: src/editor/composables/useEditorActions.ts:706
+msgid "Image from URL"
+msgstr "صورة من URL"
+
+#: src/editor/composables/useEditorActions.ts:707
+msgid "Insert an image from a web URL"
+msgstr "إدراج صورة من URL على الويب"
+
+#: src/editor/composables/useEditorActions.ts:721
+msgid "Image from file"
+msgstr "صورة من ملف"
+
+#: src/editor/composables/useEditorActions.ts:722
+msgid "Upload an image from your device"
+msgstr "رفع صورة من جهازك"
+
+#: src/editor/composables/useEditorActions.ts:737
+msgid "Insert from cloud"
+msgstr "إدراج من السحابة"
+
+#: src/editor/composables/useEditorActions.ts:738
+msgid "Insert an image from your cloud files"
+msgstr "إدراج صورة من ملفاتك السحابية"
+
+#: src/editor/composables/useEditorActions.ts:753
+msgid "Insert image"
+msgstr "إدراج صورة"
+
+#: src/editor/composables/useEditorActions.ts:763
+#: src/editor/composables/useEditorActions.ts:772
+msgid "Insert emoji"
+msgstr "إدراج رمز تعبيري"
+
+#: src/editor/composables/useEditorActions.ts:764
+msgid "Insert an emoji"
+msgstr "إدراج رمز تعبيري"
+
+#: src/editor/composables/useEditorActions.ts:795
+msgid "Search and replace"
+msgstr "بحث واستبدال"
+
+#: src/editor/composables/useEditorActions.ts:844
+msgid "Horizontal rule"
+msgstr "خط أفقي"
+
+#: src/editor/composables/useEditorActions.ts:845
+msgid "Divider line"
+msgstr "خط فاصل"
+
+#: src/editor/composables/useEditorActions.ts:887
+msgid "Document metadata"
+msgstr "بيانات المستند الوصفية"
+
+#: src/editor/composables/useEditorActions.ts:900
+msgid "Create a table"
+msgstr "إنشاء جدول"
+
+#: src/editor/composables/useEditorActions.ts:901
+msgid "Insert a table"
+msgstr "إدراج جدول"
+
+#: src/editor/composables/useEditorActions.ts:907
+msgid "Small table (3×3)"
+msgstr "جدول صغير (3×3)"
+
+#: src/editor/composables/useEditorActions.ts:908
+msgid "3×3 table with header row"
+msgstr "جدول 3×3 مع صف عناوين"
+
+#: src/editor/composables/useEditorActions.ts:916
+msgid "Choose rows & columns"
+msgstr "اختيار الصفوف والأعمدة"
+
+#: src/editor/composables/useEditorActions.ts:917
+msgid "Select custom table size"
+msgstr "اختيار حجم جدول مخصص"
+
+#: src/editor/composables/useEditorActions.ts:942
+msgid "Add row above"
+msgstr "إضافة صف في الأعلى"
+
+#: src/editor/composables/useEditorActions.ts:943
+msgid "Insert row before current"
+msgstr "إدراج صف قبل الحالي"
+
+#: src/editor/composables/useEditorActions.ts:957
+msgid "Add row below"
+msgstr "إضافة صف في الأسفل"
+
+#: src/editor/composables/useEditorActions.ts:958
+msgid "Insert row after current"
+msgstr "إدراج صف بعد الحالي"
+
+#: src/editor/composables/useEditorActions.ts:972
+msgid "Delete row"
+msgstr "حذف الصف"
+
+#: src/editor/composables/useEditorActions.ts:973
+msgid "Remove current row"
+msgstr "إزالة الصف الحالي"
+
+#: src/editor/composables/useEditorActions.ts:995
+msgid "Add column left"
+msgstr "إضافة عمود إلى اليسار"
+
+#: src/editor/composables/useEditorActions.ts:996
+msgid "Insert column before current"
+msgstr "إدراج عمود قبل الحالي"
+
+#: src/editor/composables/useEditorActions.ts:1010
+msgid "Add column right"
+msgstr "إضافة عمود إلى اليمين"
+
+#: src/editor/composables/useEditorActions.ts:1011
+msgid "Insert column after current"
+msgstr "إدراج عمود بعد الحالي"
+
+#: src/editor/composables/useEditorActions.ts:1025
+msgid "Delete column"
+msgstr "حذف العمود"
+
+#: src/editor/composables/useEditorActions.ts:1026
+msgid "Remove current column"
+msgstr "إزالة العمود الحالي"
+
+#: src/editor/composables/useEditorActions.ts:1048
+#: src/editor/composables/useEditorActions.ts:1049
+msgid "Toggle header row"
+msgstr "تبديل صف العنوان"
+
+#: src/editor/composables/useEditorActions.ts:1063
+msgid "Delete table"
+msgstr "حذف الجدول"
+
+#: src/editor/composables/useEditorActions.ts:1064
+msgid "Remove current table"
+msgstr "إزالة الجدول الحالي"
+
+#: src/helpers/resource/conflictHandling/conflictDialog.ts:75
+msgid "Folder already exists"
+msgstr "المجلد موجود بالفعل"
+
+#: src/helpers/resource/conflictHandling/conflictDialog.ts:76
+msgid "File already exists"
+msgstr "الملف موجود بالفعل"
+
+#: src/helpers/resource/conflictHandling/conflictDialog.ts:98
+msgid "Copy here?"
+msgstr "نسخ هنا؟"
+
+#: src/helpers/resource/conflictHandling/conflictDialog.ts:100
+msgid "Copy here"
+msgstr "نسخ هنا"
+
+#: src/helpers/resource/conflictHandling/transfer.ts:37
+msgid "You can't paste the selected file at this location because you can't paste an item into itself."
+msgid_plural "You can't paste the selected files at this location because you can't paste an item into itself."
+msgstr[0] "لا يمكنك لصق الملفات المحددة في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+msgstr[1] "لا يمكنك لصق الملف المحدد في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+msgstr[2] "لا يمكنك لصق الملفين المحددين في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+msgstr[3] "لا يمكنك لصق الملفات المحددة في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+msgstr[4] "لا يمكنك لصق الملفات المحددة في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+msgstr[5] "لا يمكنك لصق الملفات المحددة في هذا الموقع لأنه لا يمكن لصق عنصر داخل نفسه."
+
+#: src/helpers/resource/conflictHandling/transfer.ts:58
+msgid "%{count} item was copied successfully"
+msgid_plural "%{count} items were copied successfully"
+msgstr[0] "تم نسخ %{count} عنصر بنجاح"
+msgstr[1] "تم نسخ عنصر واحد بنجاح"
+msgstr[2] "تم نسخ عنصرين بنجاح"
+msgstr[3] "تم نسخ %{count} عناصر بنجاح"
+msgstr[4] "تم نسخ %{count} عنصرًا بنجاح"
+msgstr[5] "تم نسخ %{count} عنصر بنجاح"
+
+#: src/helpers/resource/conflictHandling/transfer.ts:64
+msgid "%{count} item was moved successfully"
+msgid_plural "%{count} items were moved successfully"
+msgstr[0] "تم نقل %{count} عنصر بنجاح"
+msgstr[1] "تم نقل عنصر واحد بنجاح"
+msgstr[2] "تم نقل عنصرين بنجاح"
+msgstr[3] "تم نقل %{count} عناصر بنجاح"
+msgstr[4] "تم نقل %{count} عنصرًا بنجاح"
+msgstr[5] "تم نقل %{count} عنصر بنجاح"
+
+#: src/helpers/resource/conflictHandling/transfer.ts:76
+msgid "Failed to copy %{count} resources"
+msgstr "تعذّر نسخ %{count} من العناصر"
+
+#: src/helpers/resource/conflictHandling/transfer.ts:77
+msgid "Failed to move %{count} resources"
+msgstr "تعذّر نقل %{count} من العناصر"
+
+#: src/helpers/resource/conflictHandling/transfer.ts:81
+msgid "Failed to copy »%{name}«"
+msgstr "تعذّر نسخ \"%{name}\""
+
+#: src/helpers/resource/conflictHandling/transfer.ts:82
+msgid "Failed to move »%{name}«"
+msgstr "تعذّر نقل \"%{name}\""
+
+#: src/helpers/resource/conflictHandling/transfer.ts:86
+msgid "Insufficient quota"
+msgstr "الحصة غير كافية"
+
+#: src/helpers/searchFilters.ts:28
+msgid "today"
+msgstr "اليوم"
+
+#: src/helpers/searchFilters.ts:30
+msgid "yesterday"
+msgstr "أمس"
+
+#: src/helpers/searchFilters.ts:32
+msgid "this week"
+msgstr "هذا الأسبوع"
+
+#: src/helpers/searchFilters.ts:34
+msgid "last week"
+msgstr "الأسبوع الماضي"
+
+#: src/helpers/searchFilters.ts:36
+msgid "last 7 days"
+msgstr "آخر 7 أيام"
+
+#: src/helpers/searchFilters.ts:38
+msgid "this month"
+msgstr "هذا الشهر"
+
+#: src/helpers/searchFilters.ts:40
+msgid "last month"
+msgstr "الشهر الماضي"
+
+#: src/helpers/searchFilters.ts:42
+msgid "last 30 days"
+msgstr "آخر 30 يومًا"
+
+#: src/helpers/searchFilters.ts:44
+msgid "this year"
+msgstr "هذا العام"
+
+#: src/helpers/searchFilters.ts:46
+msgid "last year"
+msgstr "السنة الماضية"
+
+#: src/helpers/searchFilters.ts:55
+msgid "File"
+msgstr "ملف"
+
+#: src/helpers/searchFilters.ts:57
+msgid "Folder"
+msgstr "مجلد"
+
+#: src/helpers/searchFilters.ts:59
+msgid "Document"
+msgstr "مستند"
+
+#: src/helpers/searchFilters.ts:61
+msgid "Spreadsheet"
+msgstr "جدول بيانات"
+
+#: src/helpers/searchFilters.ts:63
+msgid "Presentation"
+msgstr "عرض تقديمي"
+
+#: src/helpers/searchFilters.ts:65
+msgid "PDF"
+msgstr "PDF"
+
+#: src/helpers/searchFilters.ts:67
+msgid "Image"
+msgstr "صورة"
+
+#: src/helpers/searchFilters.ts:69
+msgid "Video"
+msgstr "فيديو"
+
+#: src/helpers/searchFilters.ts:71
+msgid "Audio"
+msgstr "صوت"
+
+#: src/helpers/searchFilters.ts:73
+msgid "Archive"
+msgstr "الأرشيف"
+
+#: src/helpers/ui/resourceTiles.ts:9
+#: src/helpers/ui/resourceTiles.ts:48
+msgid "A-Z"
+msgstr "أ-ي"
+
+#: src/helpers/ui/resourceTiles.ts:15
+#: src/helpers/ui/resourceTiles.ts:54
+msgid "Z-A"
+msgstr "ي-أ"
+
+#: src/helpers/ui/resourceTiles.ts:21
+msgid "Largest"
+msgstr "الأكبر"
+
+#: src/helpers/ui/resourceTiles.ts:27
+msgid "Smallest"
+msgstr "الأصغر"
+
+#: src/helpers/ui/resourceTiles.ts:33
+#: src/helpers/ui/resourceTiles.ts:130
+msgid "Recently modified"
+msgstr "المعدّلة مؤخرًا"
+
+#: src/helpers/ui/resourceTiles.ts:39
+#: src/helpers/ui/resourceTiles.ts:136
+msgid "Least recently modified"
+msgstr "الأقدم تعديلًا"
+
+#: src/helpers/ui/resourceTiles.ts:60
+msgid "Most members"
+msgstr "الأكثر أعضاءً"
+
+#: src/helpers/ui/resourceTiles.ts:67
+msgid "Fewest members"
+msgstr "الأقل أعضاءً"
+
+#: src/helpers/ui/resourceTiles.ts:74
+msgid "Most total quota"
+msgstr "الأكبر حصة إجمالية"
+
+#: src/helpers/ui/resourceTiles.ts:81
+msgid "Least total quota"
+msgstr "أقل حصة إجمالية"
+
+#: src/helpers/ui/resourceTiles.ts:88
+msgid "Most used quota"
+msgstr "الأكثر حصة مستخدمة"
+
+#: src/helpers/ui/resourceTiles.ts:95
+msgid "Least used quota"
+msgstr "أقل حصة مستخدمة"
+
+#: src/helpers/ui/resourceTiles.ts:102
+msgid "Most remaining quota"
+msgstr "الأكثر حصة متبقية"
+
+#: src/helpers/ui/resourceTiles.ts:109
+msgid "Least remaining quota"
+msgstr "أقل حصة متبقية"
+
+#: src/helpers/ui/resourceTiles.ts:116
+msgid "Enabled first"
+msgstr "المفعّل أولًا"
+
+#: src/helpers/ui/resourceTiles.ts:123
+msgid "Disabled first"
+msgstr "المعطّل أولًا"
+
+#: src/router/common.ts:30
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: src/router/common.ts:57
+msgid "Favorite files"
+msgstr "الملفات المفضلة"
+
+#: src/router/public.ts:51
+msgid "Public file upload"
+msgstr "رفع ملفات عام"
+
+#: src/router/shares.ts:36
+msgid "Files shared with me"
+msgstr "الملفات التي تمت مشاركتها معي"
+
+#: src/router/shares.ts:45
+msgid "Files shared with others"
+msgstr "الملفات التي تمت مشاركتها مع الآخرين"
+
+#: src/router/shares.ts:54
+msgid "Files shared via link"
+msgstr "الملفات التي تمت مشاركتها عبر رابط"
+
+#: src/router/trash.ts:31
+msgid "Trash overview"
+msgstr "نظرة عامة على سلة المحذوفات"
+
+#: src/services/passwordPolicy/rules.ts:38
+msgid "Must not be empty"
+msgstr "يجب ألا يكون فارغًا"
+
+#: src/services/passwordPolicy/rules.ts:67
+msgid "Valid special characters: %{characters}"
+msgstr "الرموز الخاصة المسموح بها: %{characters}"
+
+#: src/services/passwordPolicy/rules.ts:70
+msgid "%{param1}+ special characters"
+msgstr "%{param1}+ رموز خاصة"
+
+#: src/services/passwordPolicy/rules.ts:147
+msgid "%{param1}+ letters"
+msgstr "%{param1}+ أحرف"
+
+#: src/services/passwordPolicy/rules.ts:166
+msgid "%{param1}+ uppercase letters"
+msgstr "%{param1}+ أحرف كبيرة"
+
+#: src/services/passwordPolicy/rules.ts:186
+msgid "%{param1}+ lowercase letters"
+msgstr "%{param1}+ أحرف صغيرة"
+
+#: src/services/passwordPolicy/rules.ts:206
+msgid "%{param1}+ numbers"
+msgstr "%{param1}+ أرقام"
+
+#: src/services/uppy/uppyService.ts:111
+msgid "Added %{numFiles} file(s)"
+msgstr "عدد الملفات المضافة: %{numFiles}"
+
+#: src/services/uppy/uppyService.ts:112
+msgid "Connect"
+msgstr "اتصال"
+
+#: src/services/uppy/uppyService.ts:113
+msgid "Connect to %{pluginName}"
+msgstr "الاتصال بـ %{pluginName}"
+
+#: src/services/uppy/uppyService.ts:114
+msgid "Please authenticate with %{pluginName} to select files"
+msgstr "يرجى المصادقة مع %{pluginName} لاختيار الملفات"
+
+#: src/services/uppy/uppyService.ts:116
+msgid "Connection with Companion failed"
+msgstr "فشل الاتصال بـ Companion"
+
+#: src/services/uppy/uppyService.ts:117
+msgid "Loaded %{numFiles} files"
+msgstr "تم تحميل %{numFiles} من الملفات"
+
+#: src/services/uppy/uppyService.ts:118
+msgid "Loading..."
+msgstr "جارٍ التحميل..."
+
+#: src/services/uppy/uppyService.ts:119
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: src/services/uppy/uppyService.ts:120
+msgid "Public link without password protection"
+msgstr "رابط عام بدون حماية بكلمة مرور"
+
+#: src/services/uppy/uppyService.ts:122
+#: src/services/uppy/uppyService.ts:123
+msgid "Select %{smart_count}"
+msgstr "تحديد %{smart_count}"
+
+#: src/services/uppy/uppyService.ts:125
+msgid "Sign in with Google"
+msgstr "تسجيل الدخول باستخدام Google"

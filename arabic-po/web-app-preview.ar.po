@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/App.vue:4
+#: src/App.vue:31
+msgid "Loading media file"
+msgstr "جارٍ تحميل ملف الوسائط"
+
+#: src/App.vue:40
+msgid "Failed to load \"%{filename}\""
+msgstr "تعذّر تحميل \"%{filename}\""
+
+#: src/components/MediaControls.vue:224
+msgid "%{ displayIndex } of %{ availableMediaFiles }"
+msgstr "%{ displayIndex } من %{ availableMediaFiles }"
+
+#: src/components/MediaControls.vue:230
+msgid "Media file %{ displayIndex } of %{ availableMediaFiles }"
+msgstr "ملف الوسائط %{ displayIndex } من %{ availableMediaFiles }"
+
+#: src/components/MediaControls.vue:238
+msgid "Hide photo roll"
+msgstr "إخفاء شريط الصور"
+
+#: src/components/MediaControls.vue:240
+msgid "Show photo roll"
+msgstr "إظهار شريط الصور"
+
+#: src/components/MediaControls.vue:248
+msgid "Delete (%{key})"
+msgstr "حذف (%{key})"
+
+#: src/components/MediaControls.vue:249
+msgid "⌘ + Backspace"
+msgstr "⌘ + Backspace"
+
+#: src/components/MediaControls.vue:249
+msgid "Del"
+msgstr "Del"
+
+#: src/components/MediaControls.vue:261
+msgid "Enter full screen mode"
+msgstr "الدخول إلى وضع ملء الشاشة"
+
+#: src/components/MediaControls.vue:262
+msgid "Exit full screen mode"
+msgstr "الخروج من وضع ملء الشاشة"
+
+#: src/components/MediaControls.vue:263
+msgid "Shrink the image (⇧ + Mouse wheel)"
+msgstr "تصغير الصورة (⇧ + عجلة الفأرة)"
+
+#: src/components/MediaControls.vue:264
+msgid "Enlarge the image (⇧ + Mouse wheel)"
+msgstr "تكبير الصورة (⇧ + عجلة الفأرة)"
+
+#: src/components/MediaControls.vue:265
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: src/components/MediaControls.vue:267
+msgid "Rotate the image 90 degrees to the left"
+msgstr "تدوير الصورة 90 درجة إلى اليسار"
+
+#: src/components/MediaControls.vue:270
+msgid "Rotate the image 90 degrees to the right"
+msgstr "تدوير الصورة 90 درجة إلى اليمين"
+
+#: src/components/MediaControls.vue:272
+msgid "Show previous media file in folder"
+msgstr "عرض ملف الوسائط السابق في المجلد"
+
+#: src/components/MediaControls.vue:273
+msgid "Show next media file in folder"
+msgstr "عرض ملف الوسائط التالي في المجلد"
+
+#: src/components/MediaControls.vue:275
+msgid "Pause motion photo"
+msgstr "إيقاف الصورة المتحركة مؤقتًا"
+
+#: src/components/MediaControls.vue:275
+msgid "Play motion photo"
+msgstr "تشغيل الصورة المتحركة"
+
+#: src/components/Sources/MediaMotionPhoto.vue:23
+msgid "Loading motion photo"
+msgstr "جارٍ تحميل الصورة المتحركة"
+
+#: src/index.ts:31
+#: src/index.ts:40
+#: src/index.ts:46
+msgid "Preview"
+msgstr "معاينة"

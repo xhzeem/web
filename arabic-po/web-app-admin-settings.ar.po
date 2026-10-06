@@ -1,0 +1,975 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenCloud Web\n"
+"PO-Revision-Date: 2026-10-06 00:00+0000\n"
+"Last-Translator: xhzeem\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+
+#: src/components/AppTemplate.vue:56
+msgid "Loading actions"
+msgstr "جارٍ تحميل الإجراءات"
+
+#: src/components/AppTemplate.vue:60
+#: src/components/AppTemplate.vue:61
+msgid "Clear selection"
+msgstr "إلغاء التحديد"
+
+#: src/components/AppTemplate.vue:70
+msgid "%{count} selected"
+msgstr "تم تحديد %{count}"
+
+#: src/components/AppTemplate.vue:166
+msgid "No items selected."
+msgstr "لم تُحدد أي عناصر."
+
+#: src/components/AppTemplate.vue:168
+msgid "%{ amount } item selected. Actions are available above the table."
+msgid_plural "%{ amount } items selected. Actions are available above the table."
+msgstr[0] "تم تحديد %{ amount } عنصر. الإجراءات متاحة أعلى الجدول."
+msgstr[1] "تم تحديد عنصر واحد. الإجراءات متاحة أعلى الجدول."
+msgstr[2] "تم تحديد عنصرين. الإجراءات متاحة أعلى الجدول."
+msgstr[3] "تم تحديد %{ amount } عناصر. الإجراءات متاحة أعلى الجدول."
+msgstr[4] "تم تحديد %{ amount } عنصرًا. الإجراءات متاحة أعلى الجدول."
+msgstr[5] "تم تحديد %{ amount } عنصر. الإجراءات متاحة أعلى الجدول."
+
+#: src/components/Extensions/ExtensionsList.vue:8
+#: src/views/Extensions.vue:23
+msgid "No apps found"
+msgstr "لم يُعثر على تطبيقات"
+
+#: src/components/Extensions/ExtensionsList.vue:11
+#: src/components/Groups/GroupsList.vue:11
+#: src/components/Spaces/SpacesList.vue:11
+#: src/views/Users.vue:111
+msgid "Try refining the search term or filters to get results"
+msgstr "جرّب تعديل عبارة البحث أو عوامل التصفية للحصول على نتائج"
+
+#: src/components/Extensions/ExtensionsList.vue:42
+msgid "Active"
+msgstr "نشط"
+
+#: src/components/Extensions/ExtensionsList.vue:50
+msgid "Failed"
+msgstr "فشل"
+
+#: src/components/Extensions/ExtensionsList.vue:107
+#: src/components/Spaces/SpacesList.vue:294
+msgid "Name"
+msgstr "الاسم"
+
+#: src/components/Extensions/ExtensionsList.vue:116
+#: src/components/General/InfoSection.vue:14
+msgid "Version"
+msgstr "الإصدار"
+
+#: src/components/Extensions/ExtensionsList.vue:122
+#: src/components/Spaces/SpacesList.vue:330
+msgid "Status"
+msgstr "الحالة"
+
+#: src/components/General/AnnouncementSection.vue:4
+msgid "Announcement banner"
+msgstr "شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:6
+msgid "Shows a banner on top for all users. Do not include sensitive information."
+msgstr "يعرض شريطًا إعلانيًا في الأعلى لجميع المستخدمين. لا تُدرج معلومات حساسة."
+
+#: src/components/General/AnnouncementSection.vue:10
+#: src/components/General/AnnouncementSection.vue:13
+#: src/components/General/AnnouncementSection.vue:15
+msgid "Banner"
+msgstr "الشريط"
+
+#: src/components/General/AnnouncementSection.vue:17
+msgid "Displayed text in the banner. Clicking it opens the details dialog. Visible only when Show banner is enabled. Users can dismiss it until the page is reloaded."
+msgstr "النص المعروض في الشريط الإعلاني. يؤدي النقر عليه إلى فتح مربع حوار التفاصيل. يظهر فقط عند تفعيل خيار إظهار الشريط الإعلاني. يمكن للمستخدمين إخفاؤه إلى أن يُعاد تحميل الصفحة."
+
+#: src/components/General/AnnouncementSection.vue:27
+#: src/components/General/AnnouncementSection.vue:29
+#: src/components/General/AnnouncementSection.vue:108
+msgid "Banner details"
+msgstr "تفاصيل الشريط"
+
+#: src/components/General/AnnouncementSection.vue:31
+msgid "The details are shown in a dialog when users click the banner. They can be formatted using Markdown. Leave empty to make the banner non-clickable."
+msgstr "تُعرض التفاصيل في مربع حوار عند نقر المستخدمين على الشريط. يمكن تنسيقها باستخدام Markdown. اتركها فارغة لجعل الشريط غير قابل للنقر."
+
+#: src/components/General/AnnouncementSection.vue:47
+#: src/components/General/AnnouncementSection.vue:53
+msgid "Show banner"
+msgstr "إظهار الشريط الإعلاني"
+
+#: src/components/General/AnnouncementSection.vue:55
+msgid "Show the banner to all users. It can only be enabled once a banner text has been saved."
+msgstr "إظهار الشريط الإعلاني لجميع المستخدمين. لا يمكن تفعيله إلا بعد حفظ نص الشريط."
+
+#: src/components/General/AnnouncementSection.vue:63
+msgid "Preview"
+msgstr "معاينة"
+
+#: src/components/General/AnnouncementSection.vue:71
+msgid "Save"
+msgstr "حفظ"
+
+#: src/components/General/AnnouncementSection.vue:149
+msgid "The announcement is too large. Please shorten the info text."
+msgstr "الإعلان كبير جدًا. يُرجى اختصار النص التوضيحي."
+
+#: src/components/General/AnnouncementSection.vue:151
+msgid "You are not allowed to manage the announcement banner."
+msgstr "غير مسموح لك بإدارة شريط الإعلانات."
+
+#: src/components/General/AnnouncementSection.vue:171
+msgid "Failed to load the announcement banner"
+msgstr "تعذّر تحميل شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:194
+msgid "Announcement banner updated"
+msgstr "تم تحديث شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:195
+msgid "Announcement banner removed"
+msgstr "تمت إزالة شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:198
+#: src/components/General/AnnouncementSection.vue:222
+msgid "Failed to update the announcement banner"
+msgstr "تعذّر تحديث شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:217
+msgid "Announcement banner enabled"
+msgstr "تم تفعيل شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:218
+msgid "Announcement banner disabled"
+msgstr "تم تعطيل شريط الإعلانات"
+
+#: src/components/General/AnnouncementSection.vue:239
+msgid "Previewing in this session only, not saved"
+msgstr "معاينة في هذه الجلسة فقط، غير محفوظة"
+
+#: src/components/General/InfoSection.vue:11
+msgid "Edition"
+msgstr "النسخة"
+
+#: src/components/Groups/CreateGroupModal.vue:7
+#: src/components/Groups/GroupsList.vue:211
+#: src/components/Groups/SideBar/DetailsPanel.vue:29
+#: src/components/Groups/SideBar/EditPanel.vue:9
+msgid "Group name"
+msgstr "اسم المجموعة"
+
+#: src/components/Groups/CreateGroupModal.vue:64
+#: src/components/Groups/SideBar/EditPanel.vue:77
+msgid "Group name cannot be empty"
+msgstr "لا يمكن ترك اسم المجموعة فارغًا"
+
+#: src/components/Groups/CreateGroupModal.vue:68
+#: src/components/Groups/SideBar/EditPanel.vue:82
+msgid "Group name cannot exceed 255 characters"
+msgstr "لا يمكن أن يتجاوز اسم المجموعة 255 حرفًا"
+
+#: src/components/Groups/CreateGroupModal.vue:81
+#: src/components/Groups/SideBar/EditPanel.vue:97
+msgid "Group \"%{groupName}\" already exists"
+msgstr "المجموعة \"%{groupName}\" موجودة بالفعل"
+
+#: src/components/Groups/CreateGroupModal.vue:97
+msgid "Group was created successfully"
+msgstr "تم إنشاء المجموعة بنجاح"
+
+#: src/components/Groups/CreateGroupModal.vue:102
+msgid "Failed to create group"
+msgstr "تعذّر إنشاء المجموعة"
+
+#: src/components/Groups/GroupsList.vue:8
+#: src/views/Groups.vue:50
+msgid "No groups found"
+msgstr "لم يُعثر على مجموعات"
+
+#: src/components/Groups/GroupsList.vue:33
+msgid "Select all groups"
+msgstr "تحديد كل المجموعات"
+
+#: src/components/Groups/GroupsList.vue:73
+#: src/components/Groups/GroupsList.vue:74
+#: src/components/Spaces/SpacesList.vue:448
+#: src/components/Users/UsersList.vue:81
+#: src/components/Users/UsersList.vue:82
+msgid "Show details"
+msgstr "إظهار التفاصيل"
+
+#: src/components/Groups/GroupsList.vue:83
+#: src/components/Groups/GroupsList.vue:84
+#: src/components/Users/UsersList.vue:90
+#: src/components/Users/UsersList.vue:91
+#: src/composables/actions/groups/useGroupActionsEdit.ts:13
+#: src/composables/actions/users/useUserActionsEdit.ts:13
+msgid "Edit"
+msgstr "تعديل"
+
+#: src/components/Groups/GroupsList.vue:188
+msgid "This group is read-only and can't be edited"
+msgstr "هذه المجموعة للقراءة فقط ولا يمكن تعديلها"
+
+#: src/components/Groups/GroupsList.vue:195
+msgid "%{groupCount} groups in total"
+msgstr "إجمالي المجموعات: %{groupCount}"
+
+#: src/components/Groups/GroupsList.vue:198
+msgid "%{groupCount} matching groups"
+msgstr "المجموعات المطابقة: %{groupCount}"
+
+#: src/components/Groups/GroupsList.vue:217
+#: src/components/Spaces/SpacesList.vue:347
+#: src/components/Users/UsersList.vue:267
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: src/components/Groups/GroupsList.vue:248
+msgid "Select %{ group }"
+msgstr "تحديد %{ group }"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:5
+msgid "Select a group to view details"
+msgstr "حدّد مجموعة لعرض التفاصيل"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:27
+msgid "Overview of the information about the selected group"
+msgstr "نظرة عامة على معلومات المجموعة المحددة"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:50
+#: src/components/Users/SideBar/DetailsPanel.vue:113
+msgid "Items"
+msgstr "العناصر"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:51
+msgid "%{count} group"
+msgid_plural "%{count} groups"
+msgstr[0] "%{count} مجموعة"
+msgstr[1] "مجموعة واحدة"
+msgstr[2] "مجموعتان"
+msgstr[3] "%{count} مجموعات"
+msgstr[4] "%{count} مجموعة"
+msgstr[5] "%{count} مجموعة"
+
+#: src/components/Groups/SideBar/DetailsPanel.vue:58
+msgid "%{count} groups selected"
+msgstr "عدد المجموعات المحددة: %{count}"
+
+#: src/components/Groups/SideBar/EditPanel.vue:5
+msgid "Group"
+msgstr "مجموعة"
+
+#: src/components/Groups/SideBar/EditPanel.vue:67
+msgid "Failed to edit group"
+msgstr "تعذّر تعديل المجموعة"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:6
+#: src/components/Spaces/SideBar/MembersPanel.vue:6
+msgid "Filter members"
+msgstr "تصفية الأعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:7
+#: src/components/Spaces/SideBar/MembersPanel.vue:7
+msgid "Search for members"
+msgstr "البحث عن أعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:13
+#: src/components/Spaces/SideBar/MembersPanel.vue:13
+msgid "No members found"
+msgstr "لم يُعثر على أعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:16
+#: src/components/Spaces/SpacesList.vue:306
+#: src/views/Groups.vue:157
+#: src/views/Spaces.vue:190
+msgid "Members"
+msgstr "الأعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:22
+#: src/components/Spaces/SideBar/MembersPanel.vue:34
+msgid "Member list pagination"
+msgstr "ترقيم صفحات قائمة الأعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:28
+msgid "Loading members"
+msgstr "جارٍ تحميل الأعضاء"
+
+#: src/components/Groups/SideBar/MembersPanel.vue:91
+msgid "Failed to load group members"
+msgstr "تعذّر تحميل أعضاء المجموعة"
+
+#: src/components/Spaces/SideBar/MembersPanel.vue:26
+msgid "Custom role"
+msgstr "دور مخصص"
+
+#: src/components/Spaces/SpacesList.vue:8
+#: src/views/Spaces.vue:39
+msgid "No spaces found"
+msgstr "لم يُعثر على مساحات"
+
+#: src/components/Spaces/SpacesList.vue:31
+msgid "Select spaces"
+msgstr "اختيار مساحات"
+
+#: src/components/Spaces/SpacesList.vue:34
+msgid "Select all spaces"
+msgstr "تحديد كل المساحات"
+
+#: src/components/Spaces/SpacesList.vue:198
+msgid "%{spaceCount} space in total"
+msgid_plural "%{spaceCount} spaces in total"
+msgstr[0] "الإجمالي: %{spaceCount} مساحة"
+msgstr[1] "الإجمالي: مساحة واحدة"
+msgstr[2] "الإجمالي: مساحتان"
+msgstr[3] "الإجمالي: %{spaceCount} مساحات"
+msgstr[4] "الإجمالي: %{spaceCount} مساحة"
+msgstr[5] "الإجمالي: %{spaceCount} مساحة"
+
+#: src/components/Spaces/SpacesList.vue:208
+msgid "%{spaceCount} space in total (including %{disabledSpaceCount} disabled)"
+msgid_plural "%{spaceCount} spaces in total (including %{disabledSpaceCount} disabled)"
+msgstr[0] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[1] "الإجمالي: مساحة واحدة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[2] "الإجمالي: مساحتان (منها %{disabledSpaceCount} معطّلة)"
+msgstr[3] "الإجمالي: %{spaceCount} مساحات (منها %{disabledSpaceCount} معطّلة)"
+msgstr[4] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+msgstr[5] "الإجمالي: %{spaceCount} مساحة (منها %{disabledSpaceCount} معطّلة)"
+
+#: src/components/Spaces/SpacesList.vue:219
+msgid "%{spaceCount} matching spaces"
+msgstr "المساحات المطابقة: %{spaceCount}"
+
+#: src/components/Spaces/SpacesList.vue:301
+msgid "Manager"
+msgstr "مدير"
+
+#: src/components/Spaces/SpacesList.vue:312
+msgid "Total quota"
+msgstr "إجمالي الحصة"
+
+#: src/components/Spaces/SpacesList.vue:318
+msgid "Used quota"
+msgstr "الحصة المستخدمة"
+
+#: src/components/Spaces/SpacesList.vue:324
+msgid "Remaining quota"
+msgstr "الحصة المتبقية"
+
+#: src/components/Spaces/SpacesList.vue:340
+msgid "Modified"
+msgstr "التعديل"
+
+#: src/components/Spaces/SpacesList.vue:376
+#: src/components/Spaces/SpacesList.vue:389
+msgid "Unrestricted"
+msgstr "غير مقيّد"
+
+#: src/components/Spaces/SpacesList.vue:401
+msgid "Select %{ space }"
+msgstr "تحديد %{ space }"
+
+#: src/components/Users/AddToGroupsModal.vue:80
+msgid "Group assignment already added"
+msgid_plural "Group assignments already added"
+msgstr[0] "لا توجد إسنادات إلى مجموعات لإضافتها"
+msgstr[1] "تمت إضافة الإسناد إلى المجموعة مسبقًا"
+msgstr[2] "تمت إضافة الإسنادين إلى المجموعات مسبقًا"
+msgstr[3] "تمت إضافة الإسنادات إلى المجموعات مسبقًا"
+msgstr[4] "تمت إضافة الإسنادات إلى المجموعات مسبقًا"
+msgstr[5] "تمت إضافة الإسنادات إلى المجموعات مسبقًا"
+
+#: src/components/Users/AddToGroupsModal.vue:95
+msgid "Group assignment \"%{group}\" was added successfully"
+msgstr "تمت إضافة الإسناد إلى المجموعة \"%{group}\" بنجاح"
+
+#: src/components/Users/AddToGroupsModal.vue:98
+msgid "%{groupAssignmentCount} group assignment was added successfully"
+msgid_plural "%{groupAssignmentCount} group assignments were added successfully"
+msgstr[0] "تمت إضافة %{groupAssignmentCount} تعيين مجموعة بنجاح"
+msgstr[1] "تمت إضافة تعيين مجموعة واحد بنجاح"
+msgstr[2] "تمت إضافة تعييني مجموعة بنجاح"
+msgstr[3] "تمت إضافة %{groupAssignmentCount} تعيينات مجموعات بنجاح"
+msgstr[4] "تمت إضافة %{groupAssignmentCount} تعيين مجموعة بنجاح"
+msgstr[5] "تمت إضافة %{groupAssignmentCount} تعيين مجموعة بنجاح"
+
+#: src/components/Users/AddToGroupsModal.vue:113
+msgid "Failed to add group assignment \"%{group}\""
+msgstr "تعذّرت إضافة تعيين المجموعة \"%{group}\""
+
+#: src/components/Users/AddToGroupsModal.vue:116
+msgid "Failed to add %{groupAssignmentCount} group assignment"
+msgid_plural "Failed to add %{groupAssignmentCount} group assignments"
+msgstr[0] "تعذّرت إضافة %{groupAssignmentCount} تعيين مجموعة"
+msgstr[1] "تعذّرت إضافة تعيين مجموعة واحد"
+msgstr[2] "تعذّرت إضافة تعيينَي مجموعتين"
+msgstr[3] "تعذّرت إضافة %{groupAssignmentCount} تعيينات مجموعات"
+msgstr[4] "تعذّرت إضافة %{groupAssignmentCount} تعيين مجموعة"
+msgstr[5] "تعذّرت إضافة %{groupAssignmentCount} تعيين مجموعة"
+
+#: src/components/Users/CreateUserModal.vue:7
+#: src/components/Users/SideBar/DetailsPanel.vue:25
+#: src/components/Users/SideBar/EditPanel.vue:9
+#: src/components/Users/UsersList.vue:233
+msgid "User name"
+msgstr "اسم المستخدم"
+
+#: src/components/Users/CreateUserModal.vue:17
+#: src/components/Users/SideBar/DetailsPanel.vue:27
+#: src/components/Users/SideBar/EditPanel.vue:19
+#: src/components/Users/UsersList.vue:239
+msgid "First and last name"
+msgstr "الاسم الأول واسم العائلة"
+
+#: src/components/Users/CreateUserModal.vue:27
+#: src/components/Users/SideBar/DetailsPanel.vue:29
+#: src/components/Users/SideBar/EditPanel.vue:29
+#: src/components/Users/UsersList.vue:245
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: src/components/Users/CreateUserModal.vue:40
+#: src/components/Users/SideBar/EditPanel.vue:44
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: src/components/Users/CreateUserModal.vue:130
+#: src/components/Users/SideBar/EditPanel.vue:343
+msgid "User \"%{userName}\" already exists"
+msgstr "المستخدم \"%{userName}\" موجود بالفعل"
+
+#: src/components/Users/CreateUserModal.vue:140
+#: src/components/Users/SideBar/EditPanel.vue:359
+msgid "First and last name cannot be empty"
+msgstr "لا يمكن ترك الاسم الأول واسم العائلة فارغين"
+
+#: src/components/Users/CreateUserModal.vue:146
+#: src/components/Users/SideBar/EditPanel.vue:364
+msgid "First and last name cannot exceed 255 characters"
+msgstr "لا يمكن أن يتجاوز الاسم الأول واسم العائلة 255 حرفًا"
+
+#: src/components/Users/CreateUserModal.vue:155
+#: src/components/Users/SideBar/EditPanel.vue:379
+msgid "Please enter a valid email"
+msgstr "يرجى إدخال بريد إلكتروني صالح"
+
+#: src/components/Users/CreateUserModal.vue:163
+msgid "Password cannot be empty"
+msgstr "لا يمكن أن تكون كلمة المرور فارغة"
+
+#: src/components/Users/CreateUserModal.vue:178
+msgid "User was created successfully"
+msgstr "تم إنشاء المستخدم بنجاح"
+
+#: src/components/Users/CreateUserModal.vue:183
+msgid "Failed to create user"
+msgstr "تعذّر إنشاء المستخدم"
+
+#: src/components/Users/GroupSelect.vue:9
+#: src/components/Users/SideBar/DetailsPanel.vue:66
+#: src/components/Users/SideBar/DetailsPanel.vue:73
+#: src/index.ts:89
+#: src/index.ts:148
+#: src/views/Groups.vue:118
+#: src/views/Users.vue:33
+msgid "Groups"
+msgstr "المجموعات"
+
+#: src/components/Users/LoginModal.vue:5
+#: src/components/Users/SideBar/DetailsPanel.vue:32
+#: src/components/Users/UsersList.vue:260
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: src/components/Users/LoginModal.vue:7
+msgid "Select..."
+msgstr "اختيار..."
+
+#: src/components/Users/LoginModal.vue:9
+msgid "Your own login status will remain unchanged."
+msgstr "ستبقى حالة تسجيل دخولك أنت دون تغيير."
+
+#: src/components/Users/LoginModal.vue:54
+#: src/components/Users/SideBar/DetailsPanel.vue:144
+#: src/components/Users/UsersList.vue:75
+msgid "Allowed"
+msgstr "مسموح"
+
+#: src/components/Users/LoginModal.vue:55
+#: src/components/Users/SideBar/DetailsPanel.vue:144
+#: src/components/Users/UsersList.vue:70
+msgid "Forbidden"
+msgstr "محظور"
+
+#: src/components/Users/LoginModal.vue:92
+msgid "Login for user \"%{user}\" was edited successfully"
+msgstr "تم تعديل تسجيل الدخول للمستخدم \"%{user}\" بنجاح"
+
+#: src/components/Users/LoginModal.vue:95
+msgid "%{userCount} user login was edited successfully"
+msgid_plural "%{userCount} users logins edited successfully"
+msgstr[0] "تم تعديل تسجيل دخول %{userCount} مستخدم بنجاح"
+msgstr[1] "تم تعديل تسجيل دخول مستخدم واحد بنجاح"
+msgstr[2] "تم تعديل تسجيل دخول مستخدمين بنجاح"
+msgstr[3] "تم تعديل تسجيل دخول %{userCount} مستخدمين بنجاح"
+msgstr[4] "تم تعديل تسجيل دخول %{userCount} مستخدمًا بنجاح"
+msgstr[5] "تم تعديل تسجيل دخول %{userCount} مستخدم بنجاح"
+
+#: src/components/Users/LoginModal.vue:110
+msgid "Failed edit login for user \"%{user}\""
+msgstr "تعذّر تعديل تسجيل الدخول للمستخدم \"%{user}\""
+
+#: src/components/Users/LoginModal.vue:113
+msgid "Failed to edit %{userCount} user login"
+msgid_plural "Failed to edit %{userCount} user logins"
+msgstr[0] "تعذّر تعديل تسجيل الدخول لـ %{userCount} مستخدم"
+msgstr[1] "تعذّر تعديل تسجيل الدخول لمستخدم واحد"
+msgstr[2] "تعذّر تعديل تسجيل الدخول لمستخدمَين"
+msgstr[3] "تعذّر تعديل تسجيل الدخول لـ %{userCount} مستخدمين"
+msgstr[4] "تعذّر تعديل تسجيل الدخول لـ %{userCount} مستخدمًا"
+msgstr[5] "تعذّر تعديل تسجيل الدخول لـ %{userCount} مستخدم"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:76
+msgid "Group assignment already removed"
+msgid_plural "Group assignments already removed"
+msgstr[0] "لا توجد إسنادات إلى مجموعات لإزالتها"
+msgstr[1] "تمت إزالة الإسناد إلى المجموعة مسبقًا"
+msgstr[2] "تمت إزالة الإسنادين إلى المجموعات مسبقًا"
+msgstr[3] "تمت إزالة الإسنادات إلى المجموعات مسبقًا"
+msgstr[4] "تمت إزالة الإسنادات إلى المجموعات مسبقًا"
+msgstr[5] "تمت إزالة الإسنادات إلى المجموعات مسبقًا"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:91
+msgid "Group assignment \"%{group}\" was deleted successfully"
+msgstr "تم حذف الإسناد إلى المجموعة \"%{group}\" بنجاح"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:94
+msgid "%{groupAssignmentCount} group assignment was deleted successfully"
+msgid_plural "%{groupAssignmentCount} group assignments were deleted successfully"
+msgstr[0] "تم حذف %{groupAssignmentCount} تعيين مجموعة بنجاح"
+msgstr[1] "تم حذف تعيين مجموعة واحد بنجاح"
+msgstr[2] "تم حذف تعييني مجموعة بنجاح"
+msgstr[3] "تم حذف %{groupAssignmentCount} تعيينات مجموعات بنجاح"
+msgstr[4] "تم حذف %{groupAssignmentCount} تعيين مجموعة بنجاح"
+msgstr[5] "تم حذف %{groupAssignmentCount} تعيين مجموعة بنجاح"
+
+#: src/components/Users/RemoveFromGroupsModal.vue:109
+msgid "Failed to delete group assignment \"%{group}\""
+msgstr "تعذّر حذف تعيين المجموعة \"%{group}\""
+
+#: src/components/Users/RemoveFromGroupsModal.vue:112
+msgid "Failed to delete %{groupAssignmentCount} group assignment"
+msgid_plural "Failed to delete %{groupAssignmentCount} group assignments"
+msgstr[0] "تعذّر حذف %{groupAssignmentCount} تعيين مجموعة"
+msgstr[1] "تعذّر حذف تعيين مجموعة واحد"
+msgstr[2] "تعذّر حذف تعيينَي مجموعتين"
+msgstr[3] "تعذّر حذف %{groupAssignmentCount} تعيينات مجموعات"
+msgstr[4] "تعذّر حذف %{groupAssignmentCount} تعيين مجموعة"
+msgstr[5] "تعذّر حذف %{groupAssignmentCount} تعيين مجموعة"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:6
+msgid "Select a user to view details"
+msgstr "حدّد مستخدمًا لعرض التفاصيل"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:23
+msgid "Overview of the information about the selected user"
+msgstr "نظرة عامة على معلومات المستخدم المحدد"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:35
+#: src/components/Users/SideBar/EditPanel.vue:63
+#: src/components/Users/UsersList.vue:251
+msgid "Role"
+msgstr "الدور"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:42
+msgid "User roles become available once the user has logged in for the first time."
+msgstr "تصبح أدوار المستخدم متاحة بعد أن يسجّل المستخدم الدخول لأول مرة."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:46
+msgid "User role"
+msgstr "دور المستخدم"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:51
+#: src/components/Users/SideBar/DetailsPanel.vue:62
+#: src/components/Users/SideBar/EditPanel.vue:76
+msgid "Personal quota"
+msgstr "الحصة الشخصية"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:58
+msgid "User quota becomes available once the user has logged in for the first time."
+msgstr "تصبح حصة المستخدم متاحة بعد أن يسجّل المستخدم الدخول لأول مرة."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:72
+msgid "No groups assigned."
+msgstr "لم تُعيَّن أي مجموعات."
+
+#: src/components/Users/SideBar/DetailsPanel.vue:114
+msgid "%{count} user"
+msgid_plural "%{count} users"
+msgstr[0] "%{count} مستخدم"
+msgstr[1] "مستخدم واحد"
+msgstr[2] "مستخدمان"
+msgstr[3] "%{count} مستخدمين"
+msgstr[4] "%{count} مستخدمًا"
+msgstr[5] "%{count} مستخدم"
+
+#: src/components/Users/SideBar/DetailsPanel.vue:122
+msgid "%{count} users selected"
+msgstr "عدد المستخدمين المحددين: %{count}"
+
+#: src/components/Users/SideBar/EditPanel.vue:5
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: src/components/Users/SideBar/EditPanel.vue:40
+msgid "Access"
+msgstr "الوصول"
+
+#: src/components/Users/SideBar/EditPanel.vue:56
+msgid "Login allowed"
+msgstr "تسجيل الدخول مسموح"
+
+#: src/components/Users/SideBar/EditPanel.vue:82
+msgid "To set an individual quota, the user needs to have logged in once."
+msgstr "لتعيين حصة فردية، يجب أن يكون المستخدم قد سجّل الدخول مرة واحدة."
+
+#: src/components/Users/SideBar/EditPanel.vue:91
+msgid "Membership"
+msgstr "العضوية"
+
+#: src/components/Users/SideBar/EditPanel.vue:280
+msgid "Failed to edit user"
+msgstr "تعذّر تعديل المستخدم"
+
+#: src/components/Users/UsersList.vue:23
+msgid "Select users"
+msgstr "اختيار مستخدمين"
+
+#: src/components/Users/UsersList.vue:26
+msgid "Select all users"
+msgstr "تحديد كل المستخدمين"
+
+#: src/components/Users/UsersList.vue:220
+msgid "%{userCount} users in total"
+msgstr "إجمالي المستخدمين: %{userCount}"
+
+#: src/components/Users/UsersList.vue:298
+msgid "Select %{ user }"
+msgstr "تحديد %{ user }"
+
+#: src/composables/actions/groups/useGroupActionsCreateGroup.ts:15
+msgid "New group"
+msgstr "مجموعة جديدة"
+
+#: src/composables/actions/groups/useGroupActionsCreateGroup.ts:19
+msgid "Create group"
+msgstr "إنشاء مجموعة"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:42
+msgid "Group \"%{group}\" was deleted successfully"
+msgstr "تم حذف المجموعة \"%{group}\" بنجاح"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:43
+msgid "%{groupCount} group was deleted successfully"
+msgid_plural "%{groupCount} groups were deleted successfully"
+msgstr[0] "تم حذف %{groupCount} مجموعة بنجاح"
+msgstr[1] "تم حذف مجموعة واحدة بنجاح"
+msgstr[2] "تم حذف مجموعتين بنجاح"
+msgstr[3] "تم حذف %{groupCount} مجموعات بنجاح"
+msgstr[4] "تم حذف %{groupCount} مجموعة بنجاح"
+msgstr[5] "تم حذف %{groupCount} مجموعة بنجاح"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:58
+msgid "Failed to delete group »%{group}«"
+msgstr "تعذّر حذف المجموعة \"%{group}\""
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:59
+msgid "Failed to delete %{groupCount} group"
+msgid_plural "Failed to delete %{groupCount} groups"
+msgstr[0] "تعذّر حذف %{groupCount} مجموعة"
+msgstr[1] "تعذّر حذف مجموعة واحدة"
+msgstr[2] "تعذّر حذف مجموعتين"
+msgstr[3] "تعذّر حذف %{groupCount} مجموعات"
+msgstr[4] "تعذّر حذف %{groupCount} مجموعة"
+msgstr[5] "تعذّر حذف %{groupCount} مجموعة"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:87
+msgid "Delete group »%{group}«?"
+msgid_plural "Delete %{groupCount} groups?"
+msgstr[0] "حذف %{groupCount} مجموعة؟"
+msgstr[1] "حذف المجموعة \"%{group}\"؟"
+msgstr[2] "حذف مجموعتين؟"
+msgstr[3] "حذف %{groupCount} مجموعات؟"
+msgstr[4] "حذف %{groupCount} مجموعة؟"
+msgstr[5] "حذف %{groupCount} مجموعة؟"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:96
+#: src/composables/actions/groups/useGroupActionsDelete.ts:115
+#: src/composables/actions/users/useUserActionsDelete.ts:93
+#: src/composables/actions/users/useUserActionsDelete.ts:112
+msgid "Delete"
+msgstr "حذف"
+
+#: src/composables/actions/groups/useGroupActionsDelete.ts:97
+msgid "Are you sure you want to delete this group?"
+msgid_plural "Are you sure you want to delete the %{groupCount} selected groups?"
+msgstr[0] "هل أنت متأكد من أنك تريد حذف %{groupCount} مجموعة محددة؟"
+msgstr[1] "هل أنت متأكد من أنك تريد حذف هذه المجموعة؟"
+msgstr[2] "هل أنت متأكد من أنك تريد حذف المجموعتين المحددتين؟"
+msgstr[3] "هل أنت متأكد من أنك تريد حذف %{groupCount} مجموعات محددة؟"
+msgstr[4] "هل أنت متأكد من أنك تريد حذف %{groupCount} مجموعة محددة؟"
+msgstr[5] "هل أنت متأكد من أنك تريد حذف %{groupCount} مجموعة محددة؟"
+
+#: src/composables/actions/useActionsShowDetails.ts:13
+#: src/views/Groups.vue:135
+#: src/views/Spaces.vue:158
+#: src/views/Spaces.vue:167
+#: src/views/Spaces.vue:178
+#: src/views/Users.vue:342
+msgid "Details"
+msgstr "التفاصيل"
+
+#: src/composables/actions/users/useUserActionsAddToGroups.ts:14
+msgid "Add user \"%{user}\" to groups"
+msgid_plural "Add %{userCount} users to groups "
+msgstr[0] "إضافة %{userCount} مستخدم إلى مجموعات"
+msgstr[1] "إضافة المستخدم \"%{user}\" إلى مجموعات"
+msgstr[2] "إضافة مستخدمَين إلى مجموعات"
+msgstr[3] "إضافة %{userCount} مستخدمين إلى مجموعات"
+msgstr[4] "إضافة %{userCount} مستخدمًا إلى مجموعات"
+msgstr[5] "إضافة %{userCount} مستخدم إلى مجموعات"
+
+#: src/composables/actions/users/useUserActionsAddToGroups.ts:36
+msgid "Add to groups"
+msgstr "إضافة إلى مجموعات"
+
+#: src/composables/actions/users/useUserActionsCreateUser.ts:17
+msgid "New user"
+msgstr "مستخدم جديد"
+
+#: src/composables/actions/users/useUserActionsCreateUser.ts:21
+msgid "Create user"
+msgstr "إنشاء مستخدم"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:44
+msgid "User \"%{user}\" was deleted successfully"
+msgstr "تم حذف المستخدم \"%{user}\" بنجاح"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:45
+msgid "%{userCount} user was deleted successfully"
+msgid_plural "%{userCount} users were deleted successfully"
+msgstr[0] "تم حذف %{userCount} مستخدم بنجاح"
+msgstr[1] "تم حذف مستخدم واحد بنجاح"
+msgstr[2] "تم حذف مستخدمين بنجاح"
+msgstr[3] "تم حذف %{userCount} مستخدمين بنجاح"
+msgstr[4] "تم حذف %{userCount} مستخدمًا بنجاح"
+msgstr[5] "تم حذف %{userCount} مستخدم بنجاح"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:60
+msgid "Failed to delete user \"%{user}\""
+msgstr "تعذّر حذف المستخدم \"%{user}\""
+
+#: src/composables/actions/users/useUserActionsDelete.ts:61
+msgid "Failed to delete %{userCount} user"
+msgid_plural "Failed to delete %{userCount} users"
+msgstr[0] "تعذّر حذف %{userCount} مستخدم"
+msgstr[1] "تعذّر حذف مستخدم واحد"
+msgstr[2] "تعذّر حذف مستخدمَين"
+msgstr[3] "تعذّر حذف %{userCount} مستخدمين"
+msgstr[4] "تعذّر حذف %{userCount} مستخدمًا"
+msgstr[5] "تعذّر حذف %{userCount} مستخدم"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:89
+msgid "Delete user \"%{user}\"?"
+msgid_plural "Delete %{userCount} users?"
+msgstr[0] "حذف %{userCount} مستخدم؟"
+msgstr[1] "حذف المستخدم \"%{user}\"؟"
+msgstr[2] "حذف مستخدمَين؟"
+msgstr[3] "حذف %{userCount} مستخدمين؟"
+msgstr[4] "حذف %{userCount} مستخدمًا؟"
+msgstr[5] "حذف %{userCount} مستخدم؟"
+
+#: src/composables/actions/users/useUserActionsDelete.ts:94
+msgid "Are you sure you want to delete this user?"
+msgid_plural "Are you sure you want to delete the %{userCount} selected users?"
+msgstr[0] "هل أنت متأكد من أنك تريد حذف %{userCount} مستخدم محدد؟"
+msgstr[1] "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟"
+msgstr[2] "هل أنت متأكد من أنك تريد حذف المستخدمَين المحددَين؟"
+msgstr[3] "هل أنت متأكد من أنك تريد حذف %{userCount} مستخدمين محددين؟"
+msgstr[4] "هل أنت متأكد من أنك تريد حذف %{userCount} مستخدمًا محددًا؟"
+msgstr[5] "هل أنت متأكد من أنك تريد حذف %{userCount} مستخدم محدد؟"
+
+#: src/composables/actions/users/useUserActionsEditLogin.ts:13
+msgid "Edit login for \"%{user}\""
+msgid_plural "Edit login for %{userCount} users"
+msgstr[0] "تعديل تسجيل الدخول لـ %{userCount} مستخدم"
+msgstr[1] "تعديل تسجيل الدخول لـ \"%{user}\""
+msgstr[2] "تعديل تسجيل الدخول لمستخدمَين"
+msgstr[3] "تعديل تسجيل الدخول لـ %{userCount} مستخدمين"
+msgstr[4] "تعديل تسجيل الدخول لـ %{userCount} مستخدمًا"
+msgstr[5] "تعديل تسجيل الدخول لـ %{userCount} مستخدم"
+
+#: src/composables/actions/users/useUserActionsEditLogin.ts:34
+msgid "Edit login"
+msgstr "تعديل تسجيل الدخول"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:23
+msgid "Change quota for user »%{name}«"
+msgstr "تغيير حصة المستخدم \"%{name}\""
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:27
+msgid "Change quota for %{count} users"
+msgstr "تغيير الحصة لـ %{count} من المستخدمين"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:61
+msgid "Quota will only be applied to users who logged in at least once."
+msgstr "ستُطبَّق الحصة فقط على المستخدمين الذين سجّلوا الدخول مرة واحدة على الأقل."
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:65
+msgid "Unaffected users"
+msgstr "المستخدمون غير المتأثرين"
+
+#: src/composables/actions/users/useUserActionsEditQuota.ts:81
+msgid "Edit quota"
+msgstr "تعديل الحصة"
+
+#: src/composables/actions/users/useUserActionsRemoveFromGroups.ts:14
+msgid "Remove user \"%{user}\" from groups"
+msgid_plural "Remove %{userCount} users from groups "
+msgstr[0] "إزالة %{userCount} مستخدم من المجموعات "
+msgstr[1] "إزالة المستخدم \"%{user}\" من المجموعات"
+msgstr[2] "إزالة مستخدمَين من المجموعات "
+msgstr[3] "إزالة %{userCount} مستخدمين من المجموعات "
+msgstr[4] "إزالة %{userCount} مستخدمًا من المجموعات "
+msgstr[5] "إزالة %{userCount} مستخدم من المجموعات "
+
+#: src/composables/actions/users/useUserActionsRemoveFromGroups.ts:36
+msgid "Remove from groups"
+msgstr "إزالة من المجموعات"
+
+#: src/composables/users/useUserNameValidation.ts:18
+msgid "User name cannot be empty"
+msgstr "لا يمكن أن يكون اسم المستخدم فارغًا"
+
+#: src/composables/users/useUserNameValidation.ts:21
+msgid "User name cannot contain white spaces"
+msgstr "لا يمكن أن يحتوي اسم المستخدم على مسافات"
+
+#: src/composables/users/useUserNameValidation.ts:24
+msgid "User name cannot exceed 255 characters"
+msgstr "لا يمكن أن يتجاوز اسم المستخدم 255 حرفًا"
+
+#: src/composables/users/useUserNameValidation.ts:27
+msgid "User name cannot start with a number"
+msgstr "لا يمكن أن يبدأ اسم المستخدم برقم"
+
+#: src/composables/users/useUserNameValidation.ts:30
+msgid "User name cannot contain special characters"
+msgstr "لا يمكن أن يحتوي اسم المستخدم على رموز خاصة"
+
+#: src/index.ts:59
+#: src/index.ts:126
+#: src/views/General.vue:6
+msgid "General"
+msgstr "عام"
+
+#: src/index.ts:74
+#: src/index.ts:137
+#: src/views/Users.vue:325
+msgid "Users"
+msgstr "المستخدمون"
+
+#: src/index.ts:104
+#: src/index.ts:159
+#: src/views/Spaces.vue:125
+msgid "Spaces"
+msgstr "المساحات"
+
+#: src/index.ts:119
+#: src/index.ts:170
+#: src/views/Extensions.vue:72
+msgid "Apps"
+msgstr "التطبيقات"
+
+#: src/index.ts:201
+msgid "Admin Settings"
+msgstr "إعدادات الإدارة"
+
+#: src/index.ts:236
+msgid "New"
+msgstr "جديد"
+
+#: src/index.ts:240
+msgid "To add apps, use the App Store"
+msgstr "لإضافة تطبيقات، استخدم App Store"
+
+#: src/views/Extensions.vue:8
+#: src/views/Groups.vue:33
+#: src/views/Spaces.vue:22
+#: src/views/Users.vue:75
+msgid "Search"
+msgstr "بحث"
+
+#: src/views/Extensions.vue:9
+msgid "Search for apps"
+msgstr "البحث عن تطبيقات"
+
+#: src/views/Extensions.vue:26
+msgid "Install an app and it will show up here"
+msgstr "ثبّت تطبيقًا وسيظهر هنا"
+
+#: src/views/Groups.vue:34
+msgid "Search for groups"
+msgstr "البحث عن مجموعات"
+
+#: src/views/Groups.vue:53
+msgid "Create a new group and it will show up here"
+msgstr "أنشئ مجموعة جديدة وستظهر هنا"
+
+#: src/views/Groups.vue:147
+msgid "Edit group"
+msgstr "تعديل المجموعة"
+
+#: src/views/Spaces.vue:23
+msgid "Search for spaces"
+msgstr "البحث عن مساحات"
+
+#: src/views/Spaces.vue:42
+msgid "Create a new space and it will show up here"
+msgstr "أنشئ مساحة جديدة وستظهر هنا"
+
+#: src/views/Users.vue:36
+msgid "Filter groups"
+msgstr "تصفية المجموعات"
+
+#: src/views/Users.vue:53
+msgid "Roles"
+msgstr "الأدوار"
+
+#: src/views/Users.vue:56
+msgid "Filter roles"
+msgstr "تصفية الأدوار"
+
+#: src/views/Users.vue:76
+msgid "Search for users"
+msgstr "البحث عن مستخدمين"
+
+#: src/views/Users.vue:100
+#: src/views/Users.vue:108
+msgid "No users found"
+msgstr "لم يُعثر على مستخدمين"
+
+#: src/views/Users.vue:103
+msgid "Please specify a filter to see results"
+msgstr "يرجى تحديد عامل تصفية لعرض النتائج"
+
+#: src/views/Users.vue:356
+msgid "Edit user"
+msgstr "تعديل المستخدم"
